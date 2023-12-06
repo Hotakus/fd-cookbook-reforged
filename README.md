@@ -5,3 +5,9 @@
 
 </p>
 </div>
+
+---
+
+<img title="" src="./src/main/resources/recipes.png" alt="" align="center" width="500" data-align="center"> 
+
+---
