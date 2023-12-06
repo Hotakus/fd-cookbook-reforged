@@ -1,0 +1,56 @@
+{
+  "name": "三明治和汉堡",
+  "icon": "farmersdelight:hamburger",
+  "category": "fdcookbook:recipes",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "crafting_table",
+      "foodname": "鸡蛋三明治",
+      "item1": "minecraft:bread",
+      "item2": "farmersdelight:fried_egg",
+      "item4": "farmersdelight:fried_egg",
+      "finalitem": "farmersdelight:egg_sandwich",
+      "hunger_amount": "x4",
+      "saturation_amount": "x6.5",
+      "effect": "无"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "鸡肉三明治",
+      "item1": "minecraft:bread",
+      "item2": "minecraft:cooked_chicken,farmersdelight:cooked_chicken_cuts",
+      "item4": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
+      "item5": "farmersdelight:onion",
+      "finalitem": "farmersdelight:chicken_sandwich",
+      "hunger_amount": "x5",
+      "saturation_amount": "x8",
+      "effect": "$(m)$(b)力量$()(0:15)"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "汉堡",
+      "item1": "minecraft:bread",
+      "item2": "farmersdelight:beef_patty",
+      "item3": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
+      "item4": "farmersdelight:tomato",
+      "item5": "farmersdelight:onion",
+      "finalitem": "farmersdelight:hamburger",
+      "hunger_amount": "x5.5",
+      "saturation_amount": "x8.5",
+      "effect": "$(m)$(b)力量$()(0:15)"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "培根三明治",
+      "item1": "minecraft:bread",
+      "item2": "farmersdelight:cooked_bacon",
+      "item4": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
+      "item5": "farmersdelight:tomato",
+      "finalitem": "farmersdelight:bacon_sandwich",
+      "hunger_amount": "x5",
+      "saturation_amount": "x8",
+      "effect": "$(m)$(b)抗性提升$()(0:15)"
+    }
+  ]
+}

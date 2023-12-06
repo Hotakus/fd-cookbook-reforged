@@ -1,0 +1,68 @@
+{
+  "name": "厨锅和炉灶",
+  "icon": "farmersdelight:cooking_pot",
+  "category": "fdcookbook:tools",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "厨锅",
+      "item1": "minecraft:brick",
+      "item2": "minecraft:wooden_shovel",
+      "item3": "minecraft:brick",
+      "item4": "minecraft:iron_ingot",
+      "item5": "minecraft:water_bucket",
+      "item6": "minecraft:iron_ingot",
+      "item7": "minecraft:iron_ingot",
+      "item8": "minecraft:iron_ingot",
+      "item9": "minecraft:iron_ingot",
+      "finalitem": "farmersdelight:cooking_pot",
+      "info": "厨锅是农夫乐事添加的新工作方块，可让您制作大多数食物。"
+    },
+    {
+      "type": "text",
+      "text": "要在锅里煮东西，需要把它放在篝火或炉子上加热。当某事完成时，你可以把合适的容器放在相应的槽里，把它拿出来，或者你可以打碎烹饪锅，它会储存食物。"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "煎锅",
+      "item2": "minecraft:iron_ingot",
+      "item3": "minecraft:iron_ingot",
+      "item5": "minecraft:iron_ingot",
+      "item6": "minecraft:iron_ingot",
+      "item7": "minecraft:brick",
+      "finalitem": "farmersdelight:skillet",
+      "info": "煎锅。您可以一手持煎锅，一手持生食，然后靠近火源进行煎制。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/frying.png"
+      ],
+      "text": "如图所示，副手持蛋，主手持煎锅，靠近热源，对空气右键即可，需等上几秒钟。",
+      "border": true
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "炉灶",
+      "item1": "minecraft:iron_ingot",
+      "item2": "minecraft:iron_ingot",
+      "item3": "minecraft:iron_ingot",
+      "item4": "minecraft:brick",
+      "item6": "minecraft:brick",
+      "item7": "minecraft:brick",
+      "item8": "minecraft:campfire",
+      "item9": "minecraft:brick",
+      "finalitem": "farmersdelight:stove",
+      "info": "炉子就像一个更好的篝火，区别是你可以同时烹饪6个物品。还可以放置烹饪厨具。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/place.png"
+      ],
+      "text": "如图所示，可以将锅具放置于炉灶之上。其中，煎锅要按住潜行键才可放置",
+      "border": true
+    }
+  ]
+}

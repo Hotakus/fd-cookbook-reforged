@@ -1,0 +1,76 @@
+{
+  "name": "野生作物",
+  "icon": "farmersdelight:wild_carrots",
+  "category": "fdcookbook:basics",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "title": "野生作物",
+      "text": "农夫乐事增加了4种新作物（卷心菜、洋葱、番茄、大米），可以在野外找到，并在 3 种原版作物（胡萝卜、土豆、甜菜根）中增加野生变体。"
+    },
+    {
+      "type": "image",
+      "title": "野胡萝卜",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/wild_carrot.png"
+      ],
+      "text": "野生胡萝卜生长在温带气候（0.3 - 1.0 温度）中。",
+      "border": true
+    },
+    {
+      "type": "image",
+      "title": "Wild Potato",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/wild_potato.png"
+      ],
+      "text": "野生马铃薯生长在寒冷的气候（0.0 - 0.3 温度）中。",
+      "border": true
+    },
+    {
+      "type": "image",
+      "title": "Sea Beet",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/sea_beet.png"
+      ],
+      "text": "海甜菜生长在海滩上。",
+      "border": true
+    },
+    {
+      "type": "image",
+      "title": "Wild Cabbage",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/wild_cabbage.png"
+      ],
+      "text": "野生卷心菜生长在海滩上。",
+      "border": true
+    },
+    {
+      "type": "image",
+      "title": "Wild Onion",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/wild_onion.png"
+      ],
+      "text": "野洋葱生长在温带气候（0.3 - 1.0 温度）中。",
+      "border": true
+    },
+    {
+      "type": "image",
+      "title": "Tomato Vines",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/tomato_vines.png"
+      ],
+      "text": "番茄藤蔓生长在干旱气候（温度超过1.0）中。",
+      "border": true
+    },
+    {
+      "type": "image",
+      "title": "Wild Rice",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/wild_rice.png"
+      ],
+      "text": "生长在沼泽或丛林的1个方块的深水中。",
+      "border": true
+    }
+  ]
+}

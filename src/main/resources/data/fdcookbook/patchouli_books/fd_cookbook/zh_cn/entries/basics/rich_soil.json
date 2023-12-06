@@ -1,0 +1,37 @@
+{
+  "name": "沃土",
+  "icon": "farmersdelight:rich_soil",
+  "category": "fdcookbook:basics",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "title": "沃土",
+      "text": "沃土是土地和耕地的进阶版，当农作物被种植其上时，会被随机提升生长速度，类似于骨粉的功能. 它也可以转换为肥沃的土壤农田，也不受生物踩踏。"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "有机肥料",
+      "item1": "minecraft:dirt",
+      "item2": "farmersdelight:straw,minecraft:rotten_flesh",
+      "item3": "farmersdelight:straw,minecraft:rotten_flesh",
+      "item4": "minecraft:bone_meal,farmersdelight:straw",
+      "item5": "minecraft:bone_meal,farmersdelight:straw",
+      "item6": "farmersdelight:tree_bark,minecraft:bone_meal",
+      "item7": "farmersdelight:tree_bark,minecraft:bone_meal",
+      "item8": "farmersdelight:tree_bark,minecraft:bone_meal",
+      "item9": "farmersdelight:tree_bark,minecraft:bone_meal",
+      "finalitem": "farmersdelight:organic_compost",
+      "info": "要获得沃土，您首先需要制作有机肥料并将其转化为沃土"
+    },
+    {
+      "type": "text",
+      "title": "获得沃土",
+      "text": "要转换有机肥料，您需要将其放置在世界中，随着时间的推移将其分解。$(br)进度也可以通过以下方式加快：$(br)$(li)棕色和红色蘑菇，以及它们的 $(l:basics/mushroom_colonies)菌群$()$(li)灰化土和菌丝$(li)其他有机肥料$(li)沃土，普通草地或耕地"
+    },
+    {
+      "type": "rich_soil",
+      "text": "如图所示，有机肥料转化为沃土的过程。"
+    }
+  ]
+}

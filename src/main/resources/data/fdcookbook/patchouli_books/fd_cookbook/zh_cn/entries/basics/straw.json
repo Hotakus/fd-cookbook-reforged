@@ -1,0 +1,69 @@
+{
+  "name": "草杆",
+  "icon": "farmersdelight:straw",
+  "category": "fdcookbook:basics",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "title": "草杆",
+      "text": "秸秆可以通过持$(l:basics/knife)刀具$()砍伐高草（不保证）、小麦或水稻来获得 可用于制作其他合成，并可制作成装饰性 $(l:basics/storage_blocks)稻草捆$()."
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "稻草捆",
+      "item1": "farmersdelight:straw",
+      "item2": "farmersdelight:straw",
+      "item3": "farmersdelight:straw",
+      "item4": "farmersdelight:straw",
+      "item5": "farmersdelight:straw",
+      "item6": "farmersdelight:straw",
+      "item7": "farmersdelight:straw",
+      "item8": "farmersdelight:straw",
+      "item9": "farmersdelight:straw",
+      "finalitem": "farmersdelight:straw_bale",
+      "info": "可以节省您的空间"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "帆布",
+      "item1": "farmersdelight:straw",
+      "item2": "farmersdelight:straw",
+      "item4": "farmersdelight:straw",
+      "item5": "farmersdelight:straw",
+      "finalitem": "farmersdelight:canvas",
+      "info": "帆布可用于各种制作配方（绘画、书籍、脚手架）"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "帆布地毯",
+      "item5": "farmersdelight:canvas",
+      "finalitem": "farmersdelight:canvas_rug",
+      "info": "一个装饰品，可以当作燃料",
+      "amount": "2"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "帆布告示牌",
+      "item1": "minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:crimson_planks,minecraft:warped_planks",
+      "item2": "farmersdelight:canvas",
+      "item3": "minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:crimson_planks,minecraft:warped_planks",
+      "item4": "minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:crimson_planks,minecraft:warped_planks",
+      "item5": "farmersdelight:canvas",
+      "item6": "minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:crimson_planks,minecraft:warped_planks",
+      "item8": "minecraft:stick",
+      "finalitem": "farmersdelight:canvas_sign",
+      "info": "新告示牌！并且可以染色",
+      "amount": "3"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "告示牌染色",
+      "item1": "minecraft:white_dye,minecraft:black_dye,minecraft:blue_dye,minecraft:yellow_dye,minecraft:red_dye,minecraft:brown_dye,minecraft:pink_dye,minecraft:cyan_dye,minecraft:gray_dye,minecraft:green_dye,minecraft:light_blue_dye,minecraft:light_gray_dye,minecraft:lime_dye,minecraft:magenta_dye",
+      "item2": "farmersdelight:canvas_sign",
+      "finalitem": "farmersdelight:white_canvas_sign,farmersdelight:black_canvas_sign,farmersdelight:blue_canvas_sign,farmersdelight:yellow_canvas_sign,farmersdelight:red_canvas_sign,farmersdelight:brown_canvas_sign,farmersdelight:pink_canvas_sign,farmersdelight:cyan_canvas_sign,farmersdelight:gray_canvas_sign,farmersdelight:green_canvas_sign,farmersdelight:light_blue_canvas_sign,farmersdelight:light_gray_canvas_sign,farmersdelight:lime_canvas_sign,farmersdelight:magenta_canvas_sign",
+      "info": "也可以用任何染料染色",
+      "amount": "1"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "工具",
+  "description": "农夫乐事中的所有基本工具",
+  "icon": "farmersdelight:textures/item/iron_knife.png",
+  "sortnum": 1
+}

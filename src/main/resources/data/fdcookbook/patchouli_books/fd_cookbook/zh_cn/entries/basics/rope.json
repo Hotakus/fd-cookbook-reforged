@@ -1,0 +1,46 @@
+{
+  "name": "绳子",
+  "icon": "farmersdelight:rope",
+  "category": "fdcookbook:basics",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "绳子",
+      "item2": "farmersdelight:straw",
+      "item5": "farmersdelight:straw",
+      "finalitem": "farmersdelight:rope",
+      "amount": 4,
+      "info": "绳子可以通过右键单击放下和向下延伸，然后它们可以用来攀爬。"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "安全网",
+      "item1": "farmersdelight:rope",
+      "item2": "farmersdelight:rope",
+      "item4": "farmersdelight:rope",
+      "item5": "farmersdelight:rope",
+      "finalitem": "farmersdelight:safety_net",
+      "info": "安全网可以放下，可以吸收所有受到的坠落伤害。"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "拴绳",
+      "item1": "farmersdelight:rope",
+      "item2": "farmersdelight:rope",
+      "item4": "farmersdelight:rope",
+      "item5": "farmersdelight:rope",
+      "item9": "farmersdelight:rope",
+      "finalitem": "minecraft:lead",
+      "info": "绳子可用于制作拴绳。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/rope_special.png"
+      ],
+      "text": "有意思的是，绳子平行放置时，视觉上会相连，其次，将绳子放置于番茄作物上时，会使番茄攀升",
+      "border": true
+    }
+  ]
+}

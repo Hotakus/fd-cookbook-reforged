@@ -1,0 +1,20 @@
+{
+  "name": "菌群",
+  "icon": "farmersdelight:brown_mushroom_colony",
+  "category": "fdcookbook:basics",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "mushroom_colonies",
+      "text": "蘑菇群落是一组蘑菇，根据它们的年龄，有 0-3 个蘑菇，可以用剪刀收获。蘑菇群落从亮度等级低于10的昏暗环境$(l:basics/rich_soil)沃土$()种植的正常蘑菇中生长出来。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/mushroom_colonies.png"
+      ],
+      "text": "如图，从普通蘑菇到第3阶段的蘑菇群落",
+      "border": true
+    }
+  ]
+}

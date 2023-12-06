@@ -1,0 +1,21 @@
+{
+  "name": "新作物",
+  "icon": "farmersdelight:textures/block/tomatoes_stage3.png",
+  "category": "fdcookbook:basics",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "title": "新作物",
+      "text": "农夫乐事增加了4种新作物（卷心菜、洋葱、番茄、大米），都可以在野外找到，在$(l:basics/wild_crops)这里$()了解更多信息。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "fdcookbook:textures/gui/cookbook/new_crops.png"
+      ],
+      "text": "在这张图片中，您可以看到种植作物的物品和作物本身",
+      "border": true
+    }
+  ]
+}

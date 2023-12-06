@@ -1,0 +1,30 @@
+{
+  "name": "各种刀具",
+  "icon": "farmersdelight:netherite_knife",
+  "category": "fdcookbook:tools",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "各种刀具",
+      "item2": "minecraft:flint,minecraft:iron_ingot,minecraft:gold_ingot,minecraft:diamond",
+      "item4": "minecraft:stick",
+      "finalitem": "farmersdelight:flint_knife,farmersdelight:iron_knife,farmersdelight:golden_knife,farmersdelight:diamond_knife",
+      "info": "刀是一种新的工具/武器。它们用各等级的材料都可制作，但木材和石头除外，后者被燧石取代。"
+    },
+    {
+      "type": "text",
+      "text": "每一把刀具的攻速都是2，并且攻击伤害分别为：$(li)燧石: 2.5$(li)铁制: 3.5$(li)金制: 1.5$(li)钻石: 4.5$(li)下界合金: 5.5$(br2)它们也是以下方面的有效挖掘工具：$(li)蛋糕和馅饼$(li)所有羊毛块$(li)叶子$(li)蜘蛛网$(li)草秆制方块"
+    },
+    {
+      "type": "text",
+      "title": "杀死生物",
+      "text": "当杀死生物时，次掉落物（皮革、羽毛等）会被额外生成（如杀死一头牛会将 0-2 皮革的几率变为 1-3 皮革）。 $(br2)火腿只能通过持刀杀猪来获得（不保证）或疣猪（不保证）。当你持刀收割高草、小麦、水稻时，也有一定几率获得草秆。"
+    },
+    {
+      "type": "text",
+      "title": "附魔",
+      "text": "刀具可以附上：$(br2)锋利, 亡灵杀手, 节肢杀手, 击退, 火焰附加, 抢夺, 效率, 耐久和经验修补。$(br2)有 1 个新的附魔叫做 $(l)背刺$()，当从背后击打目标时，它可以依据附魔等级提升伤害：$(br)$(li)lvl 1: 1.4x$(li)lvl 2: 1.8x$(li)lvl 3: 2.2x"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "饮料",
+  "icon": "farmersdelight:hot_cocoa",
+  "category": "fdcookbook:recipes",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "牛奶瓶",
+      "item1": "minecraft:milk_bucket",
+      "item2": "minecraft:glass_bottle",
+      "item4": "minecraft:glass_bottle",
+      "item5": "minecraft:glass_bottle",
+      "finalitem": "farmersdelight:milk_bottle",
+      "amount": "3",
+      "info": "小奶瓶！可以清除一种效果！"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "热可可",
+      "item1": "minecraft:milk_bucket,farmersdelight:milk_bottle",
+      "item2": "minecraft:sugar",
+      "item3": "minecraft:cocoa_beans",
+      "item4": "minecraft:cocoa_beans",
+      "finalitem": "farmersdelight:hot_cocoa",
+      "container": "minecraft:glass_bottle",
+      "effect": "$(#00A74A)清除一种有害效果。$()"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "苹果酒",
+      "item1": "minecraft:apple",
+      "item2": "minecraft:apple",
+      "item3": "minecraft:sugar",
+      "finalitem": "farmersdelight:apple_cider",
+      "container": "minecraft:glass_bottle",
+      "effect": "$(#00A74A)伤害吸收 (1:00)$()"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Melon Juice",
+      "item1": "minecraft:melon_slice",
+      "item2": "minecraft:melon_slice",
+      "item4": "minecraft:melon_slice",
+      "item5": "minecraft:melon_slice",
+      "item3": "minecraft:sugar",
+      "item6": "minecraft:glass_bottle",
+      "finalitem": "farmersdelight:melon_juice",
+      "effect": "$(#00A74A)Minor instant Health$()"
+    }
+  ]
+}
