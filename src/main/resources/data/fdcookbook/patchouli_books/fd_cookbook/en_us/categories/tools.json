@@ -1,0 +1,6 @@
+{
+  "name": "Tools",
+  "description": "All basic tools within the Farmers' delight",
+  "icon": "farmersdelight:textures/item/iron_knife.png",
+  "sortnum": 1
+}

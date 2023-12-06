@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.hotakus.fdcookbook.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "FDCookBook.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

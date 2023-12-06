@@ -1,0 +1,69 @@
+{
+  "name": "Straw",
+  "icon": "farmersdelight:straw",
+  "category": "fdcookbook:basics",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "title": "Straw",
+      "text": "Straw can be obtained by cutting tall grass(guranteed), wheat or rice with a $(l:basics/knife)knife$() and can be used in crafting recipes and can be crafted to a decorative Straw $(l:basics/storage_blocks)Bale$()."
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "Straw Bale",
+      "item1": "farmersdelight:straw",
+      "item2": "farmersdelight:straw",
+      "item3": "farmersdelight:straw",
+      "item4": "farmersdelight:straw",
+      "item5": "farmersdelight:straw",
+      "item6": "farmersdelight:straw",
+      "item7": "farmersdelight:straw",
+      "item8": "farmersdelight:straw",
+      "item9": "farmersdelight:straw",
+      "finalitem": "farmersdelight:straw_bale",
+      "info": "Can saves your space"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "Canvas",
+      "item1": "farmersdelight:straw",
+      "item2": "farmersdelight:straw",
+      "item4": "farmersdelight:straw",
+      "item5": "farmersdelight:straw",
+      "finalitem": "farmersdelight:canvas",
+      "info": "Canvas can be used in various crafting recipes(Painting, Book, Scaffolding)"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "Canvas Rug",
+      "item5": "farmersdelight:canvas",
+      "finalitem": "farmersdelight:canvas_rug",
+      "info": "A decoration, can be fuel",
+      "amount": "2"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "Canvas Signs",
+      "item1": "minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:crimson_planks,minecraft:warped_planks",
+      "item2": "farmersdelight:canvas",
+      "item3": "minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:crimson_planks,minecraft:warped_planks",
+      "item4": "minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:crimson_planks,minecraft:warped_planks",
+      "item5": "farmersdelight:canvas",
+      "item6": "minecraft:oak_planks,minecraft:spruce_planks,minecraft:birch_planks,minecraft:jungle_planks,minecraft:acacia_planks,minecraft:dark_oak_planks,minecraft:crimson_planks,minecraft:warped_planks",
+      "item8": "minecraft:stick",
+      "finalitem": "farmersdelight:canvas_sign",
+      "info": "New signs! and can be dyed",
+      "amount": "3"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "Canvas Signs Dyed",
+      "item1": "minecraft:white_dye,minecraft:black_dye,minecraft:blue_dye,minecraft:yellow_dye,minecraft:red_dye,minecraft:brown_dye,minecraft:pink_dye,minecraft:cyan_dye,minecraft:gray_dye,minecraft:green_dye,minecraft:light_blue_dye,minecraft:light_gray_dye,minecraft:lime_dye,minecraft:magenta_dye",
+      "item2": "farmersdelight:canvas_sign",
+      "finalitem": "farmersdelight:white_canvas_sign,farmersdelight:black_canvas_sign,farmersdelight:blue_canvas_sign,farmersdelight:yellow_canvas_sign,farmersdelight:red_canvas_sign,farmersdelight:brown_canvas_sign,farmersdelight:pink_canvas_sign,farmersdelight:cyan_canvas_sign,farmersdelight:gray_canvas_sign,farmersdelight:green_canvas_sign,farmersdelight:light_blue_canvas_sign,farmersdelight:light_gray_canvas_sign,farmersdelight:lime_canvas_sign,farmersdelight:magenta_canvas_sign",
+      "info": "Also can be dyed by any dyes",
+      "amount": "1"
+    }
+  ]
+}
