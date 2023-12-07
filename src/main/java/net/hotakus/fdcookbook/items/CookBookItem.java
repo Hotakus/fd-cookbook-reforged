@@ -20,6 +20,6 @@ public class CookBookItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(new TranslatableComponent(""));
+        pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook"));
     }
 }
