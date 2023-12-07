@@ -1,21 +1,26 @@
 {
   "components": [
     {
-      "type": "patchouli:header",
-      "text": "#foodname",
-      "x": -1,
+      "type": "patchouli:text",
+      "text": "#name1",
+      "x": 5,
       "y": 0
     },
     {
-      "type": "patchouli:separator",
-      "x": -1,
-      "y": 8
+      "type": "patchouli:image",
+      "image": "#result_type1",
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "texture_width": "128",
+      "texture_height": "128"
     },
     {
       "type": "patchouli:image",
-      "image": "fdcookbook:textures/gui/crafting_table_recipe.png",
-      "x": 7,
-      "y": 13,
+      "image": "#tool1",
+      "x": 0,
+      "y": 0,
       "width": 128,
       "height": 128,
       "texture_width": "128",
@@ -24,84 +29,48 @@
     {
       "type": "patchouli:item",
       "item": "#item1",
-      "x": 9,
-      "y": 15
+      "x": 19,
+      "y": 20
     },
     {
       "type": "patchouli:item",
-      "item": "#item2",
-      "x": 27,
-      "y": 15
-    },
-    {
-      "type": "patchouli:item",
-      "item": "#item3",
-      "x": 45,
-      "y": 15
-    },
-    {
-      "type": "patchouli:item",
-      "item": "#item4",
-      "x": 9,
-      "y": 33
-    },
-    {
-      "type": "patchouli:item",
-      "item": "#item5",
-      "x": 27,
-      "y": 33
-    },
-    {
-      "type": "patchouli:item",
-      "item": "#item6",
-      "x": 45,
-      "y": 33
-    },
-    {
-      "type": "patchouli:item",
-      "item": "#item7",
-      "x": 9,
-      "y": 51
-    },
-    {
-      "type": "patchouli:item",
-      "item": "#item8",
-      "x": 27,
-      "y": 51
-    },
-    {
-      "type": "patchouli:item",
-      "item": "#item9",
-      "x": 45,
-      "y": 51
-    },
-    {
-      "type": "patchouli:item",
-      "item": "#finalitem",
-      "x": 85,
-      "y": 33
+      "item": "#finalitem1_1",
+      "x": 78,
+      "y": 20
     },
     {
       "type": "patchouli:text",
-      "text": "#amount",
-      "x": 97,
-      "y": 45
+      "text": "#amount1_1",
+      "x": 90,
+      "y": 32
+    },
+    {
+      "type": "patchouli:item",
+      "item": "#finalitem1_2",
+      "x": 96,
+      "y": 20
+    },
+    {
+      "type": "patchouli:text",
+      "text": "#amount1_2",
+      "x": 108,
+      "y": 32
     },
     {
       "type": "patchouli:separator",
       "x": -1,
-      "y": 70
+      "y": 40
     },
     {
-      "type": "patchouli:header",
-      "text": "Info",
+      "type": "patchouli:text",
+      "text": "#text",
       "x": -1,
-      "y": 75
+      "y": 50
     },
     {
       "type": "patchouli:separator",
       "x": -1,
-      "y": 85
+      "y": 80
     },
     {
       "type": "patchouli:image",

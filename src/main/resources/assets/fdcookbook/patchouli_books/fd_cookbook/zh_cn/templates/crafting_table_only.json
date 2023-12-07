@@ -94,7 +94,7 @@
     },
     {
       "type": "patchouli:header",
-      "text": "Info",
+      "text": "信息",
       "x": -1,
       "y": 75
     },
@@ -104,40 +104,10 @@
       "y": 85
     },
     {
-      "type": "patchouli:image",
-      "image": "fdcookbook:textures/gui/hunger_icons.png",
+      "type": "patchouli:text",
+      "text": "#info",
       "x": 3,
-      "y": 90,
-      "u": 0,
-      "v": 0,
-      "width": 9,
-      "height": 18,
-      "texture_width": "128",
-      "texture_height": "128"
-    },
-    {
-      "type": "patchouli:text",
-      "text": "#hunger_amount",
-      "x": 12,
-      "y": 91
-    },
-    {
-      "type": "patchouli:text",
-      "text": "#saturation_amount",
-      "x": 12,
-      "y": 101
-    },
-    {
-      "type": "patchouli:text",
-      "text": "$(2)Effect$():",
-      "x": 3,
-      "y": 111
-    },
-    {
-      "type": "patchouli:text",
-      "text": "#effect",
-      "x": 3,
-      "y": 121
+      "y": 90
     }
   ]
 }
