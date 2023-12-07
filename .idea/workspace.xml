@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="refactor: ignore file" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="G:\workspace\MCForgeMods\Mods\FDCookBook">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FDCookBook" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FDCookBook" type="f1a62948:ProjectNode" />
+                <item name="运行配置" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GPL-3.0" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="r4qu9sk0" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2Z9DIfxVnMZFAeP7vmPDZEw0obQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.FDCookBook [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook build.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.构建 FDCookBook.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/workspace/MCForgeMods/Mods/fd-cookbook-reforged&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\textures\gui\cookbook" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\tools" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\data\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\tools" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\data\fdcookbook\patchouli_books\fd_cookbook\en_us\entries" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\textures\item" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\models\item" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\models" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.FDCookBook build">
+    <configuration name="FDCookBook [runClient]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FDCookBook build" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" value="FDCookBook build" />
+        <option name="externalProjectPath" value="G:\workspace\MCForgeMods\Mods\FDCookBook" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.FDCookBook build" />
+      <item itemvalue="Gradle.FDCookBook [runClient]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="" />
+      <created>1701825324305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701825324305</updated>
+    </task>
+    <task id="LOCAL-00001" summary="port: FD CookBook to 1.18.2">
+      <option name="closed" value="true" />
+      <created>1701878197982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701878197982</updated>
+    </task>
+    <task id="LOCAL-00002" summary="port: FD CookBook to 1.18.2">
+      <option name="closed" value="true" />
+      <created>1701878210419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701878210419</updated>
+    </task>
+    <task id="LOCAL-00003" summary="port: FD CookBook to 1.18.2">
+      <option name="closed" value="true" />
+      <created>1701880645699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701880645699</updated>
+    </task>
+    <task id="LOCAL-00004" summary="build: some error builds">
+      <option name="closed" value="true" />
+      <created>1701881651638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701881651639</updated>
+    </task>
+    <task id="LOCAL-00005" summary="docs: update readme">
+      <option name="closed" value="true" />
+      <created>1701883558232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701883558232</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ci(github): some templates">
+      <option name="closed" value="true" />
+      <created>1701915048477</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915048477</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor(book): initial json">
+      <option name="closed" value="true" />
+      <created>1701915101873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915101873</updated>
+    </task>
+    <task id="LOCAL-00008" summary="build(gradle): change forge version 40.2.14 -&gt;40.2.7">
+      <option name="closed" value="true" />
+      <created>1701915271550</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915271550</updated>
+    </task>
+    <task id="LOCAL-00009" summary="perf(src): improve imports">
+      <option name="closed" value="true" />
+      <created>1701915325458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915325458</updated>
+    </task>
+    <task id="LOCAL-00010" summary="build: change dependencies version">
+      <option name="closed" value="true" />
+      <created>1701915365277</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915365277</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix(json): some bug about book">
+      <option name="closed" value="true" />
+      <created>1701915484403</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915484403</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactor(book): assets' position">
+      <option name="closed" value="true" />
+      <created>1701915528597</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915528597</updated>
+    </task>
+    <task id="LOCAL-00013" summary="docs(readme): some contents">
+      <option name="closed" value="true" />
+      <created>1701915707416</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915707416</updated>
+    </task>
+    <task id="LOCAL-00014" summary="docs(readme): some contents">
+      <option name="closed" value="true" />
+      <created>1701915809103</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701915809103</updated>
+    </task>
+    <task id="LOCAL-00015" summary="docs(readme): some contents">
+      <option name="closed" value="true" />
+      <created>1701916692230</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701916692230</updated>
+    </task>
+    <task id="LOCAL-00016" summary="docs(readme): some contents">
+      <option name="closed" value="true" />
+      <created>1701919282349</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701919282349</updated>
+    </task>
+    <task id="LOCAL-00017" summary="docs: remove license">
+      <option name="closed" value="true" />
+      <created>1701921013284</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701921013284</updated>
+    </task>
+    <task id="LOCAL-00018" summary="docs(readme): update readme">
+      <option name="closed" value="true" />
+      <created>1701922179557</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1701922179557</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update: new assets">
+      <option name="closed" value="true" />
+      <created>1701922204850</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1701922204850</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update: new translation">
+      <option name="closed" value="true" />
+      <created>1701922329177</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1701922329177</updated>
+    </task>
+    <task id="LOCAL-00021" summary="docs: update readme">
+      <option name="closed" value="true" />
+      <created>1701922593069</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1701922593069</updated>
+    </task>
+    <task id="LOCAL-00022" summary="docs: update readme">
+      <option name="closed" value="true" />
+      <created>1701922778433</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1701922778433</updated>
+    </task>
+    <task id="LOCAL-00023" summary="docs: update readme">
+      <option name="closed" value="true" />
+      <created>1701922896563</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1701922896563</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update: version">
+      <option name="closed" value="true" />
+      <created>1701922983806</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1701922983806</updated>
+    </task>
+    <task id="LOCAL-00025" summary="style: recipe">
+      <option name="closed" value="true" />
+      <created>1701925188769</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1701925188769</updated>
+    </task>
+    <task id="LOCAL-00026" summary="refactor: gitignore">
+      <option name="closed" value="true" />
+      <created>1701928136700</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701928136700</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update: iml file">
+      <option name="closed" value="true" />
+      <created>1701928166256</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1701928166256</updated>
+    </task>
+    <task id="LOCAL-00028" summary="refactor: ignore file">
+      <option name="closed" value="true" />
+      <created>1701928852563</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1701928852563</updated>
+    </task>
+    <task id="LOCAL-00029" summary="refactor: ignore file">
+      <option name="closed" value="true" />
+      <created>1701929197313</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1701929197313</updated>
+    </task>
+    <task id="LOCAL-00030" summary="refactor: ignore file">
+      <option name="closed" value="true" />
+      <created>1701929497754</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1701929497754</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="port: FD CookBook to 1.18.2" />
+    <MESSAGE value="build: some error builds" />
+    <MESSAGE value="ci(github): some templates" />
+    <MESSAGE value="refactor(book): initial json" />
+    <MESSAGE value="build(gradle): change forge version 40.2.14 -&gt;40.2.7" />
+    <MESSAGE value="perf(src): improve imports" />
+    <MESSAGE value="build: change dependencies version" />
+    <MESSAGE value="fix(json): some bug about book" />
+    <MESSAGE value="refactor(book): assets' position" />
+    <MESSAGE value="docs(readme): some contents" />
+    <MESSAGE value="docs: remove license" />
+    <MESSAGE value="docs(readme): update readme" />
+    <MESSAGE value="update: new assets" />
+    <MESSAGE value="update: new translation" />
+    <MESSAGE value="docs: update readme" />
+    <MESSAGE value="update: version" />
+    <MESSAGE value="style: recipe" />
+    <MESSAGE value="refactor: gitignore" />
+    <MESSAGE value="update: iml file" />
+    <MESSAGE value="refactor: ignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: ignore file" />
+  </component>
+</project>
