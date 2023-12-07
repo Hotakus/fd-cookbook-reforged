@@ -8,6 +8,8 @@
 
 ---
 
-<img title="" src="./src/main/resources/recipes.png" alt="" align="middle" width="400" data-align="center"> 
+<div>
+<img title="" src="./src/main/resources/recipes.png" alt="" align="middle" width="400">
+</div>
 
 ---
