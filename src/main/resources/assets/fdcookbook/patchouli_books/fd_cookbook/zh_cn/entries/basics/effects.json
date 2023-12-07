@@ -7,12 +7,12 @@
     {
       "type": "nourishment",
       "title": "滋养",
-      "text": "When you have the Nourishment effect your Saturation wont go down through sprinting jumping or attacking, regenerating health will still consume Saturation."
+      "text": "当你拥有营养效果时，你的饱和度不会因冲刺、跳跃或攻击而下降。而恢复生命值仍然会消耗饱和度。"
     },
     {
       "type": "comfort",
       "title": "舒适",
-      "text": "When you have the Comfort effect you will be immune to cold(Slowness) and sickness(Hunger and Weakness). When you grant the effect these negative effects will vanish and you can't grant them until the effect goes away."
+      "text": "当你有舒适效果时，你将对寒冷（缓慢）和疾病（饥饿和虚弱）免疫。当你获得效果时，这些负面效果就会消失，在效果消失之前你不会获得它们。"
     }
   ]
 }
