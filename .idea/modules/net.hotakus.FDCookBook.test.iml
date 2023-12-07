@@ -4,15 +4,19 @@
     <facet type="minecraft" name="Minecraft">
       <configuration>
         <autoDetectTypes>
-          <platformType>MCP</platformType>
-          <platformType>MIXIN</platformType>
           <platformType>FORGE</platformType>
+          <platformType>MIXIN</platformType>
+          <platformType>MCP</platformType>
         </autoDetectTypes>
         <projectReimportVersion>1</projectReimportVersion>
       </configuration>
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="srgType" value="SRG" />
+    <option name="mappingFile" value="G:\workspace\MCForgeMods\Mods\FDCookBook\build\createMcpToSrg\output.tsrg" />
+    <option name="mcpVersion" value="parchment_2022.11.06-1.18.2" />
+    <option name="minecraftVersion" value="1.18.2" />
+    <option name="platformVersion" value="40.2.7" />
+    <option name="srgType" value="TSRG" />
   </component>
 </module>
