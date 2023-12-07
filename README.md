@@ -1,15 +1,11 @@
-<img title="" src="./src/main/resources/logo.png" alt="" align="middle" width="1000" data-align="center"> 
-<div>
-<h2 align="middle">Farmer's Delight: CookBook Reforged</h2> 
-<p align="middle">
-
-</p>
-</div>
-
----
-
-<div>
-<img title="" src="./src/main/resources/recipes.png" alt="" align="middle" width="400">
-</div>
-
----
+<h2 style="text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="src/main/resources/logo.png" alt="" width="582" height="135" />Farmer's Delight Cookbook Reforged</h2>
+<h2 style="text-align: center;"><span class="transmart-tgt-font-container" style="display: none !important;">农夫的喜悦食谱重新锻造</span></h2>
+<p style="text-align: center;"><strong>This is an unofficial version of&nbsp;<em><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-addon">Farmer's Delight Cookbook&nbsp;</a></em>, available on 1.18.2+.<br /></strong><br style="display: none !important;" /><strong><span class="transmart-tgt-container" style="display: none !important;"><span class="transmart-tgt-wrapper">这是一个非官方版本的<a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-addon">农民的喜悦食谱&nbsp;</a>，可在1.18.2+。<br /></span></span></strong></p>
+<p style="text-align: center;"><strong>This book can help you explore the world of Farmer's Delight.</strong><br style="display: none !important;" /><strong><span class="transmart-tgt-container" style="display: none !important;"><span class="transmart-tgt-wrapper">这本书可以帮助你探索农民的喜悦的世界。</span></span></strong></p>
+<p style="text-align: center;"><strong>There are some contents of <em>Farmer's Delight</em> haven't be implemented to this CookBook, I plan to update in future.</strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><strong>But first, you must craft a cookbook:</strong></p>
+<p style="text-align: center;"><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="src/main/resources/recipes.png" alt="" width="351" height="178" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><strong>And have fun.</strong></p>
+<p><br style="display: none !important;" /><span class="transmart-tgt-container" style="display: none !important;"><span class="transmart-tgt-wrapper">有一些内容还没有实现，我计划在未来更新。</span></span></p>
