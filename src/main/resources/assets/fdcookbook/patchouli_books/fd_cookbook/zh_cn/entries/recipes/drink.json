@@ -46,7 +46,7 @@
       "item3": "minecraft:sugar",
       "item6": "minecraft:glass_bottle",
       "finalitem": "farmersdelight:melon_juice",
-      "effect": "$(#00A74A)Minor instant Health$()"
+      "effect": "$(#00A74A)瞬间回复$()"
     }
   ]
 }

@@ -12,7 +12,7 @@
       "finalitem": "farmersdelight:cabbage_rolls",
       "hunger_amount": "x2.5",
       "saturation_amount": "x2.5",
-      "effect": "none"
+      "effect": "无"
     },
     {
       "type": "crafting_table",
@@ -23,7 +23,7 @@
       "finalitem": "farmersdelight:salmon_roll",
       "hunger_amount": "x3.5",
       "saturation_amount": "x4.5",
-      "effect": "none"
+      "effect": "无"
     },
     {
       "type": "crafting_table",
@@ -35,7 +35,7 @@
       "amount": 2,
       "hunger_amount": "x3.5",
       "saturation_amount": "x4.5",
-      "effect": "none"
+      "effect": "无"
     },
     {
       "type": "crafting_table",
@@ -49,7 +49,7 @@
       "finalitem": "farmersdelight:cod_roll",
       "hunger_amount": "x6",
       "saturation_amount": "x7.5",
-      "effect": "none"
+      "effect": "无"
     },
     {
       "type": "cutting_board_recipe_single",
@@ -62,7 +62,7 @@
       "text": "",
       "hunger_amount": "x3",
       "saturation_amount": "x3",
-      "effect": "None"
+      "effect": "无"
     },
     {
       "type": "crafting_table_only",
