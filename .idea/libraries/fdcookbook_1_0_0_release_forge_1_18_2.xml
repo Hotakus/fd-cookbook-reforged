@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fdcookbook-1.0.0-release-forge-1.18.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/libs/fdcookbook-1.0.0-release-forge-1.18.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

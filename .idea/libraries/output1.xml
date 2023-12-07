@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="output1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/downloadMcpConfig/output.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

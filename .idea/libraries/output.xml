@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="output">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/reobfJar/output.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
