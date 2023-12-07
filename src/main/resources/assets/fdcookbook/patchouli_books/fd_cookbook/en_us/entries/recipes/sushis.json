@@ -1,0 +1,95 @@
+{
+  "name": "Sushis",
+  "icon": "farmersdelight:kelp_roll",
+  "category": "fdcookbook:recipes",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "cooking_pot",
+      "foodname": "Cabbage Rolls",
+      "item1": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
+      "item2": "minecraft:beetroot,minecraft:potato,minecraft:carrot,minecraft:brown_mushroom,minecraft:red_mushroom,minecraft:egg,minecraft:mutton,farmersdelight:mutton_chops,minecraft:beef,farmersdelight:minced_beef,minecraft:chicken,farmersdelight:chicken_cuts,minecraft:porkchop,farmersdelight:bacon,minecraft:cod,minecraft:salmon,minecraft:tropical_fish,farmersdelight:cod_slice,farmersdelight:salmon_slice",
+      "finalitem": "farmersdelight:cabbage_rolls",
+      "hunger_amount": "x2.5",
+      "saturation_amount": "x2.5",
+      "effect": "none"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Salmon Roll",
+      "item1": "farmersdelight:salmon_slice",
+      "item2": "farmersdelight:salmon_slice",
+      "item4": "farmersdelight:cooked_rice",
+      "finalitem": "farmersdelight:salmon_roll",
+      "hunger_amount": "x3.5",
+      "saturation_amount": "x4.5",
+      "effect": "none"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Salmon Roll",
+      "item1": "farmersdelight:salmon_slice",
+      "item2": "farmersdelight:salmon_slice",
+      "item4": "farmersdelight:cooked_rice",
+      "finalitem": "farmersdelight:salmon_roll",
+      "amount": 2,
+      "hunger_amount": "x3.5",
+      "saturation_amount": "x4.5",
+      "effect": "none"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Cod Roll",
+      "item1": "farmersdelight:cod_slice",
+      "item2": "farmersdelight:cod_slice",
+      "item4": "farmersdelight:cooked_rice",
+      "finalitem": "farmersdelight:cod_roll",
+      "amount": 2,
+      "hunger_amount": "x3.5",
+      "saturation_amount": "x4.5",
+      "effect": "none"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Kelp Roll",
+      "item4": "farmersdelight:cooked_rice",
+      "item5": "minecraft:carrot",
+      "item6": "farmersdelight:cooked_rice",
+      "item7": "minecraft:dried_kelp",
+      "item8": "minecraft:dried_kelp",
+      "item9": "minecraft:dried_kelp",
+      "finalitem": "farmersdelight:cod_roll",
+      "hunger_amount": "x6",
+      "saturation_amount": "x7.5",
+      "effect": "none"
+    },
+    {
+      "type": "cutting_board_recipe_single",
+      "name1": "Kelp Roll Slices",
+      "result_type1": "fdcookbook:textures/gui/cutting_board.png",
+      "tool1": "fdcookbook:textures/gui/cutting_board_knife.png",
+      "item1": "farmersdelight:kelp_roll",
+      "finalitem1_1": "farmersdelight:kelp_roll_slice",
+      "amount1_1": "3",
+      "text": "",
+      "hunger_amount": "x3",
+      "saturation_amount": "x3",
+      "effect": "None"
+    },
+    {
+      "type": "crafting_table_only",
+      "foodname": "Rice Roll Medley",
+      "item1": "farmersdelight:kelp_roll_slice",
+      "item2": "farmersdelight:kelp_roll_slice",
+      "item3": "farmersdelight:kelp_roll_slice",
+      "item4": "farmersdelight:salmon_roll",
+      "item5": "farmersdelight:salmon_roll",
+      "item6": "farmersdelight:salmon_roll",
+      "item7": "farmersdelight:cod_roll",
+      "item8": "minecraft:bowl",
+      "item9": "farmersdelight:cod_roll",
+      "finalitem": "farmersdelight:rice_roll_medley_block",
+      "info": "It can be place above block top, and you can right click to pick."
+    }
+  ]
+}
