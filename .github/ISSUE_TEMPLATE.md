@@ -1,6 +1,6 @@
 ---
-name: 
-about: 
+name: test
+about: tes2
 ---
 
 **Title:** [Please fill in the issue title here]
