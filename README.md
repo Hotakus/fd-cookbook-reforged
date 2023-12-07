@@ -1,5 +1,3 @@
----
-
 <div align="center">
     <img width=800 src="https://raw.githubusercontent.com/Hotakus/fd-cookbook-reforged/master/src/main/resources/logo.png"><br>
     <h2>Farmer's Delight: CookBook Reforged</h2><img width=100 src="https://img.shields.io/github/actions/workflow/status/hotakus/fd-cookbook-reforged/gradle.yml?style=flat-square">
@@ -15,5 +13,3 @@
     </strong></p>
 
 </div>
-
----
