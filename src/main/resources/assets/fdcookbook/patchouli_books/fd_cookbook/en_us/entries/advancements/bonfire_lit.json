@@ -1,0 +1,15 @@
+{
+  "name": "Bonfire Lit",
+  "icon": "minecraft:campfire",
+  "category": "fdcookbook:advancements",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "Bonfire Lit",
+      "text": "Bonfire"
+
+    }
+  ],
+  "turnin": "farmersdelight:main/place_skillet"
+}
