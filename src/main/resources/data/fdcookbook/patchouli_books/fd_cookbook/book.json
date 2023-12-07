@@ -1,7 +1,7 @@
 {
   "name": "item.fdcookbook.fd_cookbook",
   "landing_text": "text.fdcookbook.fd_cookbook.landing_text",
-  "version": "Hotakus",
+  "subtitle": "--Reforged",
   "use_resource_pack": true,
   "use_blocky_font": true,
   "show_progress": false,
