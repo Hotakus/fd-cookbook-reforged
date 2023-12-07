@@ -26,6 +26,17 @@
     },
     {
       "type": "crafting_table_nofood",
+      "foodname": "Lead",
+      "item1": "farmersdelight:straw",
+      "item2": "farmersdelight:straw",
+      "item4": "farmersdelight:straw",
+      "item5": "farmersdelight:straw",
+      "item9": "farmersdelight:straw",
+      "finalitem": "minecraft:lead",
+      "info": "Straws can be used to craft leads."
+    },
+    {
+      "type": "crafting_table_nofood",
       "foodname": "Canvas",
       "item1": "farmersdelight:straw",
       "item2": "farmersdelight:straw",

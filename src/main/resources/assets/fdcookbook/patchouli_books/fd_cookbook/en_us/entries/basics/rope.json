@@ -9,8 +9,8 @@
       "foodname": "Rope",
       "item2": "farmersdelight:straw",
       "item5": "farmersdelight:straw",
-      "item8": "farmersdelight:straw",
       "finalitem": "farmersdelight:rope",
+      "amount": 4,
       "info": "Ropes can be placed down and extended down by right clicking, then they can be used to climb on them."
     },
     {
@@ -24,23 +24,16 @@
       "info": "The Safety Net can be placed down and will absorb all taken fall damage."
     },
     {
-      "type": "crafting_table_nofood",
-      "foodname": "Lead",
-      "item1": "farmersdelight:rope",
-      "item2": "farmersdelight:rope",
-      "item4": "farmersdelight:rope",
-      "item5": "farmersdelight:rope",
-      "item9": "farmersdelight:rope",
-      "finalitem": "minecraft:lead",
-      "info": "Ropes can be used to craft leads."
-    },
-    {
       "type": "image",
       "images": [
         "fdcookbook:textures/gui/cookbook/rope_special.png"
       ],
-      "text": "Interestingly, when the ropes are placed in parallel, they are visually connected, and secondly, when the ropes are placed on the tomato crop, they will cause the tomatoes to climb",
+      "text": "Interestingly, when the ropes are placed in parallel, they are visually connected",
       "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "And secondly, when the ropes are placed on the tomato crop, they will cause the tomatoes to climb"
     }
   ]
 }

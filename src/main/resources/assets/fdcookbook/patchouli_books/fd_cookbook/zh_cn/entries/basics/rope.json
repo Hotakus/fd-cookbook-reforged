@@ -24,17 +24,6 @@
       "info": "安全网可以放下，可以吸收所有受到的坠落伤害。"
     },
     {
-      "type": "crafting_table_nofood",
-      "foodname": "拴绳",
-      "item1": "farmersdelight:rope",
-      "item2": "farmersdelight:rope",
-      "item4": "farmersdelight:rope",
-      "item5": "farmersdelight:rope",
-      "item9": "farmersdelight:rope",
-      "finalitem": "minecraft:lead",
-      "info": "绳子可用于制作拴绳。"
-    },
-    {
       "type": "image",
       "images": [
         "fdcookbook:textures/gui/cookbook/rope_special.png"

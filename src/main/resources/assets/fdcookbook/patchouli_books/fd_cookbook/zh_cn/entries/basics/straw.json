@@ -26,6 +26,17 @@
     },
     {
       "type": "crafting_table_nofood",
+      "foodname": "拴绳",
+      "item1": "farmersdelight:straw",
+      "item2": "farmersdelight:straw",
+      "item4": "farmersdelight:straw",
+      "item5": "farmersdelight:straw",
+      "item9": "farmersdelight:straw",
+      "finalitem": "minecraft:lead",
+      "info": "绳子可用于制作拴绳。"
+    },
+    {
+      "type": "crafting_table_nofood",
       "foodname": "帆布",
       "item1": "farmersdelight:straw",
       "item2": "farmersdelight:straw",
