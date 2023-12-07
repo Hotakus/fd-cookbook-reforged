@@ -2,7 +2,7 @@
   "name": "Noodles and Rice",
   "icon": "farmersdelight:pasta_with_meatballs",
   "category": "fdcookbook:recipes",
-  "sortnum": 2,
+  "sortnum": 0,
   "pages": [
     {
       "type": "cooking_pot",
@@ -25,15 +25,43 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x7",
       "saturation_amount": "x11",
-      "effect": "$(l:basics/effects)$(#FFB100)Comfort$()(5:00)"
+      "effect": "$(l:basics/effects)$(9)Comfort$()(5:00)"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "Mushroom Rice",
+      "item3": "farmersdelight:rice",
+      "item1": "minecraft:brown_mushroom",
+      "item2": "minecraft:red_mushroom",
+      "item4": "minecraft:carrot,minecraft:potato",
+      "finalitem": "farmersdelight:mushroom_rice",
+      "container": "minecraft:bowl",
+      "hunger_amount": "x6",
+      "saturation_amount": "x9.5",
+      "effect": "$(l:basics/effects)$(#FFB100)Nourishment$()(3:00)"
     },
     {
       "type": "crafting_table",
-      "foodname": "Raw Pasta",
-      "item1": "minecraft:egg",
+      "foodname": "Wheat Dough",
+      "item1": "minecraft:egg,minecraft:water_bucket",
       "item2": "minecraft:wheat",
       "item4": "minecraft:wheat",
-      "finalitem": "farmersdelight:raw_pasta",
+      "item5": "minecraft:wheat",
+      "finalitem": "farmersdelight:wheat_dough",
+      "amount": 3,
+      "hunger_amount": "x1",
+      "saturation_amount": "x0.5",
+      "effect": "Random $(4)Hunger$()(0:30)"
+    },
+    {
+      "type": "cutting_board_recipe_single",
+      "name1": "Raw Pasta",
+      "result_type1": "fdcookbook:textures/gui/cutting_board.png",
+      "tool1": "fdcookbook:textures/gui/cutting_board_knife.png",
+      "item1": "farmersdelight:wheat_dough",
+      "finalitem1_1": "farmersdelight:raw_pasta",
+      "amount1_1": "1",
+      "text": "",
       "hunger_amount": "x1",
       "saturation_amount": "x0.5",
       "effect": "Random $(4)Hunger$()(0:30)"
@@ -105,7 +133,7 @@
     {
       "type": "cooking_pot",
       "foodname": "Dumplings",
-      "item1": "farmersdelight:raw_pasta",
+      "item1": "farmersdelight:wheat_dough",
       "item2": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
       "item3": "farmersdelight:onion",
       "item4": "minecraft:chicken,farmersdelight:chicken_cuts,minecraft:porkchop,farmersdelight:bacon,minecraft:brown_mushroom",

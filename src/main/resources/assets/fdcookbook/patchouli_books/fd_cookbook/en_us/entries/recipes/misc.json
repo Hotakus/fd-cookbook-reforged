@@ -2,7 +2,7 @@
   "name": "Miscellaneous",
   "icon": "farmersdelight:steak_and_potatoes",
   "category": "fdcookbook:recipes",
-  "sortnum": 7,
+  "sortnum": 10,
   "pages": [
     {
       "type": "crafting_table",
@@ -45,14 +45,30 @@
       "effect": "none"
     },
     {
-      "type": "cooking_pot",
-      "foodname": "Cabbage Rolls",
-      "item1": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
-      "item2": "minecraft:beetroot,minecraft:potato,minecraft:carrot,minecraft:brown_mushroom,minecraft:red_mushroom,minecraft:egg,minecraft:mutton,farmersdelight:mutton_chops,minecraft:beef,farmersdelight:minced_beef,minecraft:chicken,farmersdelight:chicken_cuts,minecraft:porkchop,farmersdelight:bacon,minecraft:cod,minecraft:salmon,minecraft:tropical_fish,farmersdelight:cod_slice,farmersdelight:salmon_slice",
-      "finalitem": "farmersdelight:cabbage_rolls",
-      "hunger_amount": "x3",
-      "saturation_amount": "x3",
-      "effect": "none"
+      "type": "crafting_table",
+      "foodname": "Bacon And Eggs",
+      "item1": "farmersdelight:cooked_bacon",
+      "item2": "farmersdelight:cooked_bacon",
+      "item3": "minecraft:bowl",
+      "item4": "farmersdelight:fried_egg",
+      "item5": "farmersdelight:fried_egg",
+      "finalitem": "farmersdelight:bacon_and_eggs",
+      "hunger_amount": "x5",
+      "saturation_amount": "x6",
+      "effect": "$(l:basics/effects)$(#FFB100)Nourishment$()(1:00)"
+    },
+    {
+      "type": "crafting_table",
+      "foodname": "Grilled Salmon",
+      "item1": "farmersdelight:cooked_salmon_slice,minecraft:cooked_salmon",
+      "item2": "minecraft:sweet_berries",
+      "item3": "minecraft:bowl",
+      "item4": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
+      "item5": "farmersdelight:onion",
+      "finalitem": "farmersdelight:grilled_salmon",
+      "hunger_amount": "x7",
+      "saturation_amount": "x11",
+      "effect": "$(l:basics/effects)$(#FFB100)Nourishment$()(3:00)"
     }
   ]
 }

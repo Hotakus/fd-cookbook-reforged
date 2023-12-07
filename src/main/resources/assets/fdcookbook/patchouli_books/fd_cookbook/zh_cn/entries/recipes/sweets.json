@@ -2,7 +2,7 @@
   "name": "甜点",
   "icon": "farmersdelight:sweet_berry_cookie",
   "category": "fdcookbook:recipes",
-  "sortnum": 6,
+  "sortnum": 4,
   "pages": [
     {
       "type": "crafting_table",

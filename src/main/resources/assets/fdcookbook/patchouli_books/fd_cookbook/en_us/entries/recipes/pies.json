@@ -2,7 +2,7 @@
   "name": "Pies",
   "icon": "farmersdelight:chocolate_pie",
   "category": "fdcookbook:recipes",
-  "sortnum": 5,
+  "sortnum": 6,
   "pages": [
     {
       "type": "text",

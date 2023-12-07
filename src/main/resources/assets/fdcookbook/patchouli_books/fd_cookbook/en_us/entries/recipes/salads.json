@@ -42,6 +42,19 @@
       "hunger_amount": "x2.5",
       "saturation_amount": "x2",
       "effect": "Random $(4)Nausea(0:12)$()"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "Ratatouille",
+      "item1": "farmersdelight:tomato",
+      "item2": "farmersdelight:onion",
+      "item3": "minecraft:beetroot",
+      "item4": "farmersdelight:tomato,farmersdelight:onion,minecraft:potato,minecraft:carrot,minecraft:beetroot",
+      "finalitem": "farmersdelight:ratatouille",
+      "container": "minecraft:bowl",
+      "hunger_amount": "x5",
+      "saturation_amount": "x6",
+      "effect": "$(l:basics/effects)$(#FFB100)Nourishment$()(1:00)"
     }
   ]
 }

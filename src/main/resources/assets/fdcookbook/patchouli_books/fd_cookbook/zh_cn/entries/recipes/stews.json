@@ -2,7 +2,7 @@
   "name": "炖菜和汤",
   "icon": "farmersdelight:tomato_sauce",
   "category": "fdcookbook:recipes",
-  "sortnum": 0,
+  "sortnum": 3,
   "pages": [
     {
       "type": "cooking_pot",

@@ -2,7 +2,7 @@
   "name": "饮料",
   "icon": "farmersdelight:hot_cocoa",
   "category": "fdcookbook:recipes",
-  "sortnum": 8,
+  "sortnum": 5,
   "pages": [
     {
       "type": "crafting_table_nofood",

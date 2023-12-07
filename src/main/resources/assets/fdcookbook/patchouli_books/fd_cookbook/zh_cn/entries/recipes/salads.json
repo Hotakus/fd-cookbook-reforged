@@ -41,7 +41,7 @@
       "finalitem": "farmersdelight:nether_salad",
       "hunger_amount": "x2.5",
       "saturation_amount": "x2",
-      "effect": "Random $(4)恶心(0:12)$()"
+      "effect": "随机产生$(4)恶心$()(0:12)"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "name": "三明治和汉堡",
   "icon": "farmersdelight:hamburger",
   "category": "fdcookbook:recipes",
-  "sortnum": 3,
+  "sortnum": 2,
   "pages": [
     {
       "type": "crafting_table",
