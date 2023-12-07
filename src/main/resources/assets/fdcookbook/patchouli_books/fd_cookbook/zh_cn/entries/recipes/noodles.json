@@ -25,7 +25,7 @@
       "container": "minecraft:bowl",
       "hunger_amount": "x7",
       "saturation_amount": "x11",
-      "effect": "$(l:basics/effects)$(#FFB100)舒适()(5:00)"
+      "effect": "$(l:basics/effects)$(#FFB100)舒适$()(5:00)"
     },
     {
       "type": "crafting_table",
