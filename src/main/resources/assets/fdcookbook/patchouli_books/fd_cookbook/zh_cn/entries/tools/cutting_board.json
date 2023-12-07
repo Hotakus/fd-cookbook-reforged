@@ -7,7 +7,7 @@
     {
       "type": "cutting_board_page",
       "title": "砧板",
-      "crafting_recipe": "工艺配方",
+      "crafting_recipe": "配方",
       "info": "在砧板上，你可以手持$(l:basics/knife)刀具$()或斧头，根据配方进行切割。"
     },
     {
