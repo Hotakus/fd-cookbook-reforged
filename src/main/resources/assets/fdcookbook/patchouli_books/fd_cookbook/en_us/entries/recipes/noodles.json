@@ -17,7 +17,7 @@
     {
       "type": "cooking_pot",
       "foodname": "Fried Rice",
-      "item1": "farmersdelight:",
+      "item1": "farmersdelight:rice",
       "item2": "minecraft:egg",
       "item3": "minecraft:carrot",
       "item4": "farmersdelight:onion",
@@ -113,9 +113,6 @@
       "hunger_amount": "x4",
       "saturation_amount": "x6.5",
       "effect": "None"
-    },
-    {
-      "type": "patchouli:empty"
     }
   ]
 }

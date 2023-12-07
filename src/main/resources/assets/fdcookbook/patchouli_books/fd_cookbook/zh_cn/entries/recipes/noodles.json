@@ -17,7 +17,7 @@
     {
       "type": "cooking_pot",
       "foodname": "炒饭",
-      "item1": "farmersdelight:",
+      "item1": "farmersdelight:rice",
       "item2": "minecraft:egg",
       "item3": "minecraft:carrot",
       "item4": "farmersdelight:onion",
