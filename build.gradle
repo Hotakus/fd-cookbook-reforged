@@ -202,8 +202,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
 
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-72-SNAPSHOT:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-72-SNAPSHOT")
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-71.1:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-71.1")
 
     compileOnly fg.deobf("curse.maven:farmers-delight-398521:4679315")
     runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:4679315")
