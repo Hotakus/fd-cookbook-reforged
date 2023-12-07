@@ -1,9 +1,9 @@
 ---
-name: test
-about: tes2
+name: 
+about: 
 ---
 
-**Title:** [Please fill in the issue title here]
+**Title:** (Please fill in the issue title here, example: "[1.18.2] YOUR_ISSUE_TITLE")
 
 **Description:** [Please describe the background, possible causes, how to reproduce the issue, and any necessary solutions]
 
