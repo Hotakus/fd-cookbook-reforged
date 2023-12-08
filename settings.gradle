@@ -2,8 +2,12 @@ pluginManagement {
     repositories {
         gradlePluginPortal()
         maven {
-            name = 'MinecraftForge'
-            url = 'https://maven.minecraftforge.net/'
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        maven {
+            name = 'Sponge Snapshots'
+            url = 'https://repo.spongepowered.org/repository/maven-public/'
         }
     }
 }
@@ -13,3 +17,8 @@ plugins {
 }
 
 rootProject.name = 'FDCookBook'
+include(
+        "Common",
+        //"Fabric",
+        "Forge"
+)

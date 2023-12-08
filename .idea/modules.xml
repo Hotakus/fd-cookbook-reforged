@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Common/FDCookBook.Common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Common/FDCookBook.Common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Common/FDCookBook.Common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Common/FDCookBook.Common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Forge/FDCookBook.Forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Forge/FDCookBook.Forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Forge/FDCookBook.Forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Forge/FDCookBook.Forge.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FDCookBook.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FDCookBook.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FDCookBook.test.iml" filepath="$PROJECT_DIR$/.idea/modules/FDCookBook.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/build/build.iml" filepath="$PROJECT_DIR$/build/build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.hotakus.FDCookBook.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.hotakus.FDCookBook.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.hotakus.FDCookBook.test.iml" filepath="$PROJECT_DIR$/.idea/modules/net.hotakus.FDCookBook.test.iml" />
     </modules>
   </component>
 </project>
