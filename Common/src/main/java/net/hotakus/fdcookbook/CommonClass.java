@@ -3,7 +3,6 @@ package net.hotakus.fdcookbook;
 import net.hotakus.fdcookbook.platform.Services;
 import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -19,7 +18,6 @@ public class CommonClass {
     public static void init() {
 
         Constants.LOG.info("Hello from Common init on {}! we are currently in a {} environment!", Services.PLATFORM.getPlatformName(), Services.PLATFORM.isDevelopmentEnvironment() ? "development" : "production");
-        Constants.LOG.info("Diamond Item >> {}", Registry.ITEM.getKey(Items.DIAMOND));
     }
 
     // This method serves as a hook to modify item tooltips. The vanilla game
@@ -32,9 +30,8 @@ public class CommonClass {
             final FoodProperties food = stack.getItem().getFoodProperties();
 
             if (food != null) {
-
-                tooltip.add(new TextComponent("Nutrition: " + food.getNutrition()));
-                tooltip.add(new TextComponent("Saturation: " + food.getSaturationModifier()));
+                tooltip.add(Component.translatable("Nutrition: " + food.getNutrition()));
+                tooltip.add(Component.translatable("Saturation: " + food.getSaturationModifier()));
             }
         }
     }

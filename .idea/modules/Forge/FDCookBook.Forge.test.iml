@@ -14,9 +14,9 @@
   </component>
   <component name="McpModuleSettings">
     <option name="mappingFile" value="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\build\createMcpToSrg\output.tsrg" />
-    <option name="mcpVersion" value="parchment_2022.11.06-1.18.2" />
-    <option name="minecraftVersion" value="1.18.2" />
-    <option name="platformVersion" value="40.2.7" />
+    <option name="mcpVersion" value="parchment_2023.09.03-1.20.1" />
+    <option name="minecraftVersion" value="1.20.1" />
+    <option name="platformVersion" value="47.2.0" />
     <option name="srgType" value="TSRG" />
   </component>
 </module>
