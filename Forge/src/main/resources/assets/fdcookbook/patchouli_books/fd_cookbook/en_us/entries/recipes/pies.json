@@ -7,7 +7,7 @@
     {
       "type": "text",
       "title": "pies",
-      "text": "Farmers delight adds 3 pies that are placeable like the normal cake.$(br)You can also cut the vanilla cake or the pies on a $(l:basics/cutting_board)cutting board$() witch will give you 7 cake slices or 4 pie slices depending on what you cut."
+      "text": "Farmers delight adds 3 pies that are placeable like the normal cake.$(br)You can also cut the vanilla cake or the pies on a $(l:tools/cutting_board)cutting board$() witch will give you 7 cake slices or 4 pie slices depending on what you cut."
     },
     {
       "type": "crafting_table_pie_crust",
