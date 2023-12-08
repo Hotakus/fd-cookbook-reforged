@@ -1,21 +1,21 @@
 {
-  "name": "Pies",
+  "name": "馅饼/派",
   "icon": "farmersdelight:chocolate_pie",
   "category": "fdcookbook:recipes",
   "sortnum": 6,
   "pages": [
     {
       "type": "text",
-      "title": "pies",
-      "text": "Farmers delight adds 3 pies that are placeable like the normal cake.$(br)You can also cut the vanilla cake or the pies on a $(l:basics/cutting_board)cutting board$() witch will give you 7 cake slices or 4 pie slices depending on what you cut."
+      "title": "馅饼",
+      "text": "农夫乐事添加了3种馅饼，可以像普通蛋糕一样放置。$(br)您也可以将原版蛋糕或馅饼在$(l:tools/cutting_board)砧板$()上切成薄片，会给你7片蛋糕或4片馅饼，具体取决于你切的东西。"
     },
     {
       "type": "crafting_table_pie_crust",
-      "info": "You can also combine them back back into their original form by putting 7 cake slices or 4 pie slices of one kind in the crafting table."
+      "info": "您还可以通过在工作台上放入7片蛋糕片或4片馅饼来将它们组合回原来的形状。"
     },
     {
       "type": "crafting_table_pie",
-      "foodname": "Chocolate Pie",
+      "foodname": "巧克力馅饼",
       "item1": "minecraft:cocoa_beans",
       "item2": "minecraft:cocoa_beans",
       "item3": "minecraft:cocoa_beans",
@@ -29,11 +29,11 @@
       "slice": "farmersdelight:chocolate_pie_slice",
       "hunger_amount": "x1.5",
       "saturation_amount": "x0.5",
-      "effect": "$(9)Speed$()(0:30)"
+      "effect": "$(9)速度$()(0:30)"
     },
     {
       "type": "crafting_table_pie",
-      "foodname": "Sweet Berry Cheesecake",
+      "foodname": "甜浆果芝士蛋糕",
       "item1": "minecraft:sweet_berries",
       "item2": "minecraft:sweet_berries",
       "item3": "minecraft:sweet_berries",
@@ -47,11 +47,11 @@
       "slice": "farmersdelight:sweet_berry_cheesecake_slice",
       "hunger_amount": "x1.5",
       "saturation_amount": "x0.5",
-      "effect": "$(9)Speed$()(0:30)"
+      "effect": "$(9)速度$()(0:30)"
     },
     {
       "type": "crafting_table_pie",
-      "foodname": "Apple Pie",
+      "foodname": "苹果派",
       "item1": "minecraft:wheat",
       "item2": "minecraft:wheat",
       "item3": "minecraft:wheat",
@@ -65,7 +65,7 @@
       "slice": "farmersdelight:apple_pie_slice",
       "hunger_amount": "x1.5",
       "saturation_amount": "x0.5",
-      "effect": "$(9)Speed$()(0:30)"
+      "effect": "$(9)速度$()(0:30)"
     }
   ]
 }

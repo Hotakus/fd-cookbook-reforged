@@ -8,7 +8,7 @@
       "type": "cutting_board_page",
       "title": "Cutting Board",
       "crafting_recipe": "Crafting Recipe",
-      "info": "On the Cutting board you can cut certain things with a $(l:basics/knife)Knife$() or an Axe, what to use depends on the recipe."
+      "info": "On the Cutting board you can cut certain things with a $(l:tools/knife)Knife$() or an Axe, what to use depends on the recipe."
     },
     {
       "type": "cutting_board_recipe",

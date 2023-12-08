@@ -7,7 +7,7 @@
     {
       "type": "text",
       "title": "草杆",
-      "text": "秸秆可以通过持$(l:basics/knife)刀具$()砍伐高草（不保证）、小麦或水稻来获得 可用于制作其他合成，并可制作成装饰性 $(l:basics/storage_blocks)稻草捆$()."
+      "text": "秸秆可以通过持$(l:tools/knife)刀具$()砍伐高草（保证）、小麦或水稻来获得 可用于制作其他合成，并可制作成装饰性$(l:tools/storage_blocks)稻草捆$()."
     },
     {
       "type": "crafting_table_nofood",
