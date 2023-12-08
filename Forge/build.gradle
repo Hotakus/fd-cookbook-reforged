@@ -26,7 +26,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'maven-publish'
 
-archivesBaseName = "${mod_id}-forge-${minecraft_version}"
+archivesBaseName = "${mod_id}-${minecraft_version}-forge-${mod_version}-${develop_stage}"
 
 mixin {
     add sourceSets.main, "${mod_id}.refmap.json"
