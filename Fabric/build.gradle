@@ -6,6 +6,36 @@ plugins {
 
 archivesBaseName = "${mod_id}-fabric-${minecraft_version}"
 
+repositories {
+    maven { url 'https://maven.blamejared.com' }
+    maven { url = 'https://maven.parchmentmc.org' }
+    maven { url = "https://api.modrinth.com/maven" }
+    maven {
+        url "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+
+    maven {
+        // location of the maven that hosts JEI files before January 2023
+        name = "Progwml6's maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+
+    maven { url 'https://maven.blamejared.com' }
+}
+
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.officialMojangMappings()
@@ -13,8 +43,14 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
 
+    // compile against the JEI API but do not include it at runtime
+    modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-fabric-api:${jei_version}")
+    // at runtime, use the full JEI jar for Fabric
+    modRuntimeOnly("mezz.jei:jei-${minecraft_version}-fabric:${jei_version}")
+
     modImplementation "curse.maven:farmers-delight-fabric-482834:4111479"
-    modImplementation "curse.maven:patchouli-fabric-393236:3843444"
+    modImplementation "vazkii.patchouli:Patchouli:1.18.2-71.1-FABRIC"
 
     implementation project(":Common")
 }
