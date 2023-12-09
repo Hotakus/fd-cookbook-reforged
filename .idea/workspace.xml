@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="update: new contents" />
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="update: new contents">
+      <change beforePath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/mixin/ExampleCommonMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/mixin/ExampleCommonMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/fdcookbook.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/fdcookbook.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/fdcookbook.forge.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/fdcookbook.forge.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +79,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="1.20.1" />
-                    <option name="lastUsedInstant" value="1702055723" />
+                    <option name="lastUsedInstant" value="1702125065" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
