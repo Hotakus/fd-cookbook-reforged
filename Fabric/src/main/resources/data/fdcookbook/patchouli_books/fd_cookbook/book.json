@@ -1,0 +1,17 @@
+{
+  "name": "item.fdcookbook.fd_cookbook",
+  "landing_text": "text.fdcookbook.fd_cookbook.landing_text",
+  "version": 10,
+  "use_resource_pack": true,
+  "use_blocky_font": true,
+  "show_progress": false,
+  "nameplate_color ": "",
+  "text_overflow_mode": "resize",
+  "book_texture": "fdcookbook:textures/gui/cookbook.png",
+  "filler_texture": "fdcookbook:textures/gui/page_filler.png",
+  "dont_generate_book": false,
+  "creative_tab": "minecraft:food",
+  "custom_book_item": "fdcookbook:fd_cookbook",
+  "model": "fdcookbook:fd_cookbook",
+  "i18n": true
+}

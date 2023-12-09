@@ -1,12 +1,12 @@
 package net.hotakus.fdcookbook.items;
 
+import net.hotakus.fdcookbook.FDCookBook;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
@@ -17,10 +17,10 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import vazkii.patchouli.api.PatchouliAPI;
 
-import javax.annotation.Nonnull;
 import java.util.List;
 
 public class CookBookItem extends Item {
@@ -34,7 +34,7 @@ public class CookBookItem extends Item {
     }
 
     @Override
-    public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
+    public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level pLevel, @NotNull Player pPlayer, InteractionHand pUsedHand) {
         ItemStack stack = pPlayer.getItemInHand(pUsedHand);
         InteractionResult res = InteractionResult.PASS;
 
@@ -45,16 +45,15 @@ public class CookBookItem extends Item {
             }
         } else if (Screen.hasShiftDown()) {
             System.out.println();
-            res = InteractionResult.PASS;
         } else {
-            res = InteractionResult.PASS;
+
         }
 
         return new InteractionResultHolder<>(res, stack);
     }
 
     @Override
-    public InteractionResult useOn(UseOnContext pContext) {
+    public @NotNull InteractionResult useOn(@NotNull UseOnContext pContext) {
 
         InteractionResult res = InteractionResult.PASS;
 
@@ -79,15 +78,15 @@ public class CookBookItem extends Item {
         return res;
     }
 
-    public static Component getEdition() {
+    public static @NotNull Component getEdition() {
         try {
-            return PatchouliAPI.get().getSubtitle(new ResourceLocation("fdcookbook:fd_cookbook"));
+            return PatchouliAPI.get().getSubtitle(new ResourceLocation(FDCookBook.MOD_ID + ":" + "fd_cookbook"));
         } catch (IllegalArgumentException e) {
             return new TextComponent(""); // TODO Adjust Patchouli because first search tree creation is too early to get the edition
         }
     }
 
-    public static Component getTitle(ItemStack stack) {
+    public static Component getTitle(@NotNull ItemStack stack) {
         Component title = stack.getHoverName();
 
         String akashicTomeNBT = "akashictome:displayName";
@@ -99,7 +98,7 @@ public class CookBookItem extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, @NotNull List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(getEdition().copy().withStyle(ChatFormatting.GRAY));
 //        if (!Screen.hasShiftDown()) {
 //            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.shift"));

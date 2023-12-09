@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "fdcookbook:fd_cookbook"
+    },
+    "title": "Farmer's Cookbook",
+    "description": "Get a Cookbook",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/dirt.png"
+  },
+
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "patchouli:guide_book"
+            ],
+            "nbt": "{\"patchouli:book\":\"fdcookbook:fd_cookbook\"}"
+          }
+        ]
+      }
+    }
+  }
+}
