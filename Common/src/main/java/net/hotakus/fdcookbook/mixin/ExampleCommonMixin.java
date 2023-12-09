@@ -8,14 +8,13 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-// @Mixin(TitleScreen.class)
+@Mixin(TitleScreen.class)
 public class ExampleCommonMixin {
-    
-//    @Inject(at = @At("HEAD"), method = "init()V")
-//    private void init(CallbackInfo info) {
-//
-//        Constants.LOG.info("This line is printed by an example mod mixin from Common!");
-//        Constants.LOG.info("MC Version: {}", SharedConstants.getCurrentVersion().getId());
-//        Constants.LOG.info("Classloader: {}", this.getClass().getClassLoader());
-//    }
+    @Inject(at = @At("HEAD"), method = "init()V")
+    private void init(CallbackInfo info) {
+
+        Constants.LOG.info("This line is printed by an example mod mixin from Common!");
+        Constants.LOG.info("MC Version: {}", SharedConstants.getCurrentVersion().getId());
+        Constants.LOG.info("Classloader: {}", this.getClass().getClassLoader());
+    }
 }

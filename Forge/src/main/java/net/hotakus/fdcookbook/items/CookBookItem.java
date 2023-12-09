@@ -25,8 +25,6 @@ import java.util.List;
 
 public class CookBookItem extends Item {
 
-    ResourceLocation bookRL = Registry.ITEM.getKey(this);
-
     public CookBookItem() {
         super(new Properties()
                 .tab(CreativeModeTab.TAB_FOOD)
@@ -38,15 +36,16 @@ public class CookBookItem extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
         ItemStack stack = pPlayer.getItemInHand(pUsedHand);
-        InteractionResult res = InteractionResult.FAIL;
+        InteractionResult res = InteractionResult.PASS;
 
         if (pUsedHand == InteractionHand.MAIN_HAND && !Screen.hasShiftDown()) {
             if (pPlayer instanceof ServerPlayer) {
-                PatchouliAPI.get().openBookGUI((ServerPlayer) pPlayer, bookRL);
+                PatchouliAPI.get().openBookGUI((ServerPlayer) pPlayer, Registry.ITEM.getKey(this));
                 res = InteractionResult.SUCCESS;
             }
         } else if (Screen.hasShiftDown()) {
             System.out.println();
+            res = InteractionResult.PASS;
         } else {
             res = InteractionResult.PASS;
         }
