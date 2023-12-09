@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="update: mod.toml" />
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="update: mod.toml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/drink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/drink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/drink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/drink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +80,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="1.20.1" />
-                    <option name="lastUsedInstant" value="1702053566" />
+                    <option name="lastUsedInstant" value="1702055723" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -107,7 +115,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2Z9DIfxVnMZFAeP7vmPDZEw0obQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -154,7 +164,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FDCookBook [Forge:Client]">
+  <component name="RunManager" selected="Gradle.FDCookBook build">
     <configuration name="FDCookBook [Forge:Client]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />

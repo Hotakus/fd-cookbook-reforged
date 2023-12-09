@@ -13,6 +13,8 @@
       "item5": "minecraft:glass_bottle",
       "finalitem": "farmersdelight:milk_bottle",
       "amount": "3",
+      "hunger_amount": "x0",
+      "saturation_amount": "x0",
       "info": "小奶瓶！可以清除一种效果！"
     },
     {
@@ -24,6 +26,8 @@
       "item4": "minecraft:cocoa_beans",
       "finalitem": "farmersdelight:hot_cocoa",
       "container": "minecraft:glass_bottle",
+      "hunger_amount": "x0",
+      "saturation_amount": "x0",
       "effect": "$(#00A74A)清除一种有害效果。$()"
     },
     {
@@ -34,6 +38,8 @@
       "item3": "minecraft:sugar",
       "finalitem": "farmersdelight:apple_cider",
       "container": "minecraft:glass_bottle",
+      "hunger_amount": "x0",
+      "saturation_amount": "x0",
       "effect": "$(#00A74A)伤害吸收 (1:00)$()"
     },
     {
@@ -46,7 +52,22 @@
       "item3": "minecraft:sugar",
       "item6": "minecraft:glass_bottle",
       "finalitem": "farmersdelight:melon_juice",
+      "hunger_amount": "x0",
+      "saturation_amount": "x0",
       "effect": "$(#00A74A)瞬间回复$()"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "发光浆果蛋奶沙司",
+      "item1": "minecraft:glow_berries",
+      "item2": "farmersdelight:milk_bottle,minecraft:milk_bucket",
+      "item3": "minecraft:egg",
+      "item4": "minecraft:sugar",
+      "finalitem": "farmersdelight:glow_berry_custard",
+      "hunger_amount": "x3.5",
+      "saturation_amount": "x4.5",
+      "container": "minecraft:glass_bottle",
+      "effect": "$(#00A74A)发光 (0:05)$()"
     }
   ]
 }

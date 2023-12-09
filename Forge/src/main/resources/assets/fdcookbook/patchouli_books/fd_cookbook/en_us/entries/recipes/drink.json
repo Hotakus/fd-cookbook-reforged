@@ -13,6 +13,8 @@
       "item5": "minecraft:glass_bottle",
       "finalitem": "farmersdelight:milk_bottle",
       "amount": "3",
+      "hunger_amount": "x0",
+      "saturation_amount": "x0",
       "info": "Small milk bottle! Can clear one effect"
     },
     {
@@ -24,6 +26,8 @@
       "item4": "minecraft:cocoa_beans",
       "finalitem": "farmersdelight:hot_cocoa",
       "container": "minecraft:glass_bottle",
+      "hunger_amount": "x0",
+      "saturation_amount": "x0",
       "effect": "$(#00A74A)Clear one harmful effect.$()"
     },
     {
@@ -34,6 +38,8 @@
       "item3": "minecraft:sugar",
       "finalitem": "farmersdelight:apple_cider",
       "container": "minecraft:glass_bottle",
+      "hunger_amount": "x0",
+      "saturation_amount": "x0",
       "effect": "$(#00A74A)Absorption (1:00)$()"
     },
     {
@@ -46,7 +52,22 @@
       "item3": "minecraft:sugar",
       "item6": "minecraft:glass_bottle",
       "finalitem": "farmersdelight:melon_juice",
+      "hunger_amount": "x0",
+      "saturation_amount": "x0",
       "effect": "$(#00A74A)Minor instant Health$()"
+    },
+    {
+      "type": "cooking_pot",
+      "foodname": "Glow Berry Custard",
+      "item1": "minecraft:glow_berries",
+      "item2": "farmersdelight:milk_bottle,minecraft:milk_bucket",
+      "item3": "minecraft:egg",
+      "item4": "minecraft:sugar",
+      "finalitem": "farmersdelight:glow_berry_custard",
+      "hunger_amount": "x3.5",
+      "saturation_amount": "x4.5",
+      "container": "minecraft:glass_bottle",
+      "effect": "$(#00A74A)Glowing (0:05)$()"
     }
   ]
 }
