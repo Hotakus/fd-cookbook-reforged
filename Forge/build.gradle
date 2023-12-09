@@ -180,7 +180,7 @@ dependencies {
 //    implementation fg.deobf("curse.maven:entity-collision-fps-fix-628345:3807498")
 //    implementation fg.deobf("curse.maven:just-enough-characters-250702:4901990")
 //
-//    implementation fg.deobf("curse.maven:appleskin-248787:4770822")
+//    implementation fg.deobf("curse.maven:appleskin-248787:${as_id}")
 
     //implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.18:3.0.57')
 
