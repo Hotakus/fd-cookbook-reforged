@@ -11,8 +11,8 @@ public class ItemsRegister {
     private static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FDCookBook.MOD_ID);
 
-    public static final RegistryObject<Item> FD_COOKBOOK =
-            ITEMS.register("fd_cookbook", CookBookItem::new);
+//    public static final RegistryObject<Item> FD_COOKBOOK =
+//            ITEMS.register("fd_cookbook", CookBookItem::new);
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
