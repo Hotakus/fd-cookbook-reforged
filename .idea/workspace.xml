@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="update: mod.toml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/drink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/drink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/drink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/drink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-    </list>
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="update: new contents" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -546,7 +538,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702053585420</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update: version">
+      <option name="closed" value="true" />
+      <created>1702094982921</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1702094982921</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update: new contents">
+      <option name="closed" value="true" />
+      <created>1702095014416</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1702095014416</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="port: FD CookBook to 1.18.2" />
     <MESSAGE value="build: some error builds" />
     <MESSAGE value="ci(github): some templates" />
     <MESSAGE value="refactor(book): initial json" />
@@ -580,12 +587,13 @@
     <MESSAGE value="refactor: gitignore" />
     <MESSAGE value="update: iml file" />
     <MESSAGE value="refactor: ignore file" />
-    <MESSAGE value="update: version" />
     <MESSAGE value="update: version check file" />
     <MESSAGE value="update: new logo" />
     <MESSAGE value="chore: fabric version" />
     <MESSAGE value="chore: version" />
     <MESSAGE value="update: mod.toml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: mod.toml" />
+    <MESSAGE value="update: version" />
+    <MESSAGE value="update: new contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: new contents" />
   </component>
 </project>
