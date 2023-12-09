@@ -1,5 +1,8 @@
 {
   "item.fdcookbook.fd_cookbook": "农夫乐事: 烹饪书",
   "text.fdcookbook.fd_cookbook.landing_text": "农夫乐事: 烹饪书 由 Hotakus 重铸。$(br)这本书可以帮助你学习很多关于农夫乐事的基本知识",
-  "tooltip.fdcookbook.fd_cookbook": "书 x1, 小麦种子 x1, 碗 x1"
+  "tooltip.fdcookbook.fd_cookbook": "书 x1, 小麦种子 x1, 碗 x1",
+
+  "tooltip.fdcookbook.shift": "§7按住 §b§nSHIFT§r §7了解更多信息",
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal": "§7按住潜行键对准方块打开书本对应条目。"
 }
