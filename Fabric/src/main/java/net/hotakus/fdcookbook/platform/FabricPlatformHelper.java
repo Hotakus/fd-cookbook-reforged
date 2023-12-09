@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package net.hotakus.fdcookbook.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
+import net.hotakus.fdcookbook.platform.services.IPlatformHelper;
 
 public class FabricPlatformHelper implements IPlatformHelper {
 

@@ -102,10 +102,10 @@ public class CookBookItem extends Item {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(getEdition().copy().withStyle(ChatFormatting.GRAY));
-        if (!Screen.hasShiftDown()) {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.shift"));
-        } else {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal"));
-        }
+//        if (!Screen.hasShiftDown()) {
+//            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.shift"));
+//        } else {
+//            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal"));
+//        }
     }
 }

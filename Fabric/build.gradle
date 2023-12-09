@@ -9,8 +9,13 @@ archivesBaseName = "${mod_id}-fabric-${minecraft_version}"
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.officialMojangMappings()
+
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+
+    modImplementation "curse.maven:farmers-delight-fabric-482834:4111479"
+    modImplementation "curse.maven:patchouli-fabric-393236:3843444"
+
     implementation project(":Common")
 }
 
@@ -35,6 +40,16 @@ loom {
 processResources {
     from project(":Common").sourceSets.main.resources
     inputs.property "version", project.version
+
+    var replaceProperties = [
+            minecraft_version   : minecraft_version, minecraft_version_range: minecraft_version_range,
+            forge_version       : forge_version, forge_version_range: forge_version_range,
+            loader_version_range: loader_version_range,
+            mod_id              : mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: "${mod_version}-${develop_stage}",
+            mod_authors         : mod_authors, mod_description: mod_description,
+    ]
+
+    inputs.properties replaceProperties
 
     filesMatching("fabric.mod.json") {
         expand "version": project.version
