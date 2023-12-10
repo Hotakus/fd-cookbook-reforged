@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="feat: new recipes">
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/advancements/fdcookbook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/patchouli_books/fd_cookbook/book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/recipes/fd_cookbook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/recipes/fd_cookbook1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/recipes/fd_cookbook2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/resources/mini_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Fabric/FDCookBook.Fabric.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Fabric/FDCookBook.Fabric.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Fabric/FDCookBook.Fabric.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Fabric/FDCookBook.Fabric.test.iml" afterDir="false" />
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="chore: compatible with fabric">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bonfire_lit.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/resources/fabric.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/build.gradle" afterDir="false" />
@@ -125,33 +117,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.FDCookBook [:Forge:createMcpToSrg :Forge:createMcpToSrg :Forge:createMcpToSrg].executor": "Run",
-    "Gradle.FDCookBook [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
-    "Gradle.FDCookBook [Forge:Client].executor": "Run",
-    "Gradle.FDCookBook [runClient].executor": "Run",
-    "Gradle.FDCookBook build.executor": "Run",
-    "Gradle.FDCookBook:Common [prepareWorkspace].executor": "Run",
-    "Gradle.下载源代码.executor": "Run",
-    "Gradle.构建 FDCookBook.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/workspace/MCForgeMods/Mods/FDCookBook/Fabric/src/main/resources",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36666667",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "应用程序.Fabric Client (:Fabric).executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.FDCookBook [:Forge:createMcpToSrg :Forge:createMcpToSrg :Forge:createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook [Forge:Client].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook build.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook:Common [prepareWorkspace].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.下载源代码.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.构建 FDCookBook.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/workspace/MCForgeMods/Mods/FDCookBook/Fabric/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;应用程序.Fabric Client (:Fabric).executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Fabric\src\main\resources" />
@@ -171,7 +163,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Fabric Client (:Fabric)">
+  <component name="RunManager" selected="Gradle.FDCookBook build">
     <configuration name="FDCookBook [Forge:Client]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -619,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702139582967</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="chore: compatible with fabric">
+      <option name="closed" value="true" />
+      <created>1702146920618</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1702146920618</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -634,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="perf(src): improve imports" />
     <MESSAGE value="build: change dependencies version" />
     <MESSAGE value="fix(json): some bug about book" />
     <MESSAGE value="refactor(book): assets' position" />
@@ -659,6 +658,7 @@
     <MESSAGE value="feat(fabric): fabric support" />
     <MESSAGE value="refactor(assets): move assets to common folder" />
     <MESSAGE value="feat: new recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new recipes" />
+    <MESSAGE value="chore: compatible with fabric" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: compatible with fabric" />
   </component>
 </project>
