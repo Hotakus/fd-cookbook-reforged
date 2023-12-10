@@ -4,7 +4,7 @@ plugins {
     id 'idea'
 }
 
-archivesBaseName = "${mod_id}-fabric-${minecraft_version}"
+archivesBaseName = "${mod_id}-${minecraft_version}-fabric-${mod_fabric_version}-${fabric_dev_stage}"
 
 repositories {
     maven { url 'https://maven.blamejared.com' }
@@ -49,12 +49,12 @@ dependencies {
     // at runtime, use the full JEI jar for Fabric
     modRuntimeOnly("mezz.jei:jei-${minecraft_version}-fabric:${jei_version}")
 
-    modCompileOnly "curse.maven:jade-324717:4573438"
+    modCompileOnly "curse.maven:jade-324717:${fabric_jade_id}"
 
-    modCompileOnly "curse.maven:farmers-delight-fabric-482834:4111479"
-    modCompileOnly "vazkii.patchouli:Patchouli:1.18.2-71.1-FABRIC"
+    modCompileOnly "curse.maven:farmers-delight-fabric-482834:${fd_fabric_id}"
+    modCompileOnly "vazkii.patchouli:Patchouli:${minecraft_version}-${patchouli_fabric_version}"
 
-    modCompileOnly "maven.modrinth:modmenu:3.2.5"
+    modCompileOnly "maven.modrinth:modmenu:${modmenu_version}"
 
     implementation project(":Common")
 }
