@@ -1,16 +1,61 @@
 plugins {
-    id 'fabric-loom' version '0.10-SNAPSHOT'
+    id 'fabric-loom' version '0.12-SNAPSHOT'
     id 'maven-publish'
     id 'idea'
 }
 
-archivesBaseName = "${mod_id}-fabric-${minecraft_version}"
+archivesBaseName = "${mod_id}-${minecraft_version}-fabric-${mod_fabric_version}-${fabric_dev_stage}"
+
+repositories {
+    maven { url 'https://maven.blamejared.com' }
+    maven { url = 'https://maven.parchmentmc.org' }
+    maven { url = "https://api.modrinth.com/maven" }
+    maven {
+        url "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+
+    maven {
+        // location of the maven that hosts JEI files before January 2023
+        name = "Progwml6's maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+
+    maven { url 'https://maven.blamejared.com' }
+}
 
 dependencies {
     minecraft "com.mojang:minecraft:${minecraft_version}"
     mappings loom.officialMojangMappings()
+
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+
+    // compile against the JEI API but do not include it at runtime
+    modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-fabric-api:${jei_version}")
+    // at runtime, use the full JEI jar for Fabric
+    modRuntimeOnly("mezz.jei:jei-${minecraft_version}-fabric:${jei_version}")
+
+    modRuntimeOnly "curse.maven:jade-324717:${fabric_jade_id}"
+
+    modRuntimeOnly "curse.maven:farmers-delight-fabric-482834:${fd_fabric_id}"
+    modImplementation "vazkii.patchouli:Patchouli:${minecraft_version}-${patchouli_fabric_version}"
+
+    modRuntimeOnly "maven.modrinth:modmenu:${modmenu_version}"
+
     implementation project(":Common")
 }
 
@@ -34,10 +79,16 @@ loom {
 
 processResources {
     from project(":Common").sourceSets.main.resources
-    inputs.property "version", project.version
+    inputs.property "version", "${mod_fabric_version}-${fabric_dev_stage}"
 
     filesMatching("fabric.mod.json") {
-        expand "version": project.version
+        expand(
+                "name": mod_name,
+                "version":  "${mod_fabric_version}-${fabric_dev_stage}",
+                "description": mod_description,
+                "authors": mod_authors,
+                "license": mod_license
+        )
     }
 
     filesMatching('*.mixins.json') {

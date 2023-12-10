@@ -26,7 +26,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'maven-publish'
 
-archivesBaseName = "${mod_id}-${minecraft_version}-forge-${mod_version}-${develop_stage}"
+archivesBaseName = "${mod_id}-${minecraft_version}-forge-${mod_version}-${dev_stage}"
 
 mixin {
     add sourceSets.main, "${mod_id}.refmap.json"
@@ -180,7 +180,7 @@ dependencies {
 //    implementation fg.deobf("curse.maven:entity-collision-fps-fix-628345:3807498")
 //    implementation fg.deobf("curse.maven:just-enough-characters-250702:4901990")
 //
-//    implementation fg.deobf("curse.maven:appleskin-248787:${as_id}")
+//    implementation fg.deobf("curse.maven:appleskin-248787:4770822")
 
     //implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.18:3.0.57')
 
@@ -203,7 +203,7 @@ tasks.named('processResources', ProcessResources).configure {
             minecraft_version   : minecraft_version, minecraft_version_range: minecraft_version_range,
             forge_version       : forge_version, forge_version_range: forge_version_range,
             loader_version_range: loader_version_range,
-            mod_id              : mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: "${mod_version}-${develop_stage}",
+            mod_id              : mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: "${mod_version}-${dev_stage}",
             mod_authors         : mod_authors, mod_description: mod_description,
     ]
 

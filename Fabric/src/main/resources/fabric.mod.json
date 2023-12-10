@@ -1,40 +1,47 @@
 {
-    "schemaVersion": 1,
-    "id": "modid",
-    "version": "${version}",
-  
-    "name": "Example Mod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
-    "authors": [
-      "Me!"
-    ],
-    "contact": {
-      "homepage": "https://fabricmc.net/",
-      "sources": "https://github.com/FabricMC/fabric-example-mod"
-    },
-  
-    "license": "CC0-1.0",
-    "icon": "assets/modid/icon.png",
-  
-    "environment": "*",
-    "entrypoints": {
-      "main": [
-        "com.example.examplemod.ExampleMod"
-      ]
-    },
-    "mixins": [
-      "multiloader.mixins.json",
-      "multiloader.fabric.mixins.json"
-    ],
-  
-    "depends": {
-      "fabricloader": ">=0.12",
-      "fabric": "*",
-      "minecraft": "1.18.x",
-      "java": ">=17"
-    },
-    "suggests": {
-      "another-mod": "*"
+  "schemaVersion": 1,
+  "id": "fdcookbook",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "${authors}"
+  ],
+
+  "custom": {
+    "modmenu": {
+      "update_checker": true
     }
+  },
+
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-reforged",
+    "sources": "https://github.com/Hotakus/fd-cookbook-reforged",
+    "issues": "https://github.com/Hotakus/fd-cookbook-reforged/issues"
+  },
+
+  "license": "${license}",
+  "icon": "mini_logo.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.hotakus.fdcookbook.FDCookBookFabric"
+    ]
+  },
+
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12",
+    "fabric": "*",
+    "minecraft": ">=1.18",
+    "java": ">=17"
+  },
+
+  "suggests": {
+    "another-mod": "*"
   }
+}
   
