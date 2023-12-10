@@ -44,7 +44,7 @@ public class CookBookItem extends Item {
                 res = InteractionResult.SUCCESS;
             }
         } else if (Screen.hasShiftDown()) {
-            System.out.println();
+            // System.out.println();
         } else {
 
         }
@@ -63,9 +63,9 @@ public class CookBookItem extends Item {
 
             BlockState blockState = level.getBlockState(pos);
 
-            System.out.println(blockState.getBlock().getRegistryName().getPath());
-            pContext.getPlayer().sendMessage(new TextComponent(blockState.getBlock().getRegistryName().getPath()),
-                    pContext.getPlayer().getUUID());
+//            System.out.println(blockState.getBlock().getRegistryName().getPath());
+//            pContext.getPlayer().sendMessage(new TextComponent(blockState.getBlock().getRegistryName().getPath()),
+//                    pContext.getPlayer().getUUID());
 
             pContext.getPlayer().swing(pContext.getHand(), true);
 
