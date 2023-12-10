@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="update: new contents">
-      <change beforePath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" afterDir="false" />
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="refactor: mass update for new version">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/mixin/ExampleCommonMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/mixin/ExampleCommonMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/fdcookbook.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/fdcookbook.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/fdcookbook.forge.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/fdcookbook.forge.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/tmp/straw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,42 @@
                 <item name="FDCookBook" type="f1a62948:ProjectNode" />
                 <item name="运行配置" type="7b0102dc:RunConfigurationsNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FDCookBook" type="f1a62948:ProjectNode" />
+                <item name="Fabric" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FDCookBook" type="f1a62948:ProjectNode" />
+                <item name="Fabric" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FDCookBook" type="f1a62948:ProjectNode" />
+                <item name="Fabric" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FDCookBook" type="f1a62948:ProjectNode" />
+                <item name="Forge" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FDCookBook" type="f1a62948:ProjectNode" />
+                <item name="Forge" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FDCookBook" type="f1a62948:ProjectNode" />
+                <item name="Forge" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -79,7 +116,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="1.20.1" />
-                    <option name="lastUsedInstant" value="1702125065" />
+                    <option name="lastUsedInstant" value="1702209157" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -137,27 +174,28 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;1.20.1&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/workspace/MCForgeMods/Cross/MultiLoader-Template1.18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/workspace/MCForgeMods/Mods/FDCookBook/Forge/src/main/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;应用程序.Fabric Client (:Fabric).executor&quot;: &quot;Run&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\textures\gui\cookbook" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\tools" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\data\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\tools" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\resources" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Fabric\src\main\resources" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\zh_cn\entries\basics" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\basics" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\basics" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\zh_cn\entries\basics" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\tmp" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\data\fdcookbook\patchouli_books\fd_cookbook\en_us\entries" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\textures\item" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\models\item" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\models" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -211,6 +249,8 @@
     <list>
       <item itemvalue="Gradle.FDCookBook build" />
       <item itemvalue="Gradle.FDCookBook [Forge:Client]" />
+      <item itemvalue="应用程序.Fabric Client (:Fabric)" />
+      <item itemvalue="应用程序.Fabric Server (:Fabric)" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -561,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702095014416</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="refactor: mass update for new version">
+      <option name="closed" value="true" />
+      <created>1702214673747</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1702214673747</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,8 +624,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="build: some error builds" />
-    <MESSAGE value="ci(github): some templates" />
     <MESSAGE value="refactor(book): initial json" />
     <MESSAGE value="build(gradle): change forge version 40.2.14 -&gt;40.2.7" />
     <MESSAGE value="perf(src): improve imports" />
@@ -601,6 +647,8 @@
     <MESSAGE value="update: mod.toml" />
     <MESSAGE value="update: version" />
     <MESSAGE value="update: new contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: new contents" />
+    <MESSAGE value="fix: recipes" />
+    <MESSAGE value="refactor: mass update for new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: mass update for new version" />
   </component>
 </project>
