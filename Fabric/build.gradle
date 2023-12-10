@@ -49,12 +49,12 @@ dependencies {
     // at runtime, use the full JEI jar for Fabric
     modRuntimeOnly("mezz.jei:jei-${minecraft_version}-fabric:${jei_version}")
 
-    modCompileOnly "curse.maven:jade-324717:${fabric_jade_id}"
+    modRuntimeOnly "curse.maven:jade-324717:${fabric_jade_id}"
 
-    modCompileOnly "curse.maven:farmers-delight-fabric-482834:${fd_fabric_id}"
-    modCompileOnly "vazkii.patchouli:Patchouli:${minecraft_version}-${patchouli_fabric_version}"
+    modRuntimeOnly "curse.maven:farmers-delight-fabric-482834:${fd_fabric_id}"
+    modRuntimeOnly "vazkii.patchouli:Patchouli:${minecraft_version}-${patchouli_fabric_version}"
 
-    modCompileOnly "maven.modrinth:modmenu:${modmenu_version}"
+    modRuntimeOnly "maven.modrinth:modmenu:${modmenu_version}"
 
     implementation project(":Common")
 }
