@@ -4,13 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="chore: compatible with fabric">
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="ci: change to runtime only">
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/item/CookBookItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/item/ItemRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/CommonClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/FDCookBookFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/FDCookBookFabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/patchouli_books/fd_cookbook/book.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/patchouli_books/fd_cookbook/book.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/recipes/fd_cookbook.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/recipes/fd_cookbook.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/recipes/fd_cookbook1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -156,8 +172,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.hotakus.fdcookbook.item" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.FDCookBook build">
+  <component name="RunManager" selected="应用程序.Fabric Client (:Fabric)">
     <configuration name="FDCookBook [Forge:Client]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -220,14 +239,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701825324305</updated>
-    </task>
-    <task id="LOCAL-00001" summary="port: FD CookBook to 1.18.2">
-      <option name="closed" value="true" />
-      <created>1701878197982</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1701878197982</updated>
     </task>
     <task id="LOCAL-00002" summary="port: FD CookBook to 1.18.2">
       <option name="closed" value="true" />
@@ -613,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702146920618</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="ci: change to runtime only">
+      <option name="closed" value="true" />
+      <created>1702183944634</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1702183944634</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,8 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="build: change dependencies version" />
-    <MESSAGE value="fix(json): some bug about book" />
     <MESSAGE value="refactor(book): assets' position" />
     <MESSAGE value="docs(readme): some contents" />
     <MESSAGE value="docs: remove license" />
@@ -653,6 +670,8 @@
     <MESSAGE value="refactor(assets): move assets to common folder" />
     <MESSAGE value="feat: new recipes" />
     <MESSAGE value="chore: compatible with fabric" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: compatible with fabric" />
+    <MESSAGE value="refactor: sopport fabric" />
+    <MESSAGE value="ci: change to runtime only" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: change to runtime only" />
   </component>
 </project>

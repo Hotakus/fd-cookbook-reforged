@@ -1,6 +1,6 @@
-package net.hotakus.fdcookbook.items;
+package net.hotakus.fdcookbook.item;
 
-import net.hotakus.fdcookbook.FDCookBook;
+import net.hotakus.fdcookbook.Constants;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
@@ -80,7 +80,8 @@ public class CookBookItem extends Item {
 
     public static @NotNull Component getEdition() {
         try {
-            return PatchouliAPI.get().getSubtitle(new ResourceLocation(FDCookBook.MOD_ID + ":" + "fd_cookbook"));
+            return PatchouliAPI.get().getSubtitle(new ResourceLocation(Constants.MOD_ID + ":" + "fd_cookbook"));
+            //return new TextComponent("");
         } catch (IllegalArgumentException e) {
             return new TextComponent(""); // TODO Adjust Patchouli because first search tree creation is too early to get the edition
         }

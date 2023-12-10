@@ -9,7 +9,7 @@
   "text_overflow_mode": "resize",
   "book_texture": "fdcookbook:textures/gui/cookbook.png",
   "filler_texture": "fdcookbook:textures/gui/page_filler.png",
-  "dont_generate_book": false,
+  "dont_generate_book": true,
   "creative_tab": "minecraft:food",
   "custom_book_item": "fdcookbook:fd_cookbook",
   "model": "fdcookbook:fd_cookbook",
