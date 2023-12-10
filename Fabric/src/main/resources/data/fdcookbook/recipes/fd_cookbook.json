@@ -1,5 +1,5 @@
 {
-  "type": "patchouli:shapeless_book_recipe",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:book"
@@ -11,9 +11,7 @@
       "item": "minecraft:wheat_seeds"
     }
   ],
-  "book": "fdcookbook:fd_cookbook",
   "result": {
-    "item": "fdcookbook:fd_cookbook",
-    "count": 1
+    "item": "fdcookbook:fd_cookbook"
   }
 }
