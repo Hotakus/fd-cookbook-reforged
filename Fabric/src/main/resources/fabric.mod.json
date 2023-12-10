@@ -7,26 +7,39 @@
   "authors": [
     "${authors}"
   ],
+
+  "custom": {
+    "modmenu": {
+      "update_checker": true
+    }
+  },
+
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-reforged",
-    "sources": "https://github.com/Hotakus/fd-cookbook-reforged"
+    "sources": "https://github.com/Hotakus/fd-cookbook-reforged",
+    "issues": "https://github.com/Hotakus/fd-cookbook-reforged/issues"
   },
+
   "license": "${license}",
   "icon": "mini_logo.png",
-  "environment": "*",
+
+  "environment": "client",
   "entrypoints": {
     "main": [
       "net.hotakus.fdcookbook.FDCookBookFabric"
     ]
   },
+
   "mixins": [
   ],
+
   "depends": {
     "fabricloader": ">=0.12",
     "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
   },
+
   "suggests": {
     "another-mod": "*"
   }
