@@ -23,7 +23,7 @@ minecraft {
 
 dependencies {
     compileOnly group: 'org.spongepowered', name: 'mixin', version: '0.8.5'
-    compileOnly "vazkii.patchouli:Patchouli-xplat:${minecraft_version}-${patchouli_version}"
+    implementation "vazkii.patchouli:Patchouli-xplat:${minecraft_version}-${patchouli_version}"
 }
 
 processResources {
@@ -35,19 +35,4 @@ processResources {
         expand buildProps
     }
 }
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId project.group
-            artifactId project.archivesBaseName
-            version project.version
-            from components.java
-        }
-    }
 
-    repositories {
-        maven {
-            url "file://" + System.getenv("local_maven")
-        }
-    }
-}

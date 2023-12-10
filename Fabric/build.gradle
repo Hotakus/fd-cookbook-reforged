@@ -79,7 +79,7 @@ loom {
 
 processResources {
     from project(":Common").sourceSets.main.resources
-    inputs.property "version", "${project.version}"
+    inputs.property "version", "${mod_fabric_version}-${fabric_dev_stage}"
 
     filesMatching("fabric.mod.json") {
         expand(

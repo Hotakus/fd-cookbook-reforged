@@ -17,8 +17,6 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 import vazkii.patchouli.api.PatchouliAPI;
 
 import java.util.List;
@@ -34,7 +32,7 @@ public class CookBookItem extends Item {
     }
 
     @Override
-    public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level pLevel, @NotNull Player pPlayer, InteractionHand pUsedHand) {
+    public  InteractionResultHolder<ItemStack> use( Level pLevel,  Player pPlayer, InteractionHand pUsedHand) {
         ItemStack stack = pPlayer.getItemInHand(pUsedHand);
         InteractionResult res = InteractionResult.PASS;
 
@@ -53,7 +51,7 @@ public class CookBookItem extends Item {
     }
 
     @Override
-    public @NotNull InteractionResult useOn(@NotNull UseOnContext pContext) {
+    public  InteractionResult useOn( UseOnContext pContext) {
 
         InteractionResult res = InteractionResult.PASS;
 
@@ -78,7 +76,7 @@ public class CookBookItem extends Item {
         return res;
     }
 
-    public static @NotNull Component getEdition() {
+    public static  Component getEdition() {
         try {
             return PatchouliAPI.get().getSubtitle(new ResourceLocation(Constants.MOD_ID + ":" + "fd_cookbook"));
             //return new TextComponent("");
@@ -87,7 +85,7 @@ public class CookBookItem extends Item {
         }
     }
 
-    public static Component getTitle(@NotNull ItemStack stack) {
+    public static Component getTitle( ItemStack stack) {
         Component title = stack.getHoverName();
 
         String akashicTomeNBT = "akashictome:displayName";
@@ -99,7 +97,7 @@ public class CookBookItem extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, @NotNull List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+    public void appendHoverText(ItemStack pStack, Level pLevel,  List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         pTooltipComponents.add(getEdition().copy().withStyle(ChatFormatting.GRAY));
 //        if (!Screen.hasShiftDown()) {
 //            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.shift"));

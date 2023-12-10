@@ -1,7 +1,6 @@
 package net.hotakus.fdcookbook.items;
 
 import net.hotakus.fdcookbook.FDCookBook;
-import net.hotakus.fdcookbook.item.CookBookItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
