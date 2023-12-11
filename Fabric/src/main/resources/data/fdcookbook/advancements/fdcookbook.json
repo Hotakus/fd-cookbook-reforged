@@ -19,9 +19,8 @@
         "items": [
           {
             "items": [
-              "patchouli:guide_book"
-            ],
-            "nbt": "{\"patchouli:book\":\"fdcookbook:fd_cookbook\"}"
+              "fdcookbook:fd_cookbook"
+            ]
           }
         ]
       }
