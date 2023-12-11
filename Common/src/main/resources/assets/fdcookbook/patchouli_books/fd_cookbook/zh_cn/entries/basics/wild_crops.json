@@ -20,7 +20,7 @@
     },
     {
       "type": "image",
-      "title": "Wild Potato",
+      "title": "野生马铃薯",
       "images": [
         "fdcookbook:textures/gui/cookbook/wild_potato.png"
       ],
@@ -29,7 +29,7 @@
     },
     {
       "type": "image",
-      "title": "Sea Beet",
+      "title": "海甜菜",
       "images": [
         "fdcookbook:textures/gui/cookbook/sea_beet.png"
       ],
@@ -38,7 +38,7 @@
     },
     {
       "type": "image",
-      "title": "Wild Cabbage",
+      "title": "野生卷心菜",
       "images": [
         "fdcookbook:textures/gui/cookbook/wild_cabbage.png"
       ],
@@ -47,7 +47,7 @@
     },
     {
       "type": "image",
-      "title": "Wild Onion",
+      "title": "野洋葱",
       "images": [
         "fdcookbook:textures/gui/cookbook/wild_onion.png"
       ],
@@ -56,16 +56,16 @@
     },
     {
       "type": "image",
-      "title": "Tomato Vines",
+      "title": "番茄灌木",
       "images": [
         "fdcookbook:textures/gui/cookbook/tomato_vines.png"
       ],
-      "text": "番茄藤蔓生长在干旱气候（温度超过1.0）中。",
+      "text": "番茄灌木生长在干旱气候（温度超过1.0）中。",
       "border": true
     },
     {
       "type": "image",
-      "title": "Wild Rice",
+      "title": "野生稻米",
       "images": [
         "fdcookbook:textures/gui/cookbook/wild_rice.png"
       ],
