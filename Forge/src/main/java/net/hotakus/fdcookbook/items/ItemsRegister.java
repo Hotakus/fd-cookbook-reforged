@@ -1,6 +1,8 @@
 package net.hotakus.fdcookbook.items;
 
+import net.hotakus.fdcookbook.Constants;
 import net.hotakus.fdcookbook.FDCookBook;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,6 +16,9 @@ public class ItemsRegister {
     public static final RegistryObject<Item> FD_COOKBOOK =
             ITEMS.register("fd_cookbook", CookBookItem::new);
 
+    public static ResourceLocation make(String name) {
+        return new ResourceLocation(Constants.MOD_ID, name);
+    }
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
