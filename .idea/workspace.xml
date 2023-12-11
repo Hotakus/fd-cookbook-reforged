@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="refactor: mass update for new version">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemMappingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsMappingToEntry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/tmp/straw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/tatami.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/tatami.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/sushis.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/sushis.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/tatami.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/tatami.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/wild_crops.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/wild_crops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/sushis.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/sushis.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/ItemsMappingToEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,12 @@
               <task name="prepareWorkspace" />
             </after_sync>
           </activation>
+        </task>
+        <task path="$PROJECT_DIR$/Fabric">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Forge">
+          <activation />
         </task>
         <projects_view>
           <tree_state>
@@ -116,7 +127,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="1.20.1" />
-                    <option name="lastUsedInstant" value="1702209157" />
+                    <option name="lastUsedInstant" value="1702308906" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -157,38 +168,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.FDCookBook [:Forge:createMcpToSrg :Forge:createMcpToSrg :Forge:createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FDCookBook [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FDCookBook [Forge:Client].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FDCookBook [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FDCookBook build.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FDCookBook:Common [prepareWorkspace].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.构建 FDCookBook.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;1.20.1&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/workspace/MCForgeMods/Mods/FDCookBook/Forge/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;应用程序.Fabric Client (:Fabric).executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.FDCookBook [:Forge:createMcpToSrg :Forge:createMcpToSrg :Forge:createMcpToSrg].executor": "Run",
+    "Gradle.FDCookBook [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.FDCookBook [Forge:Client].executor": "Run",
+    "Gradle.FDCookBook [runClient].executor": "Run",
+    "Gradle.FDCookBook build.executor": "Run",
+    "Gradle.FDCookBook:Common [prepareWorkspace].executor": "Run",
+    "Gradle.构建 FDCookBook.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "1.20.1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/workspace/MCForgeMods/Mods/FDCookBook/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.36666667",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "应用程序.Fabric Client (:Fabric).executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\recipes" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\zh_cn\entries\basics" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\java\net\hotakus\fdcookbook" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\resources" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Fabric\src\main\resources" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\zh_cn\entries\basics" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\basics" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\basics" />
@@ -201,7 +212,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FDCookBook build">
+  <component name="RunManager" selected="Gradle.FDCookBook [Forge:Client]">
     <configuration name="FDCookBook [Forge:Client]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />

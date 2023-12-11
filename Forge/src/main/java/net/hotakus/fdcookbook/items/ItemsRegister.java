@@ -16,7 +16,6 @@ public class ItemsRegister {
     public static final RegistryObject<Item> FD_COOKBOOK =
             ITEMS.register("fd_cookbook", CookBookItem::new);
 
-
     public static ResourceLocation make(String name) {
         return new ResourceLocation(Constants.MOD_ID, name);
     }
