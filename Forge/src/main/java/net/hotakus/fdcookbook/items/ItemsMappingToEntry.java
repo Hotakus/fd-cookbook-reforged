@@ -1,29 +1,14 @@
-package net.hotakus.fdcookbook;
+package net.hotakus.fdcookbook.items;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import vazkii.patchouli.api.PatchouliAPI;
 
-import java.util.List;
 import java.util.Map;
 
 import static net.hotakus.fdcookbook.items.ItemsRegister.make;
 
 public class ItemsMappingToEntry {
-
-    static List<String> mappingRegisterList = List.of(
-            "farmersdelight"
-    );
-
-    static Map<String, Integer> strawEntryItemMapping = Map.of(
-            "straw_bale", 1,
-            "canvas_rug", 4,
-            "canvas_sign", 5
-    );
-
-    static Map<Map<String, Integer>, ResourceLocation> allMapping = Map.of(
-            strawEntryItemMapping, make("basics/straw")
-    );
 
     /**
      * Determines if the given resource location is a cookbook item.
@@ -32,14 +17,8 @@ public class ItemsMappingToEntry {
      * @return true if the resource location is a cookbook item, false otherwise
      */
     public static boolean isCookBookItem(ResourceLocation resourceLocation) {
-        boolean res = false;
-
         // Check Farmer's Delight
-        if (mappingRegisterList.contains(resourceLocation.getNamespace())) {
-            res = true;
-        }
-
-        return res;
+        return ItemMappingData.mappingRegisterList.contains(resourceLocation.getNamespace());
     }
 
     /**
@@ -53,7 +32,7 @@ public class ItemsMappingToEntry {
 
         Map.Entry<ResourceLocation, Integer> entry = null;
 
-        for (Map.Entry<Map<String, Integer>, ResourceLocation> mapping : allMapping.entrySet()) {
+        for (Map.Entry<Map<String, Integer>, ResourceLocation> mapping : ItemMappingData.allMapping.entrySet()) {
             for (Map.Entry<String, Integer> entryMap : mapping.getKey().entrySet()) {
                 if (entryMap.getKey().equals(resourceLocation.getPath())) {
                     entry = Map.entry(

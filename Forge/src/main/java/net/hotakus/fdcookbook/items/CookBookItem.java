@@ -23,7 +23,7 @@ import vazkii.patchouli.api.PatchouliAPI;
 import java.util.List;
 import java.util.Map;
 
-import static net.hotakus.fdcookbook.ItemsMappingToEntry.*;
+import static net.hotakus.fdcookbook.items.ItemsMappingToEntry.*;
 
 public class CookBookItem extends Item {
 
@@ -69,13 +69,13 @@ public class CookBookItem extends Item {
                 if (player instanceof ServerPlayer) {
                     if (entry != null) {
                         openEntry((ServerPlayer) player, entry.getKey(), entry.getValue());
-                        player.sendMessage(new TextComponent("Opening " + entry.getKey() + " page " + entry.getValue()),
-                                pContext.getPlayer().getUUID());
+//                        player.sendMessage(new TextComponent("Opening " + entry.getKey() + " page " + entry.getValue()),
+//                                pContext.getPlayer().getUUID());
+                        res = InteractionResult.SUCCESS;
                     } else {
-                        player.sendMessage(new TextComponent("No mapping for " + registryName),
-                                pContext.getPlayer().getUUID());
+//                        player.sendMessage(new TextComponent("No mapping for " + registryName),
+//                                pContext.getPlayer().getUUID());
                     }
-                    res = InteractionResult.SUCCESS;
                 }
             }
         }
