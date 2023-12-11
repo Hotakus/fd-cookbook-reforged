@@ -83,7 +83,7 @@ public class ItemMappingData {
             "wild_onions", 5,
             "wild_cabbages", 4,
             "wild_tomatoes", 6,
-            "wild_rices", 7
+            "wild_rice", 7
             // TODO: add sandy shrubs
     );
 

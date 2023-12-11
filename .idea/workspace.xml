@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="feat: item mapping completely">
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="fix: missing translations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/wild_crops.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/wild_crops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemMappingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemMappingData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,14 +323,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701825324305</updated>
-    </task>
-    <task id="LOCAL-00009" summary="perf(src): improve imports">
-      <option name="closed" value="true" />
-      <created>1701915325458</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1701915325458</updated>
     </task>
     <task id="LOCAL-00010" summary="build: change dependencies version">
       <option name="closed" value="true" />
@@ -716,7 +708,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702299568400</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="fix: missing translations">
+      <option name="closed" value="true" />
+      <created>1702299977049</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1702299977049</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -731,7 +731,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="docs: update readme" />
     <MESSAGE value="style: recipe" />
     <MESSAGE value="refactor: gitignore" />
     <MESSAGE value="update: iml file" />
@@ -756,6 +755,7 @@
     <MESSAGE value="fix(sushi): some error recipes" />
     <MESSAGE value="update: version" />
     <MESSAGE value="feat: item mapping completely" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: item mapping completely" />
+    <MESSAGE value="fix: missing translations" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: missing translations" />
   </component>
 </project>
