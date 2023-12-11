@@ -21,6 +21,7 @@
       "item2": "farmersdelight:salmon_slice",
       "item4": "farmersdelight:cooked_rice",
       "finalitem": "farmersdelight:salmon_roll",
+      "amount": 2,
       "hunger_amount": "x3.5",
       "saturation_amount": "x4.5",
       "effect": "无"
@@ -46,7 +47,7 @@
       "item7": "minecraft:dried_kelp",
       "item8": "minecraft:dried_kelp",
       "item9": "minecraft:dried_kelp",
-      "finalitem": "farmersdelight:cod_roll",
+      "finalitem": "farmersdelight:kelp_roll",
       "hunger_amount": "x6",
       "saturation_amount": "x7.5",
       "effect": "无"
