@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="fix: advancement correctly">
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemMappingData.java" afterDir="false" />
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="feat: item mapping completely">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/sushis.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/sushis.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/ItemsMappingToEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsMappingToEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/wild_crops.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/wild_crops.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +208,7 @@
       <recent name="net.hotakus.fdcookbook.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FDCookBook [Forge:Client]">
+  <component name="RunManager" selected="Gradle.FDCookBook build">
     <configuration name="FDCookBook [Forge:Client]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -327,30 +323,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701825324305</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ci(github): some templates">
-      <option name="closed" value="true" />
-      <created>1701915048477</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1701915048477</updated>
-    </task>
-    <task id="LOCAL-00007" summary="refactor(book): initial json">
-      <option name="closed" value="true" />
-      <created>1701915101873</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1701915101873</updated>
-    </task>
-    <task id="LOCAL-00008" summary="build(gradle): change forge version 40.2.14 -&gt;40.2.7">
-      <option name="closed" value="true" />
-      <created>1701915271550</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1701915271550</updated>
     </task>
     <task id="LOCAL-00009" summary="perf(src): improve imports">
       <option name="closed" value="true" />
@@ -720,7 +692,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702281307667</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="fix(sushi): some error recipes">
+      <option name="closed" value="true" />
+      <created>1702299522226</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1702299522226</updated>
+    </task>
+    <task id="LOCAL-00056" summary="update: version">
+      <option name="closed" value="true" />
+      <created>1702299540389</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1702299540389</updated>
+    </task>
+    <task id="LOCAL-00057" summary="feat: item mapping completely">
+      <option name="closed" value="true" />
+      <created>1702299568400</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1702299568400</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -735,8 +731,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update: new assets" />
-    <MESSAGE value="update: new translation" />
     <MESSAGE value="docs: update readme" />
     <MESSAGE value="style: recipe" />
     <MESSAGE value="refactor: gitignore" />
@@ -749,7 +743,6 @@
     <MESSAGE value="refactor: compatible with 1.20.1" />
     <MESSAGE value="update: mod.toml" />
     <MESSAGE value="update: new contents" />
-    <MESSAGE value="update: version" />
     <MESSAGE value="feat(fabric): fabric support" />
     <MESSAGE value="refactor(assets): move assets to common folder" />
     <MESSAGE value="feat: new recipes" />
@@ -760,6 +753,9 @@
     <MESSAGE value="refactor: some tweaks for 1.20.1" />
     <MESSAGE value="feat: items mapping" />
     <MESSAGE value="fix: advancement correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: advancement correctly" />
+    <MESSAGE value="fix(sushi): some error recipes" />
+    <MESSAGE value="update: version" />
+    <MESSAGE value="feat: item mapping completely" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: item mapping completely" />
   </component>
 </project>
