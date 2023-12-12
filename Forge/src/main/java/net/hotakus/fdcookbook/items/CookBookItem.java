@@ -71,11 +71,11 @@ public class CookBookItem extends Item {
                 if (player instanceof ServerPlayer) {
                     if (entry != null) {
                         openEntry((ServerPlayer) player, entry.getKey(), entry.getValue());
-                        player.sendSystemMessage(Component.literal("Opening " + entry.getKey() + " " +
-                                "page " + entry.getValue()));
+//                        player.sendSystemMessage(Component.literal("Opening " + entry.getKey() + " " +
+//                                "page " + entry.getValue()));
                         res = InteractionResult.SUCCESS;
                     } else {
-                        player.sendSystemMessage((Component.literal("No mapping for " + registryName)));
+//                        player.sendSystemMessage((Component.literal("No mapping for " + registryName)));
                     }
                 }
             }

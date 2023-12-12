@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="refactor: mass update for new version">
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemMappingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsMappingToEntry.java" afterDir="false" />
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="feat: right click open corresponding entries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/tatami.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/tatami.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/sushis.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes/sushis.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/tatami.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/tatami.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/wild_crops.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/wild_crops.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/sushis.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/sushis.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/ItemsMappingToEntry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,31 +158,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.FDCookBook [:Forge:createMcpToSrg :Forge:createMcpToSrg :Forge:createMcpToSrg].executor": "Run",
-    "Gradle.FDCookBook [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
-    "Gradle.FDCookBook [Forge:Client].executor": "Run",
-    "Gradle.FDCookBook [runClient].executor": "Run",
-    "Gradle.FDCookBook build.executor": "Run",
-    "Gradle.FDCookBook:Common [prepareWorkspace].executor": "Run",
-    "Gradle.构建 FDCookBook.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "1.20.1",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/workspace/MCForgeMods/Mods/FDCookBook/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36666667",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "应用程序.Fabric Client (:Fabric).executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.FDCookBook [:Forge:createMcpToSrg :Forge:createMcpToSrg :Forge:createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook [Forge:Client].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook build.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FDCookBook:Common [prepareWorkspace].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.构建 FDCookBook.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1.20.1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/workspace/MCForgeMods/Mods/FDCookBook/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/recipes&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;应用程序.Fabric Client (:Fabric).executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\patchouli_books\fd_cookbook\en_us\entries\recipes" />
@@ -212,7 +202,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FDCookBook [Forge:Client]">
+  <component name="RunManager" selected="Gradle.FDCookBook build">
     <configuration name="FDCookBook [Forge:Client]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -620,7 +610,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702214673747</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="fix: some recipes error">
+      <option name="closed" value="true" />
+      <created>1702313644507</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1702313644507</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix: missing translations">
+      <option name="closed" value="true" />
+      <created>1702313659843</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1702313659843</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: right click open corresponding entries">
+      <option name="closed" value="true" />
+      <created>1702313696339</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1702313696339</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -635,9 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor(book): initial json" />
-    <MESSAGE value="build(gradle): change forge version 40.2.14 -&gt;40.2.7" />
-    <MESSAGE value="perf(src): improve imports" />
     <MESSAGE value="build: change dependencies version" />
     <MESSAGE value="fix(json): some bug about book" />
     <MESSAGE value="refactor(book): assets' position" />
@@ -660,6 +671,9 @@
     <MESSAGE value="update: new contents" />
     <MESSAGE value="fix: recipes" />
     <MESSAGE value="refactor: mass update for new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: mass update for new version" />
+    <MESSAGE value="fix: some recipes error" />
+    <MESSAGE value="fix: missing translations" />
+    <MESSAGE value="feat: right click open corresponding entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: right click open corresponding entries" />
   </component>
 </project>
