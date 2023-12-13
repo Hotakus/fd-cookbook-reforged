@@ -35,12 +35,9 @@
       "info": "煎锅。您可以一手持煎锅，一手持生食，然后靠近火源进行煎制。"
     },
     {
-      "type": "image",
-      "images": [
-        "fdcookbook:textures/gui/cookbook/frying.png"
-      ],
-      "text": "如图所示，副手持蛋，主手持煎锅，靠近热源，对空气右键即可，需等上几秒钟。",
-      "border": true
+      "type": "image_16_9",
+      "image": "fdcookbook:textures/gui/cookbook/frying.png",
+      "text": "如图所示，副手持蛋，主手持煎锅，靠近热源，对空气右键即可，需等上几秒钟。"
     },
     {
       "type": "crafting_table_nofood",
@@ -57,12 +54,9 @@
       "info": "炉子就像一个更好的篝火，区别是你可以同时烹饪6个物品。还可以放置烹饪厨具。"
     },
     {
-      "type": "image",
-      "images": [
-        "fdcookbook:textures/gui/cookbook/place.png"
-      ],
-      "text": "如图所示，可以将锅具放置于炉灶之上。其中，煎锅要按住潜行键才可放置",
-      "border": true
+      "type": "image_16_9",
+      "image": "fdcookbook:textures/gui/cookbook/place.png",
+      "text": "如图所示，可以将锅具放置于炉灶之上。其中，煎锅要按住潜行键才可放置"
     }
   ]
 }

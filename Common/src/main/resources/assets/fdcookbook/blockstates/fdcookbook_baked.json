@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fdcookbook:block/fdcookbook_baked"
+    },
+
+    "facing=south": {
+      "model": "fdcookbook:block/fdcookbook_baked",
+      "y": 180
+    },
+
+    "facing=east": {
+      "model": "fdcookbook:block/fdcookbook_baked",
+      "y": 90
+    },
+
+    "facing=west": {
+      "model": "fdcookbook:block/fdcookbook_baked",
+      "y": 270
+    }
+  }
+}

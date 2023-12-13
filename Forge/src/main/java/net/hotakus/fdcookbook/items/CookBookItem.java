@@ -1,10 +1,11 @@
 package net.hotakus.fdcookbook.items;
 
-import net.hotakus.fdcookbook.Constants;
+import net.hotakus.fdcookbook.api.CBItem;
+import net.hotakus.fdcookbook.blocks.BlockRegister;
+import net.hotakus.fdcookbook.utils.utils;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
@@ -14,7 +15,10 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.*;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
@@ -25,7 +29,7 @@ import java.util.Map;
 
 import static net.hotakus.fdcookbook.items.ItemsMappingToEntry.*;
 
-public class CookBookItem extends Item {
+public class CookBookItem extends CBItem {
 
     public CookBookItem() {
         super(new Properties()
@@ -40,9 +44,9 @@ public class CookBookItem extends Item {
         ItemStack stack = pPlayer.getItemInHand(pUsedHand);
         InteractionResult res = InteractionResult.PASS;
 
-        if (pUsedHand == InteractionHand.MAIN_HAND && !Screen.hasShiftDown()) {
+        if (pUsedHand == InteractionHand.MAIN_HAND && !Screen.hasShiftDown() && !Screen.hasAltDown()) {
             if (pPlayer instanceof ServerPlayer) {
-                PatchouliAPI.get().openBookGUI((ServerPlayer) pPlayer, Registry.ITEM.getKey(this));
+                PatchouliAPI.get().openBookGUI((ServerPlayer) pPlayer, utils.make("fd_cookbook"));
                 res = InteractionResult.SUCCESS;
             }
         }
@@ -52,31 +56,34 @@ public class CookBookItem extends Item {
 
     @Override
     public InteractionResult useOn(UseOnContext pContext) {
-
         InteractionResult res = InteractionResult.PASS;
 
-        if (Screen.hasShiftDown()) {
-            BlockPos pos = pContext.getClickedPos();
-            Level level = pContext.getLevel();
-            BlockState blockState = level.getBlockState(pos);
-            ResourceLocation registryName = blockState.getBlock().getRegistryName();
-            Player player = pContext.getPlayer();
+        BlockPos pos = pContext.getClickedPos();
+        Level level = pContext.getLevel();
+        BlockState blockState = level.getBlockState(pos);
+        Player player = pContext.getPlayer();
 
-            pContext.getPlayer().swing(pContext.getHand(), true);
+        if (player instanceof ServerPlayer) {
+            if (Screen.hasShiftDown() && !Screen.hasAltDown()) {
+                ResourceLocation registryName = blockState.getBlock().getRegistryName();
+                pContext.getPlayer().swing(pContext.getHand(), true);
 
-            if (isCookBookItem(registryName)) {
-                Map.Entry<ResourceLocation, Integer> entry = getEntryLocation(registryName);
-                if (player instanceof ServerPlayer) {
-                    if (entry != null) {
-                        openEntry((ServerPlayer) player, entry.getKey(), entry.getValue());
+                if (isCookBookItem(registryName)) {
+                    Map.Entry<ResourceLocation, Integer> entry = getEntryLocation(registryName);
+                    if (player instanceof ServerPlayer) {
+                        if (entry != null) {
+                            openEntry((ServerPlayer) player, entry.getKey(), entry.getValue());
 //                        player.sendMessage(new TextComponent("Opening " + entry.getKey() + " page " + entry.getValue()),
 //                                pContext.getPlayer().getUUID());
-                        res = InteractionResult.SUCCESS;
-                    } else {
+                            res = InteractionResult.SUCCESS;
+                        } else {
 //                        player.sendMessage(new TextComponent("No mapping for " + registryName),
 //                                pContext.getPlayer().getUUID());
+                        }
                     }
                 }
+            } else if ((Screen.hasShiftDown() && Screen.hasAltDown()) || Screen.hasAltDown()) {
+                res = placeBlock(pContext, BlockRegister.FD_COOKBOOK_BLOCK.get());
             }
         }
 
@@ -85,10 +92,9 @@ public class CookBookItem extends Item {
 
     public static Component getEdition() {
         try {
-            return PatchouliAPI.get().getSubtitle(new ResourceLocation(Constants.MOD_ID + ":" + "fd_cookbook"));
-            //return new TextComponent("");
+            return PatchouliAPI.get().getSubtitle(utils.make("fd_cookbook"));
         } catch (IllegalArgumentException e) {
-            return new TextComponent(""); // TODO Adjust Patchouli because first search tree creation is too early to get the edition
+            return new TextComponent("");
         }
     }
 
@@ -110,6 +116,9 @@ public class CookBookItem extends Item {
             pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.shift"));
         } else {
             pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal"));
+            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal2"));
+            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal3"));
+            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal4"));
         }
     }
 }

@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="fix: missing translations">
-      <change beforePath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" afterDir="false" />
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="feat: right click to block to open corresponding entries">
+      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/blockstates/fdcookbook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/models/block/fdcookbook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/block/fdcookbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/BlockRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/FDCBShapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/FDCookBookBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/sushis.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/sushis.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/FDCookBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/FDCookBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +129,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1702354140" />
+                    <option name="lastUsedInstant" value="1702356812" />
                   </RecentBranch>
                 </list>
               </option>
@@ -179,7 +187,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/workspace/MCForgeMods/Mods/FDCookBook/Fabric/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/workspace/MCForgeMods/Mods/FDCookBook/Forge/run&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
@@ -189,18 +197,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\run" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook" />
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\models\block" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Fabric\src\main\resources" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Fabric\run\mods" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\resources\data\fdcookbook\recipes" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\java\net\hotakus\fdcookbook\items" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources\assets\fdcookbook\textures\block" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Fabric" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Common\src\main\resources" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\Forge\src\main\resources" />
       <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\data\fdcookbook\patchouli_books\fd_cookbook\en_us\entries" />
-      <recent name="G:\workspace\MCForgeMods\Mods\FDCookBook\src\main\resources\assets\fdcookbook\textures\item" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -209,7 +217,7 @@
       <recent name="net.hotakus.fdcookbook.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FDCookBook build">
+  <component name="RunManager" selected="Gradle.FDCookBook [Forge:Client]">
     <configuration name="FDCookBook [Forge:Client]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />

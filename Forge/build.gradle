@@ -166,21 +166,19 @@ dependencies {
     compileOnly fg.deobf("curse.maven:jade-324717:${jade_id}")
     runtimeOnly fg.deobf("curse.maven:jade-324717:${jade_id}")
 
-//    implementation fg.deobf("curse.maven:betterachievements-272515:3703960")
-//    implementation fg.deobf("curse.maven:farmers-delight-398521:4679315")
-//    implementation fg.deobf("curse.maven:embeddium-908741:4900800")
-//    implementation fg.deobf("curse.maven:embeddium2-910506:4747651")
-//    implementation fg.deobf("curse.maven:embeddium3-931925:4834377")
-//    implementation fg.deobf("curse.maven:oculus-581495:4578744")
+    implementation fg.deobf("curse.maven:betterachievements-272515:3703960")
+    implementation fg.deobf("curse.maven:embeddium-908741:4900800")
+    implementation fg.deobf("curse.maven:embeddium2-910506:4747651")
+    implementation fg.deobf("curse.maven:embeddium3-931925:4834377")
+    implementation fg.deobf("curse.maven:oculus-581495:4578744")
 
+    implementation fg.deobf("curse.maven:modern-ui-352491:4856470")
+    implementation fg.deobf("curse.maven:modernfix-790626:4924645")
 
-//    implementation fg.deobf("curse.maven:modern-ui-352491:4856470")
-//    implementation fg.deobf("curse.maven:modernfix-790626:4924645")
-//
-//    implementation fg.deobf("curse.maven:entity-collision-fps-fix-628345:3807498")
-//    implementation fg.deobf("curse.maven:just-enough-characters-250702:4901990")
-//
-//    implementation fg.deobf("curse.maven:appleskin-248787:4770822")
+    implementation fg.deobf("curse.maven:entity-collision-fps-fix-628345:3807498")
+    implementation fg.deobf("curse.maven:just-enough-characters-250702:4901990")
+
+    implementation fg.deobf("curse.maven:appleskin-248787:4770822")
 
     //implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.18:3.0.57')
 

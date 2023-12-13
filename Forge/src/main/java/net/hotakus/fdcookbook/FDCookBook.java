@@ -1,6 +1,8 @@
 package net.hotakus.fdcookbook;
 
 import com.mojang.logging.LogUtils;
+import net.hotakus.fdcookbook.blocks.BlockEntityRegister;
+import net.hotakus.fdcookbook.blocks.BlockRegister;
 import net.hotakus.fdcookbook.items.ItemsRegister;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -26,8 +28,9 @@ public class FDCookBook {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //ToysCraftRegister.register(eventBus);
         ItemsRegister.register(eventBus);
+        BlockRegister.register(eventBus);
+        BlockEntityRegister.register(eventBus);
 
         eventBus.addListener(this::setup);
 

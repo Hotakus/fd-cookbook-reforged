@@ -7,12 +7,11 @@
     {
       "type": "crafting_table",
       "foodname": "混合沙拉",
-      "item1": "farmersdelight:cabbage",
+      "item1": "farmersdelight:cabbage,farmersdelight:cabbage_leaf",
       "item2": "farmersdelight:tomato",
-      "item3": "farmersdelight:onion",
       "item4": "minecraft:beetroot",
       "item5": "minecraft:bowl",
-      "finalitem": "farmersdelight:fruit_salad",
+      "finalitem": "farmersdelight:mixed_salad",
       "hunger_amount": "x3",
       "saturation_amount": "x3.5",
       "effect": "$(#E65390)再生$()(0:05)"
