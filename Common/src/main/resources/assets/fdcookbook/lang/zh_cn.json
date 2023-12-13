@@ -1,8 +1,22 @@
 {
   "item.fdcookbook.fd_cookbook": "农夫乐事: 烹饪书",
-  "text.fdcookbook.fd_cookbook.landing_text": "农夫乐事: 烹饪书 由 Hotakus 重铸。$(br)这本书可以帮助你学习很多关于农夫乐事的基本知识",
+  "text.fdcookbook.fd_cookbook.landing_text": "$(l)$(playername)!$() 欢迎使用这本书。 $(br)农夫乐事: 烹饪书 由 Hotakus 重铸。$(br)这本书可以帮助你学习很多关于农夫乐事的基本知识，如果您发现了任何错误，请在 $(l)$(l:https://github.com/Hotakus/fd-cookbook-reforged/issues)Github$(/l)$() 或 $(l)$(l:https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-reforged/comments)CurseForge$(/l)$() 报告。$(br)若是旧版烹饪书，请重新制作以获得新版。",
   "tooltip.fdcookbook.fd_cookbook": "书 x1, 小麦种子 x1, 碗 x1",
 
+  "block.fdcookbook.fdcookbook": "§d农夫乐事烹饪书",
+
   "tooltip.fdcookbook.shift": "§7按住 §b§nSHIFT§r §7了解更多信息",
-  "tooltip.fdcookbook.fd_cookbook.tooltip.normal": "§7按住潜行键对准方块打开书本对应条目。"
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal": "§7按住潜行键对准方块打开书本对应条目。",
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal2": "§7按住§b§nALT§r§7键将烹饪书放在任意方块上。然后右键打开书本。",
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal3": "§7左键单击放置在块上的书以将其拾取",
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal4": "§7也许你可以把书放在炉灶上？",
+
+  "item.fdcookbook.fdcookbook_baked": "烧焦的书本",
+  "block.fdcookbook.fdcookbook_baked": "烧焦的书本",
+  "tooltip.fdcookbook.fdcookbook_baked.tooltip.normal": "§7烧焦的书本，已认不清字迹。",
+
+  "advancements.fdcookbook.fdcookbook.title": "获取烹饪书",
+  "advancements.fdcookbook.fdcookbook.description": "书是人类进步的阶梯",
+  "advancements.fdcookbook.burnt_books.title": "烧焦的书",
+  "advancements.fdcookbook.burnt_books.description": "民以食为天"
 }

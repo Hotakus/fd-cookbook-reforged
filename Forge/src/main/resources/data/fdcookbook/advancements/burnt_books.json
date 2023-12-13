@@ -1,20 +1,21 @@
 {
   "display": {
     "icon": {
-      "item": "fdcookbook:fd_cookbook"
+      "item": "fdcookbook:fdcookbook_baked"
     },
     "title": {
-      "translate": "advancements.fdcookbook.fdcookbook.title"
+      "translate": "advancements.fdcookbook.burnt_books.title"
     },
     "description": {
-      "translate": "advancements.fdcookbook.fdcookbook.description"
+      "translate": "advancements.fdcookbook.burnt_books.description"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false,
-    "background": "minecraft:textures/block/bricks.png"
+    "hidden": false
   },
+
+  "parent": "fdcookbook:fdcookbook",
 
   "criteria": {
     "requirement": {
@@ -23,7 +24,7 @@
         "items": [
           {
             "items": [
-              "fdcookbook:fd_cookbook"
+              "fdcookbook:fdcookbook_baked"
             ]
           }
         ]

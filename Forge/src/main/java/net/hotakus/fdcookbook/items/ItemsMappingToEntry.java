@@ -6,7 +6,7 @@ import vazkii.patchouli.api.PatchouliAPI;
 
 import java.util.Map;
 
-import static net.hotakus.fdcookbook.items.ItemsRegister.make;
+import static net.hotakus.fdcookbook.utils.utils.make;
 
 public class ItemsMappingToEntry {
 

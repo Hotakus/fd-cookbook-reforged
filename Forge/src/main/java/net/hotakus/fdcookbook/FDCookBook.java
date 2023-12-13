@@ -1,6 +1,8 @@
 package net.hotakus.fdcookbook;
 
 import com.mojang.logging.LogUtils;
+import net.hotakus.fdcookbook.blocks.BlockEntityRegister;
+import net.hotakus.fdcookbook.blocks.BlockRegister;
 import net.hotakus.fdcookbook.items.ItemsRegister;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,6 +29,8 @@ public class FDCookBook {
 
         //ToysCraftRegister.register(eventBus);
         ItemsRegister.register(eventBus);
+        BlockRegister.register(eventBus);
+        BlockEntityRegister.register(eventBus);
 
         eventBus.addListener(this::setup);
 

@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static net.hotakus.fdcookbook.items.ItemsRegister.make;
+import static net.hotakus.fdcookbook.utils.utils.make;
 
 public class ItemMappingData {
     static List<String> mappingRegisterList = List.of(

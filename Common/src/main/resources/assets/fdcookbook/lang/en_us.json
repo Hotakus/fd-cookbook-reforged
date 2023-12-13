@@ -1,8 +1,22 @@
 {
   "item.fdcookbook.fd_cookbook": "FD Cookbook",
-  "text.fdcookbook.fd_cookbook.landing_text": "Farmer's Delight Cookbook Reforged by Hotakus. $(br) This book may help you learn many knowledge about Farmer's Delight",
+  "text.fdcookbook.fd_cookbook.landing_text": "$(l)$(playername)!$() Welcome to use this book. $(br)Farmer's Delight Cookbook Reforged by Hotakus. $(br) This book may help you learn many knowledge about Farmer's Delight. $(br)If you find any errors, please report them to $(l)$(l:https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-reforged/comments)CurseForge$(/l)$() or $(l)$(l:https://github.com/Hotakus/fd-cookbook-reforged/issues)Github$(/l)$(). $(br)If it is an old version of the cookbook, please remake it to obtain a new version.",
   "tooltip.fdcookbook.fd_cookbook": "Book x1, Wheat seeds x1, Bowl x1",
 
+  "block.fdcookbook.fdcookbook": "§dFarmer's Delight Cookbook",
+
   "tooltip.fdcookbook.shift": "§7Hold §b§nSHIFT§r §7for more",
-  "tooltip.fdcookbook.fd_cookbook.tooltip.normal": "§7Hold down the sneak key and aim at the block to open the corresponding entry in the book."
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal": "§7Hold down the sneak key and aim at the block to open the corresponding entry in the book.",
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal2": "§7Hold down the §b§nALT§r §7key to place book on any block. And you can right click it to open book.",
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal3": "§7Left click the book placed on block to pick it up.",
+  "tooltip.fdcookbook.fd_cookbook.tooltip.normal4": "§7Maybe you can place book on stove?",
+
+  "item.fdcookbook.fdcookbook_baked": "Burnt Books",
+  "block.fdcookbook.fdcookbook_baked": "Burnt Books",
+  "tooltip.fdcookbook.fdcookbook_baked.tooltip.normal": "§7The burnt book is unrecognizable.",
+
+  "advancements.fdcookbook.fdcookbook.title": "Getting a Cookbook",
+  "advancements.fdcookbook.fdcookbook.description": "Books are the ladder of human progress.",
+  "advancements.fdcookbook.burnt_books.title": "Burnt Books",
+  "advancements.fdcookbook.burnt_books.description": "hunger breeds discontentment."
 }
