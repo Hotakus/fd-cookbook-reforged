@@ -46,6 +46,8 @@ public class CBItem extends Item {
 
         BlockState operationState = dirMap.get(dir);
 
+        block.getStateDefinition().getProperty("lean_against");
+
         if (operationState.getBlock() == Blocks.AIR) {
             level.setBlockAndUpdate(posMap.get(dir), block.defaultBlockState()
                     .setValue(CookBookBlock.FACING, player.getDirection().getOpposite()));

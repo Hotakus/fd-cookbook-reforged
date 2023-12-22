@@ -22,11 +22,13 @@
       "item8": "farmersdelight:tree_bark,minecraft:bone_meal",
       "item9": "farmersdelight:tree_bark,minecraft:bone_meal",
       "finalitem": "farmersdelight:organic_compost",
+      "anchor": "oc",
       "info": "要获得沃土，您首先需要制作有机肥料并将其转化为沃土"
     },
     {
       "type": "text",
       "title": "获得沃土",
+      "anchor": "grs",
       "text": "要转换有机肥料，您需要将其放置在世界中，随着时间的推移将其分解。$(br)进度也可以通过以下方式加快：$(br)$(li)棕色和红色蘑菇，以及它们的 $(l:basics/mushroom_colonies)菌群$()$(li)灰化土和菌丝$(li)其他有机肥料$(li)沃土，普通草地或耕地"
     },
     {

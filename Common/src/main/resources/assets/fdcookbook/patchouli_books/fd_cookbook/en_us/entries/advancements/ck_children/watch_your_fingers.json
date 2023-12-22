@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.use_cutting_board",
+  "icon": "farmersdelight:textures/block/cutting_board.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 2,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/craft_knife",
+  "turnin": "farmersdelight:main/use_cutting_board",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.watch_your_fingers_title",
+      "text": "patchouli.fdcookbook.advancements.watch_your_fingers_text",
+      "trigger": "farmersdelight:main/use_cutting_board"
+    }
+  ]
+}

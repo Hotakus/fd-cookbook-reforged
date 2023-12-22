@@ -17,6 +17,7 @@
       "item8": "minecraft:iron_ingot",
       "item9": "minecraft:iron_ingot",
       "finalitem": "farmersdelight:cooking_pot",
+      "anchor": "cookingpot",
       "info": "The Cooking Pot is a new workstation added by Farmers Delight which allows you to craft the majority of foods."
     },
     {
@@ -31,6 +32,7 @@
       "item5": "minecraft:iron_ingot",
       "item6": "minecraft:iron_ingot",
       "item7": "minecraft:brick",
+      "anchor": "skillet",
       "finalitem": "farmersdelight:skillet",
       "info": "Skillet. You can hold a skillet in one hand and raw food in the other, and fry it close to the fire."
     },
@@ -51,7 +53,8 @@
       "item8": "minecraft:campfire",
       "item9": "minecraft:brick",
       "finalitem": "farmersdelight:stove",
-      "info": "The stove is like a better Campfire, with the change that you can cook 6 Items simultaneously. "
+      "info": "The stove is like a better Campfire, with the change that you can cook 6 Items simultaneously. ",
+      "anchor": "stove"
     },
     {
       "type": "image_16_9",

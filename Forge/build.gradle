@@ -167,6 +167,8 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:jade-324717:${jade_id}")
 
     implementation fg.deobf("curse.maven:betterachievements-272515:3703960")
+    implementation fg.deobf("curse.maven:advancement-plaques-499826:3856125")
+    implementation fg.deobf("curse.maven:iceberg-520110:4035917")
     implementation fg.deobf("curse.maven:embeddium-908741:4900800")
     implementation fg.deobf("curse.maven:embeddium2-910506:4747651")
     implementation fg.deobf("curse.maven:embeddium3-931925:4834377")

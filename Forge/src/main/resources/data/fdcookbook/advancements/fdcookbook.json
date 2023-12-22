@@ -16,6 +16,8 @@
     "background": "minecraft:textures/block/bricks.png"
   },
 
+  "parent": "farmersdelight:main/root",
+
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

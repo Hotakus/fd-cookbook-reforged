@@ -17,6 +17,7 @@
       "item8": "minecraft:iron_ingot",
       "item9": "minecraft:iron_ingot",
       "finalitem": "farmersdelight:cooking_pot",
+      "anchor": "cookingpot",
       "info": "厨锅是农夫乐事添加的新工作方块，可让您制作大多数食物。"
     },
     {
@@ -32,6 +33,7 @@
       "item6": "minecraft:iron_ingot",
       "item7": "minecraft:brick",
       "finalitem": "farmersdelight:skillet",
+      "anchor": "skillet",
       "info": "煎锅。您可以一手持煎锅，一手持生食，然后靠近火源进行煎制。"
     },
     {
@@ -51,6 +53,7 @@
       "item8": "minecraft:campfire",
       "item9": "minecraft:brick",
       "finalitem": "farmersdelight:stove",
+      "anchor": "stove",
       "info": "炉子就像一个更好的篝火，区别是你可以同时烹饪6个物品。还可以放置烹饪厨具。"
     },
     {

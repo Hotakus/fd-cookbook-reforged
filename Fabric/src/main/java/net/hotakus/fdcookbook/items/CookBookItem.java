@@ -1,6 +1,6 @@
 package net.hotakus.fdcookbook.items;
 
-import net.hotakus.fdcookbook.Constants;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.hotakus.fdcookbook.api.CBItem;
 import net.hotakus.fdcookbook.blocks.BlockRegister;
 import net.hotakus.fdcookbook.networking.ModMessages;
@@ -26,8 +26,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.fml.common.Mod;
 import vazkii.patchouli.api.PatchouliAPI;
 
 import java.util.List;
@@ -36,11 +34,10 @@ import java.util.Map;
 import static net.hotakus.fdcookbook.items.ItemsMappingToEntry.getEntryLocation;
 import static net.hotakus.fdcookbook.items.ItemsMappingToEntry.isCookBookItem;
 
-@Mod.EventBusSubscriber(modid = Constants.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CookBookItem extends CBItem {
 
     public CookBookItem() {
-        super(new Properties()
+        super(new FabricItemSettings()
                 .tab(CreativeModeTab.TAB_FOOD)
                 .stacksTo(1)
                 .rarity(Rarity.EPIC)
@@ -54,7 +51,8 @@ public class CookBookItem extends CBItem {
 
         if (pLevel.isClientSide) {
             if (pUsedHand == InteractionHand.MAIN_HAND && !Screen.hasShiftDown() && !Screen.hasAltDown()) {
-                ModMessages.sendToServer(new OpenGuiC2SPacket());
+                //pPlayer.sendMessage(new TextComponent("Open GUI"), pPlayer.getUUID());
+                ModMessages.sendToServer(ModMessages.COOKBOOK_OPEN_GUI_ID, new OpenGuiC2SPacket().getBuf());
                 res = InteractionResult.SUCCESS;
             }
         } else {
@@ -74,25 +72,30 @@ public class CookBookItem extends CBItem {
 
         if (level.isClientSide) {
             if (Screen.hasShiftDown() && !Screen.hasAltDown()) {
-                //pContext.getPlayer().sendMessage(new TextComponent("Server: hasShiftDown"),
-                //        pContext.getPlayer().getUUID());
-                ResourceLocation registryName = blockState.getBlock().getRegistryName();
+//                pContext.getPlayer().sendMessage(new TextComponent("hasShiftDown"),
+//                        pContext.getPlayer().getUUID());
+                ResourceLocation registryName = blockState.getBlock().getLootTable();
                 pContext.getPlayer().swing(pContext.getHand(), true);
-                if (registryName != null && isCookBookItem(registryName)) {
+                if (isCookBookItem(registryName)) {
                     Map.Entry<ResourceLocation, Integer> entry = getEntryLocation(registryName);
-
-                    var packet = new OpenEntryC2SPacket();
-                    packet.setBookEntry(pContext.getPlayer().getUUID(), entry.getKey(), entry.getValue());
-                    ModMessages.sendToServer(packet);
+                    if (entry != null) {
+                        var packet = new OpenEntryC2SPacket();
+                        packet.setBookEntry(pContext.getPlayer().getUUID(), entry.getKey(), entry.getValue());
+                        ModMessages.sendToServer(ModMessages.COOKBOOK_OPEN_ENTRY_ID, packet.getBuf());
+                    } else {
+                        pContext.getPlayer().sendMessage(new TextComponent("Entry not found: " + registryName),
+                                pContext.getPlayer().getUUID());
+                        res = InteractionResult.PASS;
+                    }
                     res = InteractionResult.SUCCESS;
                 }
             } else if (Screen.hasAltDown()) {
-                //pContext.getPlayer().sendMessage(new TextComponent("hasAltDown!"), pContext.getPlayer().getUUID());
+//                pContext.getPlayer().sendMessage(new TextComponent("hasAltDown!"), pContext.getPlayer().getUUID());
                 var packet = new PlaceCBBlockC2SPacket();
                 var placeEntry = new PlaceCBBlockC2SPacket.PlaceEntry(
-                        pos, BlockRegister.FD_COOKBOOK_BLOCK.get().getRegistryName(), pContext.getClickedFace());
+                        pos, BlockRegister.FD_COOKBOOK_BLOCK.getLootTable(), pContext.getClickedFace());
                 packet.addPlayerPlace(pContext.getPlayer().getUUID(), placeEntry);
-                ModMessages.sendToServer(packet);
+                ModMessages.sendToServer(ModMessages.COOKBOOK_PLACE_BLOCK_ID, packet.getBuf());
                 res = InteractionResult.SUCCESS;
             }
         } else {

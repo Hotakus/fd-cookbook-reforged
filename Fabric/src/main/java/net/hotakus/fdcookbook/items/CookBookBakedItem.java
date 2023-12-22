@@ -1,5 +1,6 @@
 package net.hotakus.fdcookbook.items;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.hotakus.fdcookbook.api.CBItem;
 import net.hotakus.fdcookbook.blocks.BlockRegister;
 import net.hotakus.fdcookbook.networking.ModMessages;
@@ -22,14 +23,14 @@ import java.util.List;
 
 public class CookBookBakedItem extends CBItem {
     public CookBookBakedItem() {
-        super(new Properties()
+        super(new FabricItemSettings()
                 .tab(CreativeModeTab.TAB_FOOD)
                 .stacksTo(1)
                 .food(new FoodProperties.Builder()
                         .alwaysEat()
                         .nutrition(6)
                         .saturationMod(0.0f)
-                        .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 3600, 4), 1f)
+                        .effect(new MobEffectInstance(MobEffects.HUNGER, 3600, 4), 1f)
                         .build()
                 )
         );
@@ -41,9 +42,9 @@ public class CookBookBakedItem extends CBItem {
             if (Screen.hasShiftDown()) {
                 var packet = new PlaceCBBlockC2SPacket();
                 var placeEntry = new PlaceCBBlockC2SPacket.PlaceEntry(
-                        pContext.getClickedPos(), BlockRegister.FD_COOKBOOK_BAKED_BLOCK.get().getRegistryName(), pContext.getClickedFace());
+                        pContext.getClickedPos(), BlockRegister.FD_COOKBOOK_BAKED_BLOCK.getLootTable(), pContext.getClickedFace());
                 packet.addPlayerPlace(pContext.getPlayer().getUUID(), placeEntry);
-                ModMessages.sendToServer(packet);
+                ModMessages.sendToServer(ModMessages.COOKBOOK_PLACE_BLOCK_ID, packet.getBuf());
             }
         }
         return InteractionResult.SUCCESS;

@@ -11,7 +11,7 @@ import static net.hotakus.fdcookbook.blocks.CookBookBlock.clearCookMap;
 public class CookBookBlockEntity extends BlockEntity {
 
     public CookBookBlockEntity(BlockPos pPos, BlockState pBlockState) {
-        super(BlockEntityRegister.COOKBOOK_BLOCK_ENTITY.get(), pPos, pBlockState);
+        super(BlockEntityRegister.COOKBOOK_BLOCK_ENTITY_TYPE, pPos, pBlockState);
     }
 
     static int ticks = 0;

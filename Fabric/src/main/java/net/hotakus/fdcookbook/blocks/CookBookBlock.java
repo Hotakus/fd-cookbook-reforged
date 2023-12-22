@@ -1,5 +1,6 @@
 package net.hotakus.fdcookbook.blocks;
 
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.hotakus.fdcookbook.api.CBBlock;
 import net.hotakus.fdcookbook.items.ItemsRegister;
 import net.hotakus.fdcookbook.utils.utils;
@@ -21,7 +22,6 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
 import net.minecraft.world.level.block.entity.BlockEntityType;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -53,7 +53,7 @@ public class CookBookBlock extends CBBlock {
     private static final BooleanProperty IS_LEAN_AGAINST = BooleanProperty.create("lean_against");
 
     public CookBookBlock() {
-        super(BlockBehaviour.Properties
+        super(FabricBlockSettings
                 .of(Material.WOOL)
                 .noOcclusion()
                 .strength(3)
@@ -83,7 +83,7 @@ public class CookBookBlock extends CBBlock {
 
     @Override
     public void attack(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer) {
-        leftClickToPickup(pState, pLevel, pPos, pPlayer, ItemsRegister.FD_COOKBOOK.get(), SoundEvents.WOOD_BREAK);
+        leftClickToPickup(pState, pLevel, pPos, pPlayer, ItemsRegister.FD_COOKBOOK, SoundEvents.WOOD_BREAK);
     }
 
     @Override
@@ -134,29 +134,24 @@ public class CookBookBlock extends CBBlock {
     }
 
     public static void cookCheck(Level pLevel, BlockPos pPos) {
-
         if (pLevel.isClientSide) {
             return;
         }
 
-//        System.out.println("current size: " + cookMap.size());
         cookMapIsUsing = true;
         cookMap.putIfAbsent(pPos, 0);
         for (Map.Entry<BlockPos, Integer> entry : cookMap.entrySet()) {
             if (pPos.equals(entry.getKey())) {
                 entry.setValue(entry.getValue() + updateTicks);
                 if (entry.getValue() >= cook_time_needed) {
-//                    System.out.println("cook");
                     BlockState selfState = pLevel.getBlockState(entry.getKey());
                     pLevel.destroyBlock(entry.getKey(), false);
                     pLevel.setBlockAndUpdate(entry.getKey(),
-                            BlockRegister.FD_COOKBOOK_BAKED_BLOCK.get().defaultBlockState().setValue(FACING, selfState.getValue(FACING))
+                            BlockRegister.FD_COOKBOOK_BAKED_BLOCK.defaultBlockState().setValue(FACING, selfState.getValue(FACING))
                     );
                     entry.setValue(0);
-                    //cookMap.remove(entry.getKey());
                 } else {
-//                    System.out.println("Block pos: " + entry.getKey() + "are cooking... " + "(" + cookMap.size() + ")" +
-//                            "time left: " + entry.getValue());
+
                 }
             }
         }
@@ -176,12 +171,12 @@ public class CookBookBlock extends CBBlock {
             pLevel.destroyBlock(pPos, false);
             pLevel.addFreshEntity(new ItemEntity(
                     pLevel, pPos.getX(), pPos.getY(), pPos.getZ(),
-                    ItemsRegister.FD_COOKBOOK.get().getDefaultInstance())
+                    ItemsRegister.FD_COOKBOOK.getDefaultInstance())
             );
             pLevel.playSound(null, pPos, SoundEvents.WOOL_BREAK, SoundSource.BLOCKS, 1.0F, 1.0F);
         } else {
-            if (Objects.equals(state.getBlock().getRegistryName(), utils.make("farmersdelight", "stove"))) {
-                //System.out.println(pPos + "on stove");
+            if (Objects.equals(state.getBlock().getLootTable(), utils.make("farmersdelight", "blocks/stove"))) {
+                // System.out.println(pPos + "on stove");
                 cookCheck(pLevel, pPos);
             }
         }
@@ -208,7 +203,7 @@ public class CookBookBlock extends CBBlock {
         if (pLevel.isClientSide) {
             return null;
         }
-        return pBlockEntityType == BlockEntityRegister.COOKBOOK_BLOCK_ENTITY.get() ?
+        return pBlockEntityType == BlockEntityRegister.COOKBOOK_BLOCK_ENTITY_TYPE ?
                 CookBookBlockEntity::tick : null;
     }
 

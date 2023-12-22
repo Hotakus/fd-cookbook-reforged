@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.get_ham",
+  "icon": "farmersdelight:textures/item/ham.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 2,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/craft_knife",
+  "turnin": "farmersdelight:main/get_ham",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.wild_butcher_title",
+      "text": "patchouli.fdcookbook.advancements.wild_butcher_text",
+      "trigger": "farmersdelight:main/get_ham"
+    }
+  ]
+}

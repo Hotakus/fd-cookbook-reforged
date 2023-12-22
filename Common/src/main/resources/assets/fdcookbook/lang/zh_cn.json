@@ -18,5 +18,71 @@
   "advancements.fdcookbook.fdcookbook.title": "获取烹饪书",
   "advancements.fdcookbook.fdcookbook.description": "书是人类进步的阶梯",
   "advancements.fdcookbook.burnt_books.title": "烧焦的书",
-  "advancements.fdcookbook.burnt_books.description": "民以食为天"
+  "advancements.fdcookbook.burnt_books.description": "民以食为天",
+
+  "patchouli.fdcookbook.advancements.bonfile_lit_title": "点燃营火",
+  "patchouli.fdcookbook.advancements.bonfile_lit_text": "...这，这是哪？我拍了拍自己脑袋醒了醒神，面对这陌生的环境我有点发怵。我$(playername)可是大名鼎鼎的荒野求生专家！不能害怕！$(br)在给自己打足了气后，我站起身说道：“时间不早了，夜晚危险重重，要点起篝火才行！”，随后我制作起了篝火，平安的度过了夜晚。",
+  "patchouli.fdcookbook.advancements.bonfile_lit_text2": "也许我可以做一个$(l:tools/cookingpot_stove#stove)炉灶$()?",
+
+  "patchouli.fdcookbook.advancements.crops_of_the_wild_title": "野生作物",
+  "patchouli.fdcookbook.advancements.crops_of_the_wild_text": "野外生存，吃食非常重要，即使深陷荒野，我也依然要吃好的东西，这是我和我最后的倔强。$(br)我手持小刀，四处探寻...有了！野生的蔬菜！该用手还是用刀收割呢？",
+  "patchouli.fdcookbook.advancements.crops_of_the_wild_text2": "我得先了解一下野外都有什么$(l:basics/wild_crops)野生作物$()。",
+
+  "patchouli.fdcookbook.advancements.craft_knife_title": "趁手的工具",
+  "patchouli.fdcookbook.advancements.craft_knife_text": "荒野求生，一把趁手的工具是必不可少的，我环顾四周...有了！水边的沙砾可以找出燧石，也许用燧石我就可以做出一把小刀了！荒郊野岭又如何！$(br)高兴之余，我冲向水边，翻找起了燧石。",
+  "patchouli.fdcookbook.advancements.craft_knife_text2": "也许我可以做不同材质的$(l:tools/knife)刀$()?",
+
+  "patchouli.fdcookbook.advancements.dinners_served_title": "也许我该吃点好的",
+  "patchouli.fdcookbook.advancements.dinners_served_text": "夜晚，我开始思考人生，我是怎么来到这个世界的？为什么我叫$(playername)？为什么今晚不吃点好的...等等，我怎么思考到吃的了？不过确实该想想该怎么做点好菜了，也许我应该做一个$(l:tools/cookingpot_stove#cookingpot)厨锅$()在$(l:tools/cookingpot_stove#stove)炉灶$()上做点菜？",
+
+  "patchouli.fdcookbook.advancements.portable_cooking_title": "炒点菜？",
+  "patchouli.fdcookbook.advancements.portable_cooking_text": "我来到这个世界很久了，我意识到这个世界是一个奇幻的世界，有僵尸，有小白，有瘦长鬼影...真是可怕的世界。$(br)今晚得用$(l:tools/cookingpot_stove#skillet)煎锅$()犒劳一下自己，在这个危险的世界，每天都应该享受！",
+
+  "patchouli.fdcookbook.advancements.sizzling_hot_title": "电磁炉",
+  "patchouli.fdcookbook.advancements.sizzling_hot_text": "令我没想到的是，这个世界有股奇怪的力量，它可以让煎锅自动炒菜，只需要把$(l:tools/cookingpot_stove#skillet)煎锅$()放置在$(l:tools/cookingpot_stove#stove)炉灶$()上，再把食物放进去就可以了。",
+
+  "patchouli.fdcookbook.advancements.watch_your_fingers_title": "砧板沾满了血",
+  "patchouli.fdcookbook.advancements.watch_your_fingers_text": "说起来很惭愧，我虽然是野外求生专家，但是厨艺一般，所以我决定在这个世界中，努力锻炼厨艺，我先做一个$(l:tools/cutting_board)砧板$()吧。嗷...不小心用$(l:tools/knife)刀$()切到手指了，$(l:tools/cutting_board)砧板$()上全是血，我为什么要用这么大力？",
+
+  "patchouli.fdcookbook.advancements.if_you_title": "普通的装备升级",
+  "patchouli.fdcookbook.advancements.if_you_text": "我发现了一个大秘密，嘘！这个秘密就是，这个世界有$(l)地狱$()！机缘巧合下，我发现地狱有一种$(#57291a)远古残骸$()，其制成的下界合金是这个世界上最坚固的东西！也许我可以把它制作成$(l:tools/knife)刀$()？有意思！",
+
+  "patchouli.fdcookbook.advancements.wild_butcher_title": "狂野屠夫",
+  "patchouli.fdcookbook.advancements.wild_butcher_text": "很奇怪，我发现这个世界在影响我的心智，我正在变得嗜杀...受不了了！我的$(l:tools/knife)刀$()早已饥渴难耐！噗嗤，血液喷溅而出，它被我杀了。$(br)太棒了！是猪肉火腿！晚饭有着落了！",
+
+  "patchouli.fdcookbook.advancements.grasping_at_straws_title": "救命稻草",
+  "patchouli.fdcookbook.advancements.grasping_at_straws_text": "这是个美丽的世界，我最终还是决定在这个世界长久的生存下去，但是现在，我急需$(l:basics/straw#lead)拴绳$()，但是制作栓塞需要稻草，我尝试用$(l:tools/knife)刀$()收割水稻，果然！我获得了稻草，这样我就可以控制住动物们了。",
+
+  "patchouli.fdcookbook.advancements.advanced_composting_title": "堆肥",
+  "patchouli.fdcookbook.advancements.advanced_composting_text": "现在每天的农耕生活使我非常的快乐，但是这个世界的怪物实在太多了，而且他们居然踩坏了我的庄稼！我实在不能忍受这一点，所以我决定研究出一种新型的土壤...有了！我可以制作$(l:basics/rich_soil#oc)有机肥料$()！变成$(l:basics/rich_soil#grs)沃土$()后就不用担心庄稼被踩坏的问题了！",
+
+  "patchouli.fdcookbook.advancements.plant_food_title": "沃土！",
+  "patchouli.fdcookbook.advancements.plant_food_text": "经过不懈地努力，我终于制作出了$(l:basics/rich_soil#oc)有机肥料$()，但是有机肥料上不能直接种植农作物，也许我应该把它放置在地上，然后等它自然转变成$(l:basics/rich_soil#grs)沃土$()。",
+
+  "patchouli.fdcookbook.advancements.comforting_title": "舒适生活",
+  "patchouli.fdcookbook.advancements.comforting_text": "啊！热腾腾的白米饭！自从我来到了这个世界，还没有吃过家乡的美食，但是这里的(l:recipes/noodles)米饭$()有种特别的效果，我吃下这里的米饭后，获得了$(l:basics/effects)舒适$()效果，现在的我充满的力量！",
+
+  "patchouli.fdcookbook.advancements.nourishing_title": "滋养",
+  "patchouli.fdcookbook.advancements.nourishing_text": "这些日子里，我接触到了越来越多的美食，例如培根鸡蛋，肉丸意面，羊排意面，蘑菇饭，烤羊排等。还有更多美食在等着我，我不能懈怠，赶快动手吧！",
+
+  "patchouli.fdcookbook.advancements.glorious_feast_title": "美好假期",
+  "patchouli.fdcookbook.advancements.glorious_feast_text": "一年过去了，我来到这个世界已经很久了，我却没有过任何一个节日，在这个世界生存使我疲于奔命，要不我今晚放松一下？决定了！今晚吃(l:recipes/feasts)烤鸡$()！大盘的！",
+
+  "patchouli.fdcookbook.advancements.fungus_among_us_title": "真菌！",
+  "patchouli.fdcookbook.advancements.fungus_among_us_text": "哇，令我没想到的是，红蘑菇和棕蘑菇竟然能种在沃土上，他们的菌落要比普通的蘑菇要更容易生存，也许蘑菇时代来临了，我受不了了，赶紧弄一碗蘑菇饭。$(br)或许我应该弄更多的$(l:basics/rich_soil#grs)沃土$()？",
+
+  "patchouli.fdcookbook.advancements.tall_mato_title": "你长得好高！",
+  "patchouli.fdcookbook.advancements.tall_mato_text": "偶然间，我不小心将绳子放到了番茄庄稼上，当我想拆除这跟$(l:basics/rope)绳子$()时，神奇的事情发生了！番茄藤蔓竟然攀爬到了绳子上，它们会在上面生长！$(br)仔细想想，这样的种植方法或许可以增加番茄亩产！看来我的仓库要爆仓了！",
+
+  "patchouli.fdcookbook.advancements.dipping_your_roots_title": "种水稻？",
+  "patchouli.fdcookbook.advancements.dipping_your_roots_text": "这么多天了，我在想这个世界有没有一种能在水里生长的农作物呢，对了，这种农作物叫水稻！$(br)我即刻动身，终于在水边发现了水稻。或许可以用$(l:tools/knife)刀$()收割？",
+
+  "patchouli.fdcookbook.advancements.boo_hiss_title": "噗叽啪",
+  "patchouli.fdcookbook.advancements.boo_hiss_text": "咦，好恶心！当我一如往常地在美丽的农田里收获美味的番茄时，突然闻到一股恶臭！我寻味而去...$(br)我看见了一个浑身爬满蛆虫、满身烂肉，散发阵阵恶臭的西“黑”柿。虽然很恶心，但我还是把它摘了下来，打算处理掉。$(br)等等，或许我可以把它当作投掷物往掠夺者身上丢？那帮恶心的家伙，我早就看不顺眼了。",
+
+  "patchouli.fdcookbook.advancements.crop_rotation_title": "轮植",
+  "patchouli.fdcookbook.advancements.crop_rotation_text": "尝试将每种农作物都种植一遍",
+
+  "patchouli.fdcookbook.advancements.master_chef_title": "我简直就是大厨！",
+  "patchouli.fdcookbook.advancements.master_chef_text": "尝试将所有菜肴都吃一遍。"
 }

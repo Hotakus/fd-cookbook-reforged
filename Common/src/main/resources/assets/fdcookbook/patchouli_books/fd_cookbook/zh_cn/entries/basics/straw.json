@@ -33,7 +33,8 @@
       "item5": "farmersdelight:straw",
       "item9": "farmersdelight:straw",
       "finalitem": "minecraft:lead",
-      "info": "绳子可用于制作拴绳。"
+      "anchor": "lead",
+      "info": "稻草可用于制作拴绳。"
     },
     {
       "type": "crafting_table_nofood",

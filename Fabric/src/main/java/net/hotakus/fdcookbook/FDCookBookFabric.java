@@ -2,7 +2,10 @@ package net.hotakus.fdcookbook;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
-import net.hotakus.fdcookbook.item.ItemRegister;
+import net.hotakus.fdcookbook.blocks.BlockEntityRegister;
+import net.hotakus.fdcookbook.blocks.BlockRegister;
+import net.hotakus.fdcookbook.items.ItemsRegister;
+import net.hotakus.fdcookbook.networking.ModMessages;
 
 public class FDCookBookFabric implements ModInitializer {
 
@@ -16,9 +19,11 @@ public class FDCookBookFabric implements ModInitializer {
         // Use Fabric to bootstrap the Common mod.
         Constants.LOG.info("Hello Fabric world!");
         CommonClass.init();
+        ItemsRegister.register();
+        BlockRegister.register();
+        BlockEntityRegister.register();
+        ModMessages.registerC2SPackets();
 
-        ItemRegister.register();
-        
         // Some code like events require special initialization from the
         // loader specific code.
         ItemTooltipCallback.EVENT.register(CommonClass::onItemTooltip);

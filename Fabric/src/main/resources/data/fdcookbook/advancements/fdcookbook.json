@@ -3,14 +3,20 @@
     "icon": {
       "item": "fdcookbook:fd_cookbook"
     },
-    "title": "Farmer's Cookbook",
-    "description": "Get a Cookbook",
+    "title": {
+      "translate": "advancements.fdcookbook.fdcookbook.title"
+    },
+    "description": {
+      "translate": "advancements.fdcookbook.fdcookbook.description"
+    },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,
-    "background": "minecraft:textures/block/dirt.png"
+    "background": "minecraft:textures/block/bricks.png"
   },
+
+  "parent": "farmersdelight:main/root",
 
   "criteria": {
     "requirement": {

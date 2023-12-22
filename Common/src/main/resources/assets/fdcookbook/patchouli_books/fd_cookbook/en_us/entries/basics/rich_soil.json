@@ -22,11 +22,13 @@
       "item8": "farmersdelight:tree_bark,minecraft:bone_meal",
       "item9": "farmersdelight:tree_bark,minecraft:bone_meal",
       "finalitem": "farmersdelight:organic_compost",
+      "anchor": "oc",
       "info": "To get Rich Soil you first need to craft Organic Compost and convert it to Rich Soil"
     },
     {
       "type": "text",
       "title": "Getting Rich Soil",
+      "anchor": "grs",
       "text": "To convert Organic Compost you need to decompose it over time by placing it in the world.$(br)The progress can also be speed up by:$(br)$(li)Brown and Red Mushrooms, and their $(l:basics/mushroom_colonies)Colonies$()$(li)Podzol and Mycelium$(li)Other blocks of Organic Compost$(li)Rich Soil, normal or farmland"
     },
     {

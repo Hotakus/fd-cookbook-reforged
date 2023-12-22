@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.get_rich_soil",
+  "icon": "farmersdelight:textures/block/rich_soil.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 3,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/place_organic_compost",
+  "turnin": "farmersdelight:main/get_rich_soil",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.plant_food_title",
+      "text": "patchouli.fdcookbook.advancements.plant_food_text",
+      "trigger": "farmersdelight:main/get_rich_soil"
+    }
+  ]
+}
