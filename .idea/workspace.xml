@@ -4,90 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="update: mass update for new version">
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bl_children/comforting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bl_children/dinners_served.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bl_children/glorious_feast.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bl_children/master_chef.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bl_children/nourishing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bl_children/portable_cooking.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bl_children/sizzling_hot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/bonfire_lit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/ck_children/advanced_composting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/ck_children/grasping_at_straws.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/ck_children/if_you.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/ck_children/plant_food.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/ck_children/watch_your_fingers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/ck_children/wild_butcher.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/cotw_children/boo_hiss.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/cotw_children/crop_rotation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/cotw_children/dipping_your_roots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/cotw_children/fungus_among_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/cotw_children/tall_mato.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/craft_knife.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/advancements/crops_of_the_wild.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/api/CBBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/api/CBItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/blocks/BlockEntityRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/blocks/BlockRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBakedBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBlockEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/CookBookBakedItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/ItemMappingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/ItemsMappingToEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/ItemsRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/networking/ModMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/networking/packets/OpenEntryC2SPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/networking/packets/OpenGuiC2SPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/networking/packets/PlaceCBBlockC2SPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/utils/utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/advancements/burnt_books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/ClientEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/ModMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/OpenEntryC2SPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/OpenGuiC2SPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/Packets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/PlaceCBBlockC2SPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/PlayerActionsC2SPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/lang/zh_cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/lang/zh_cn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/rich_soil.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/rich_soil.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/basics/straw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/tools/cookingpot_stove.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/en_us/entries/tools/cookingpot_stove.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/rich_soil.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/rich_soil.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/basics/straw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/noodles.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/recipes/noodles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/tools/cookingpot_stove.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/patchouli_books/fd_cookbook/zh_cn/entries/tools/cookingpot_stove.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/block/fdcookbook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/block/fdcookbook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/block/fdcookbook_baked.png" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/block/fdcookbook_baked.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/gui/cookbook.pdn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/gui/cookbook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/gui/cookbook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/gui/cookbook/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/gui/modpage_crafting_recipe.pdn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/gui/modpage_crafting_recipe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/gui/page_filler.png" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/assets/fdcookbook/textures/gui/page_filler.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/FDCookBookFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/FDCookBookFabric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/item/CookBookItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/item/ItemRegister.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/advancements/fdcookbook.json" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/advancements/fdcookbook.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fabric/src/main/resources/data/fdcookbook/recipes/fd_cookbook2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/FDCookBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/FDCookBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/api/CBBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/api/CBBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/api/CBItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/api/CBItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBlockEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBlockEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookBakedItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookBakedItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/data/fdcookbook/advancements/fdcookbook.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/data/fdcookbook/advancements/fdcookbook.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/data/fdcookbook/recipes/fd_cookbook1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/data/fdcookbook/recipes/fd_cookbook2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-    </list>
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="feat: compatible with server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -430,38 +347,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701825324305</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fix(json): some bug about book">
-      <option name="closed" value="true" />
-      <created>1701915484403</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1701915484403</updated>
-    </task>
-    <task id="LOCAL-00012" summary="refactor(book): assets' position">
-      <option name="closed" value="true" />
-      <created>1701915528597</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1701915528597</updated>
-    </task>
-    <task id="LOCAL-00013" summary="docs(readme): some contents">
-      <option name="closed" value="true" />
-      <created>1701915707416</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1701915707416</updated>
-    </task>
-    <task id="LOCAL-00014" summary="docs(readme): some contents">
-      <option name="closed" value="true" />
-      <created>1701915809103</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1701915809103</updated>
     </task>
     <task id="LOCAL-00015" summary="docs(readme): some contents">
       <option name="closed" value="true" />
@@ -823,7 +708,39 @@
       <option name="project" value="LOCAL" />
       <updated>1702483736518</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="delete: useless assets">
+      <option name="closed" value="true" />
+      <created>1703287276646</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1703287276646</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: advancements contents">
+      <option name="closed" value="true" />
+      <created>1703287398702</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1703287398702</updated>
+    </task>
+    <task id="LOCAL-00062" summary="delete: useless assets">
+      <option name="closed" value="true" />
+      <created>1703287416931</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1703287416932</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat: compatible with server">
+      <option name="closed" value="true" />
+      <created>1703287519849</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1703287519849</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -838,9 +755,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor: gitignore" />
-    <MESSAGE value="update: iml file" />
-    <MESSAGE value="refactor: ignore file" />
     <MESSAGE value="update: version check file" />
     <MESSAGE value="update: new logo" />
     <MESSAGE value="chore: fabric version" />
@@ -863,7 +777,10 @@
     <MESSAGE value="feat: item mapping completely" />
     <MESSAGE value="fix: missing translations" />
     <MESSAGE value="update: mass update for new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: mass update for new version" />
+    <MESSAGE value="feat: advancements contents" />
+    <MESSAGE value="delete: useless assets" />
+    <MESSAGE value="feat: compatible with server" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: compatible with server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
