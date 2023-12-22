@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.place_feast",
+  "icon": "farmersdelight:textures/item/roast_chicken_block.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 5,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/eat_nourishing_food",
+  "turnin": "farmersdelight:main/place_feast",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.glorious_feast_title",
+      "text": "patchouli.fdcookbook.advancements.glorious_feast_text",
+      "trigger": "farmersdelight:main/place_feast"
+    }
+  ]
+}

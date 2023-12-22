@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.eat_nourishing_food",
+  "icon": "farmersdelight:textures/item/steak_and_potatoes.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 4,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/eat_comfort_food",
+  "turnin": "farmersdelight:main/eat_nourishing_food",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.nourishing_title",
+      "text": "patchouli.fdcookbook.advancements.nourishing_text",
+      "trigger": "farmersdelight:main/eat_nourishing_food"
+    }
+  ]
+}

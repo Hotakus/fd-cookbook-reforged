@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.obtain_netherite_knife",
+  "icon": "minecraft:textures/item/netherite_ingot.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 8,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/use_cutting_board",
+  "turnin": "farmersdelight:main/obtain_netherite_knife",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.if_you_title",
+      "text": "patchouli.fdcookbook.advancements.if_you_text",
+      "trigger": "farmersdelight:main/obtain_netherite_knife"
+    }
+  ]
+}

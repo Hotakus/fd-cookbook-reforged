@@ -1,0 +1,26 @@
+{
+  "name": "farmersdelight.advancement.craft_knife",
+  "icon": "farmersdelight:textures/item/flint_knife.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 1,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/place_campfire",
+  "turnin": "farmersdelight:main/craft_knife",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.craft_knife_title",
+      "text": "patchouli.fdcookbook.advancements.craft_knife_text",
+      "trigger": "farmersdelight:main/craft_knife"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "Flint Knife",
+      "item2": "minecraft:flint",
+      "item4": "minecraft:stick",
+      "finalitem": "farmersdelight:flint_knife",
+      "info": "patchouli.fdcookbook.advancements.craft_knife_text2"
+    }
+  ]
+}

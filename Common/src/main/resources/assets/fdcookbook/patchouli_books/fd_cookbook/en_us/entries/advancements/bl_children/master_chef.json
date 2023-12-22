@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.master_chef",
+  "icon": "farmersdelight:textures/item/honey_glazed_ham.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 5,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/place_feast",
+  "turnin": "farmersdelight:main/master_chef",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.master_chef_title",
+      "text": "patchouli.fdcookbook.advancements.master_chef_text",
+      "trigger": "farmersdelight:main/master_chef"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.eat_comfort_food",
+  "icon": "farmersdelight:textures/item/baked_cod_stew.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 3,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/place_cooking_pot",
+  "turnin": "farmersdelight:main/eat_comfort_food",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.comforting_title",
+      "text": "patchouli.fdcookbook.advancements.comforting_text",
+      "trigger": "farmersdelight:main/eat_comfort_food"
+    }
+  ]
+}

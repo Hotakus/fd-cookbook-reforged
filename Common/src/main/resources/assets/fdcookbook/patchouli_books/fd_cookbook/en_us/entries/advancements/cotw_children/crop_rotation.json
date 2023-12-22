@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.plant_all_crops",
+  "icon": "farmersdelight:textures/item/cabbage.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 3,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/plant_rice",
+  "turnin": "farmersdelight:main/plant_all_crops",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.crop_rotation_title",
+      "text": "patchouli.fdcookbook.advancements.crop_rotation_text",
+      "trigger": "farmersdelight:main/plant_all_crops"
+    }
+  ]
+}

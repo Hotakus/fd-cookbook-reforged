@@ -1,0 +1,22 @@
+{
+  "name": "farmersdelight.advancement.get_fd_seed",
+  "icon": "minecraft:textures/item/seagrass.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 1,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/place_campfire",
+  "turnin": "farmersdelight:main/get_fd_seed",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.crops_of_the_wild_title",
+      "text": "patchouli.fdcookbook.advancements.crops_of_the_wild_text",
+      "trigger": "farmersdelight:main/get_fd_seed"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "patchouli.fdcookbook.advancements.crops_of_the_wild_text2"
+    }
+  ]
+}

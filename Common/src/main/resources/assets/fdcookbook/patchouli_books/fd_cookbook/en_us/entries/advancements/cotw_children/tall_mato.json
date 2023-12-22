@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.harvest_ropelogged_tomato",
+  "icon": "farmersdelight:textures/block/tomatoes_vine_stage3.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 2,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/get_fd_seed",
+  "turnin": "farmersdelight:main/harvest_ropelogged_tomato",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.tall_mato_title",
+      "text": "patchouli.fdcookbook.advancements.tall_mato_text",
+      "trigger": "farmersdelight:main/harvest_ropelogged_tomato"
+    }
+  ]
+}

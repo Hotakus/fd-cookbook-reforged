@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.hit_raider_with_rotten_tomato",
+  "icon": "farmersdelight:textures/item/rotten_tomato.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 2,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/harvest_ropelogged_tomato",
+  "turnin": "farmersdelight:main/hit_raider_with_rotten_tomato",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.boo_hiss_title",
+      "text": "patchouli.fdcookbook.advancements.boo_hiss_text",
+      "trigger": "farmersdelight:main/hit_raider_with_rotten_tomato"
+    }
+  ]
+}

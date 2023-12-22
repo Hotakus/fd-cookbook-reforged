@@ -1,0 +1,30 @@
+{
+  "name": "farmersdelight.advancement.place_campfire",
+  "icon": "minecraft:textures/item/campfire.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 0,
+  "priority": true,
+  "read_by_default": true,
+  "turnin": "farmersdelight:main/place_campfire",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.bonfile_lit_title",
+      "text": "patchouli.fdcookbook.advancements.bonfile_lit_text",
+      "trigger": "farmersdelight:main/place_campfire"
+    },
+    {
+      "type": "crafting_table_nofood",
+      "foodname": "Campfire",
+      "item2": "minecraft:stick",
+      "item4": "minecraft:stick",
+      "item5": "minecraft:coal,minecraft:charcoal",
+      "item6": "minecraft:stick",
+      "item7": "minecraft:oak_log,minecraft:stripped_oak_log,minecraft:stripped_dark_oak_log,minecraft:dark_oak_log,minecraft:spruce_log,minecraft:stripped_spruce_log,minecraft:birch_log,minecraft:stripped_birch_log,minecraft:jungle_log,minecraft:stripped_jungle_log,minecraft:acacia_log,minecraft:stripped_acacia_log,minecraft:crimson_stem,minecraft:stripped_crimson_stem,minecraft:warped_stem,minecraft:stripped_warped_stem,minecraft:oak_wood,minecraft:stripped_oak_wood,minecraft:stripped_dark_oak_wood,minecraft:dark_oak_wood,minecraft:spruce_wood,minecraft:stripped_spruce_wood,minecraft:birch_wood,minecraft:stripped_birch_wood,minecraft:jungle_wood,minecraft:stripped_jungle_wood,minecraft:acacia_wood,minecraft:stripped_acacia_wood,minecraft:crimson_hyphae,minecraft:stripped_crimson_hyphae,minecraft:warped_hyphae,minecraft:stripped_warped_hyphae",
+      "item8": "minecraft:oak_log,minecraft:stripped_oak_log,minecraft:stripped_dark_oak_log,minecraft:dark_oak_log,minecraft:spruce_log,minecraft:stripped_spruce_log,minecraft:birch_log,minecraft:stripped_birch_log,minecraft:jungle_log,minecraft:stripped_jungle_log,minecraft:acacia_log,minecraft:stripped_acacia_log,minecraft:crimson_stem,minecraft:stripped_crimson_stem,minecraft:warped_stem,minecraft:stripped_warped_stem,minecraft:oak_wood,minecraft:stripped_oak_wood,minecraft:stripped_dark_oak_wood,minecraft:dark_oak_wood,minecraft:spruce_wood,minecraft:stripped_spruce_wood,minecraft:birch_wood,minecraft:stripped_birch_wood,minecraft:jungle_wood,minecraft:stripped_jungle_wood,minecraft:acacia_wood,minecraft:stripped_acacia_wood,minecraft:crimson_hyphae,minecraft:stripped_crimson_hyphae,minecraft:warped_hyphae,minecraft:stripped_warped_hyphae",
+      "item9": "minecraft:oak_log,minecraft:stripped_oak_log,minecraft:stripped_dark_oak_log,minecraft:dark_oak_log,minecraft:spruce_log,minecraft:stripped_spruce_log,minecraft:birch_log,minecraft:stripped_birch_log,minecraft:jungle_log,minecraft:stripped_jungle_log,minecraft:acacia_log,minecraft:stripped_acacia_log,minecraft:crimson_stem,minecraft:stripped_crimson_stem,minecraft:warped_stem,minecraft:stripped_warped_stem,minecraft:oak_wood,minecraft:stripped_oak_wood,minecraft:stripped_dark_oak_wood,minecraft:dark_oak_wood,minecraft:spruce_wood,minecraft:stripped_spruce_wood,minecraft:birch_wood,minecraft:stripped_birch_wood,minecraft:jungle_wood,minecraft:stripped_jungle_wood,minecraft:acacia_wood,minecraft:stripped_acacia_wood,minecraft:crimson_hyphae,minecraft:stripped_crimson_hyphae,minecraft:warped_hyphae,minecraft:stripped_warped_hyphae",
+      "finalitem": "minecraft:campfire",
+      "info": "patchouli.fdcookbook.advancements.bonfile_lit_text2"
+    }
+  ]
+}

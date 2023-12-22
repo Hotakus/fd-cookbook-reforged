@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.plant_rice",
+  "icon": "farmersdelight:textures/item/rice.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 2,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/get_fd_seed",
+  "turnin": "farmersdelight:main/plant_rice",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.dipping_your_roots_title",
+      "text": "patchouli.fdcookbook.advancements.dipping_your_roots_text",
+      "trigger": "farmersdelight:main/plant_rice"
+    }
+  ]
+}

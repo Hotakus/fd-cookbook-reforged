@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.use_skillet",
+  "icon": "farmersdelight:textures/item/fried_egg.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 2,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/place_campfire",
+  "turnin": "farmersdelight:main/use_skillet",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.portable_cooking_title",
+      "text": "patchouli.fdcookbook.advancements.portable_cooking_text",
+      "trigger": "farmersdelight:main/use_skillet"
+    }
+  ]
+}

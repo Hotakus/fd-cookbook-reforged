@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.place_cooking_pot",
+  "icon": "farmersdelight:textures/item/cooking_pot.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 2,
+  "read_by_default": true,
+  "priority": true,
+  "advancement": "farmersdelight:main/place_campfire",
+  "turnin": "farmersdelight:main/place_cooking_pot",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.dinners_served_title",
+      "text": "patchouli.fdcookbook.advancements.dinners_served_text",
+      "trigger": "farmersdelight:main/place_cooking_pot"
+    }
+  ]
+}

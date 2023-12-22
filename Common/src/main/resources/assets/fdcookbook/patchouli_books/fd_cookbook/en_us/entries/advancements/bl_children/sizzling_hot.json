@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.place_skillet",
+  "icon": "farmersdelight:textures/item/fried_egg.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 3,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/use_skillet",
+  "turnin": "farmersdelight:main/place_skillet",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.sizzling_hot_title",
+      "text": "patchouli.fdcookbook.advancements.sizzling_hot_text",
+      "trigger": "farmersdelight:main/place_skillet"
+    }
+  ]
+}

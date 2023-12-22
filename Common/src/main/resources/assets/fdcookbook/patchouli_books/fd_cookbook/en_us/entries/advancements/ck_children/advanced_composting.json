@@ -1,0 +1,18 @@
+{
+  "name": "farmersdelight.advancement.place_organic_compost",
+  "icon": "farmersdelight:textures/block/organic_compost_stage0.png",
+  "category": "fdcookbook:advancements",
+  "sortnum": 3,
+  "priority": true,
+  "read_by_default": true,
+  "advancement": "farmersdelight:main/harvest_straw",
+  "turnin": "farmersdelight:main/place_organic_compost",
+  "pages": [
+    {
+      "type": "patchouli:quest",
+      "title": "patchouli.fdcookbook.advancements.advanced_composting_title",
+      "text": "patchouli.fdcookbook.advancements.advanced_composting_text",
+      "trigger": "farmersdelight:main/place_organic_compost"
+    }
+  ]
+}
