@@ -23,10 +23,13 @@
   "license": "${license}",
   "icon": "mini_logo.png",
 
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "net.hotakus.fdcookbook.FDCookBookFabric"
+    ],
+    "client": [
+      "net.hotakus.fdcookbook.FDCookBookClientFabric"
     ]
   },
 

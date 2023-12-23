@@ -4,7 +4,6 @@ import net.minecraft.resources.ResourceLocation;
 
 import java.util.HashMap;
 import java.util.List;
-
 import java.util.Map;
 
 import static net.hotakus.fdcookbook.utils.utils.make;
@@ -15,110 +14,110 @@ public class ItemMappingData {
     );
 
     static Map<String, Integer> strawEntryItemMapping = Map.of(
-            "straw_bale", 1,
-            "canvas_rug", 4
+            "blocks/straw_bale", 1,
+            "blocks/canvas_rug", 4
     );
 
     static Map<String, Integer> signsEntryItemMapping = new HashMap<>() {{
-        put("canvas_sign", 6);
-        put("white_canvas_sign", 6);
-        put("red_canvas_sign", 6);
-        put("blue_canvas_sign", 6);
-        put("yellow_canvas_sign", 6);
-        put("orange_canvas_sign", 6);
-        put("brown_canvas_sign", 6);
-        put("magenta_canvas_sign", 6);
-        put("pink_canvas_sign", 6);
-        put("purple_canvas_sign", 6);
-        put("black_canvas_sign", 6);
-        put("cyan_canvas_sign", 6);
-        put("gray_canvas_sign", 6);
-        put("light_gray_canvas_sign", 6);
-        put("lime_canvas_sign", 6);
-        put("light_blue_canvas_sign", 6);
-        put("green_canvas_sign", 6);
+        put("blocks/canvas_sign", 6);
+        put("blocks/white_canvas_sign", 6);
+        put("blocks/red_canvas_sign", 6);
+        put("blocks/blue_canvas_sign", 6);
+        put("blocks/yellow_canvas_sign", 6);
+        put("blocks/orange_canvas_sign", 6);
+        put("blocks/brown_canvas_sign", 6);
+        put("blocks/magenta_canvas_sign", 6);
+        put("blocks/pink_canvas_sign", 6);
+        put("blocks/purple_canvas_sign", 6);
+        put("blocks/black_canvas_sign", 6);
+        put("blocks/cyan_canvas_sign", 6);
+        put("blocks/gray_canvas_sign", 6);
+        put("blocks/light_gray_canvas_sign", 6);
+        put("blocks/lime_canvas_sign", 6);
+        put("blocks/light_blue_canvas_sign", 6);
+        put("blocks/green_canvas_sign", 6);
     }};
 
     static Map<String, Integer> cuttingBoardEntryItemMapping = Map.of(
-            "cutting_board", 0
+            "blocks/cutting_board", 0
     );
 
     static Map<String, Integer> cookingPotEntryItemMapping = Map.of(
-            "cooking_pot", 0,
-            "skillet", 2,
-            "stove", 4
+            "blocks/cooking_pot", 0,
+            "blocks/skillet", 2,
+            "blocks/stove", 4
     );
 
     static Map<String, Integer> ropeEntryItemMapping = Map.of(
-            "rope", 0,
-            "safety_net", 1
+            "blocks/rope", 0,
+            "blocks/safety_net", 1
     );
 
     static Map<String, Integer> storageEntryItemMapping = new HashMap<>() {
         {
-            put("basket", 1);
-            put("acacia_cabinet", 0);
-            put("birch_cabinet", 0);
-            put("crimson_cabinet", 0);
-            put("oak_cabinet", 0);
-            put("dark_oak_cabinet", 0);
-            put("jungle_cabinet", 0);
-            put("spruce_cabinet", 0);
-            put("warped_cabinet", 0);
+            put("blocks/basket", 1);
+            put("blocks/acacia_cabinet", 0);
+            put("blocks/birch_cabinet", 0);
+            put("blocks/crimson_cabinet", 0);
+            put("blocks/oak_cabinet", 0);
+            put("blocks/dark_oak_cabinet", 0);
+            put("blocks/jungle_cabinet", 0);
+            put("blocks/spruce_cabinet", 0);
+            put("blocks/warped_cabinet", 0);
 
-            put("beetroot_crate", 2);
-            put("carrot_crate", 2);
-            put("cabbage_crate", 2);
-            put("onion_crate", 2);
-            put("potato_crate", 2);
-            put("tomato_crate", 2);
-            put("rice_bag", 2);
-            put("rice_bale", 2);
+            put("blocks/beetroot_crate", 2);
+            put("blocks/carrot_crate", 2);
+            put("blocks/cabbage_crate", 2);
+            put("blocks/onion_crate", 2);
+            put("blocks/potato_crate", 2);
+            put("blocks/tomato_crate", 2);
+            put("blocks/rice_bag", 2);
+            put("blocks/rice_bale", 2);
         }
     };
 
     static Map<String, Integer> newPlantsEntryItemMapping = Map.of(
-            "wild_beetroots", 3,
-            "wild_carrots", 1,
-            "wild_potatoes", 2,
-            "wild_onions", 5,
-            "wild_cabbages", 4,
-            "wild_tomatoes", 6,
-            "wild_rice", 7
+            "blocks/wild_beetroots", 3,
+            "blocks/wild_carrots", 1,
+            "blocks/wild_potatoes", 2,
+            "blocks/wild_onions", 5,
+            "blocks/wild_cabbages", 4,
+            "blocks/wild_tomatoes", 6,
+            "blocks/wild_rice", 7
             // TODO: add sandy shrubs
     );
 
     static Map<String, Integer> tatamiEntryItemMapping = Map.of(
-            "tatami", 0,
-            "full_tatami_mat", 2,
-            "half_tatami_mat", 2
+            "blocks/tatami", 0,
+            "blocks/full_tatami_mat", 2,
+            "blocks/half_tatami_mat", 2
     );
 
     static Map<String, Integer> mushroomEntryItemMapping = Map.of(
-            "red_mushroom_colony", 0,
-            "brown_mushroom_colony", 0
+            "blocks/red_mushroom_colony", 0,
+            "blocks/brown_mushroom_colony", 0
     );
 
     static Map<String, Integer> pieEntryItemMapping = Map.of(
-            "apple_pie", 4,
-            "sweet_berry_cheesecake", 3,
-            "chocolate_pie", 2
+            "blocks/apple_pie", 4,
+            "blocks/sweet_berry_cheesecake", 3,
+            "blocks/chocolate_pie", 2
     );
 
     static Map<String, Integer> feastsEntryItemMapping = Map.of(
-            "roast_chicken_block", 1,
-            "stuffed_pumpkin_block", 2,
-            "honey_glazed_ham_block", 3,
-            "shepherds_pie_block", 4
+            "blocks/roast_chicken_block", 1,
+            "blocks/stuffed_pumpkin_block", 2,
+            "blocks/honey_glazed_ham_block", 3,
+            "blocks/shepherds_pie_block", 4
     );
 
     static Map<String, Integer> sushisEntryItemMapping = Map.of(
-            "rice_roll_medley_block", 5
+            "blocks/rice_roll_medley_block", 5
     );
     static Map<String, Integer> richSoilEntryItemMapping = Map.of(
-            "rich_soil", 0,
-            "organic_compost", 1,
-            "rich_soil_farmland", 0
+            "blocks/rich_soil", 0,
+            "blocks/organic_compost", 1,
+            "blocks/rich_soil_farmland", 0
     );
 
     static Map<Map<String, Integer>, ResourceLocation> allMapping = new HashMap<>() {

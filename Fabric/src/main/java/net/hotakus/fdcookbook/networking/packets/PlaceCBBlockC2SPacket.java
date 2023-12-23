@@ -9,7 +9,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Registry;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
@@ -70,7 +70,7 @@ public class PlaceCBBlockC2SPacket {
 
         boolean hasEntry = playersPlace.containsKey(player.getUUID());
         if (!hasEntry) {
-            player.sendMessage(new TextComponent("No entry to place"), player.getUUID());
+            player.sendSystemMessage(Component.literal("No entry to place"));
             return;
         }
 

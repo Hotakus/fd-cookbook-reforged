@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class BlockEntityRegister {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES
-            = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, Constants.MOD_ID);
+            = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Constants.MOD_ID);
 
     public static RegistryObject<BlockEntityType<CookBookBlockEntity>> COOKBOOK_BLOCK_ENTITY =
             BLOCK_ENTITIES.register("cookbook_block_entity",

@@ -2,7 +2,6 @@ package net.hotakus.fdcookbook.networking.packets;
 
 import net.hotakus.fdcookbook.utils.utils;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraftforge.network.NetworkEvent;
 import vazkii.patchouli.api.PatchouliAPI;

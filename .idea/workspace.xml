@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="feat: compatible with server" />
+    <list default="true" id="c8a3da2d-191e-4bd6-aee7-d879804eb330" name="更改" comment="chore: misc">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Forge/FDCookBook.Forge.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Forge/FDCookBook.Forge.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Forge/FDCookBook.Forge.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Forge/FDCookBook.Forge.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/net/hotakus/fdcookbook/mixin/ExampleCommonMixin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/resources/fdcookbook.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/fdcookbook.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/FDCookBookFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/FDCookBookFabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/CookBookBakedItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/CookBookBakedItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/mixin/ExampleFabricMixin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/networking/packets/OpenGuiC2SPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/networking/packets/OpenGuiC2SPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/networking/packets/PlaceCBBlockC2SPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fabric/src/main/java/net/hotakus/fdcookbook/networking/packets/PlaceCBBlockC2SPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/FDCookBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/FDCookBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/BlockEntityRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/BlockEntityRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/blocks/CookBookBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookBakedItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookBakedItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/CookBookItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemMappingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/items/ItemMappingData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/ModMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/ModMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/OpenGuiC2SPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/OpenGuiC2SPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/PlaceCBBlockC2SPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/java/net/hotakus/fdcookbook/networking/packets/PlaceCBBlockC2SPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Forge/src/main/resources/fdcookbook.forge.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/Forge/src/main/resources/fdcookbook.forge.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +142,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="1.19.2" />
+                    <option name="lastUsedInstant" value="1703287650" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1702356812" />
                   </RecentBranch>
@@ -174,14 +204,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "1.19.2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "G:/workspace/MCForgeMods/Mods/FDCookBook/Fabric/src/main/java/net/hotakus/fdcookbook/items",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.36666667",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "应用程序.Fabric Client (:Fabric).executor": "Run"
+    "应用程序.Fabric Client (:Fabric).executor": "Run",
+    "应用程序.Fabric Server (:Fabric).executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -209,7 +240,7 @@
       <recent name="net.hotakus.fdcookbook.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FDCookBook build">
+  <component name="RunManager" selected="应用程序.Fabric Server (:Fabric)">
     <configuration name="FDCookBook [Forge:Client]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -331,8 +362,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FDCookBook:Forge [build]" />
         <item itemvalue="Gradle.FDCookBook:Fabric [build]" />
+        <item itemvalue="Gradle.FDCookBook:Forge [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -347,14 +378,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701825324305</updated>
-    </task>
-    <task id="LOCAL-00015" summary="docs(readme): some contents">
-      <option name="closed" value="true" />
-      <created>1701916692230</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1701916692230</updated>
     </task>
     <task id="LOCAL-00016" summary="docs(readme): some contents">
       <option name="closed" value="true" />
@@ -740,7 +763,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703287519849</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="chore: misc">
+      <option name="closed" value="true" />
+      <created>1703287566110</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1703287566110</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -755,7 +786,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update: version check file" />
     <MESSAGE value="update: new logo" />
     <MESSAGE value="chore: fabric version" />
     <MESSAGE value="chore: version" />
@@ -780,7 +810,8 @@
     <MESSAGE value="feat: advancements contents" />
     <MESSAGE value="delete: useless assets" />
     <MESSAGE value="feat: compatible with server" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: compatible with server" />
+    <MESSAGE value="chore: misc" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: misc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

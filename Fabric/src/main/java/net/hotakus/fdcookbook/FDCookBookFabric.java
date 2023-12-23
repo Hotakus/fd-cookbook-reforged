@@ -1,7 +1,6 @@
 package net.hotakus.fdcookbook;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.hotakus.fdcookbook.blocks.BlockEntityRegister;
 import net.hotakus.fdcookbook.blocks.BlockRegister;
 import net.hotakus.fdcookbook.items.ItemsRegister;
@@ -19,6 +18,7 @@ public class FDCookBookFabric implements ModInitializer {
         // Use Fabric to bootstrap the Common mod.
         Constants.LOG.info("Hello Fabric world!");
         CommonClass.init();
+
         ItemsRegister.register();
         BlockRegister.register();
         BlockEntityRegister.register();
@@ -26,6 +26,5 @@ public class FDCookBookFabric implements ModInitializer {
 
         // Some code like events require special initialization from the
         // loader specific code.
-        ItemTooltipCallback.EVENT.register(CommonClass::onItemTooltip);
     }
 }

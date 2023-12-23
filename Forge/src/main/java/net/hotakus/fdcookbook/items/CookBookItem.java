@@ -12,8 +12,6 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -74,11 +72,10 @@ public class CookBookItem extends CBItem {
 
         if (level.isClientSide) {
             if (Screen.hasShiftDown() && !Screen.hasAltDown()) {
-                //pContext.getPlayer().sendMessage(new TextComponent("Server: hasShiftDown"),
-                //        pContext.getPlayer().getUUID());
-                ResourceLocation registryName = blockState.getBlock().getRegistryName();
+                // pContext.getPlayer().sendSystemMessage(Component.literal("hasShiftDown"));
+                ResourceLocation registryName = blockState.getBlock().getLootTable();
                 pContext.getPlayer().swing(pContext.getHand(), true);
-                if (registryName != null && isCookBookItem(registryName)) {
+                if (isCookBookItem(registryName)) {
                     Map.Entry<ResourceLocation, Integer> entry = getEntryLocation(registryName);
 
                     var packet = new OpenEntryC2SPacket();
@@ -87,10 +84,10 @@ public class CookBookItem extends CBItem {
                     res = InteractionResult.SUCCESS;
                 }
             } else if (Screen.hasAltDown()) {
-                //pContext.getPlayer().sendMessage(new TextComponent("hasAltDown!"), pContext.getPlayer().getUUID());
+                // pContext.getPlayer().sendSystemMessage(Component.literal("hasAltDown!"));
                 var packet = new PlaceCBBlockC2SPacket();
                 var placeEntry = new PlaceCBBlockC2SPacket.PlaceEntry(
-                        pos, BlockRegister.FD_COOKBOOK_BLOCK.get().getRegistryName(), pContext.getClickedFace());
+                        pos, BlockRegister.FD_COOKBOOK_BLOCK.get().getLootTable(), pContext.getClickedFace());
                 packet.addPlayerPlace(pContext.getPlayer().getUUID(), placeEntry);
                 ModMessages.sendToServer(packet);
                 res = InteractionResult.SUCCESS;
@@ -106,7 +103,7 @@ public class CookBookItem extends CBItem {
         try {
             return PatchouliAPI.get().getSubtitle(utils.make("fd_cookbook"));
         } catch (IllegalArgumentException e) {
-            return new TextComponent("");
+            return Component.empty();
         }
     }
 
@@ -126,12 +123,12 @@ public class CookBookItem extends CBItem {
             pIsAdvanced) {
         pTooltipComponents.add(getEdition().copy().withStyle(ChatFormatting.GRAY));
         if (!Screen.hasShiftDown()) {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.shift"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.shift"));
         } else {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal"));
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal2"));
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal3"));
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal4"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fd_cookbook.tooltip.normal"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fd_cookbook.tooltip.normal2"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fd_cookbook.tooltip.normal3"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fd_cookbook.tooltip.normal4"));
         }
     }
 }

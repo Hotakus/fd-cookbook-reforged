@@ -6,7 +6,6 @@ import net.hotakus.fdcookbook.networking.ModMessages;
 import net.hotakus.fdcookbook.networking.packets.PlaceCBBlockC2SPacket;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -41,7 +40,8 @@ public class CookBookBakedItem extends CBItem {
             if (Screen.hasShiftDown()) {
                 var packet = new PlaceCBBlockC2SPacket();
                 var placeEntry = new PlaceCBBlockC2SPacket.PlaceEntry(
-                        pContext.getClickedPos(), BlockRegister.FD_COOKBOOK_BAKED_BLOCK.get().getRegistryName(), pContext.getClickedFace());
+                        pContext.getClickedPos(), BlockRegister.FD_COOKBOOK_BAKED_BLOCK.get().getLootTable(),
+                        pContext.getClickedFace());
                 packet.addPlayerPlace(pContext.getPlayer().getUUID(), placeEntry);
                 ModMessages.sendToServer(packet);
             }
@@ -52,6 +52,6 @@ public class CookBookBakedItem extends CBItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fdcookbook_baked.tooltip.normal"));
+        pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fdcookbook_baked.tooltip.normal"));
     }
 }

@@ -17,6 +17,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityTicker;
@@ -37,7 +38,6 @@ import vazkii.patchouli.api.PatchouliAPI;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 import static net.hotakus.fdcookbook.blocks.CookBookBlockEntity.updateTicks;
 
@@ -134,12 +134,10 @@ public class CookBookBlock extends CBBlock {
     }
 
     public static void cookCheck(Level pLevel, BlockPos pPos) {
-
         if (pLevel.isClientSide) {
             return;
         }
 
-//        System.out.println("current size: " + cookMap.size());
         cookMapIsUsing = true;
         cookMap.putIfAbsent(pPos, 0);
         for (Map.Entry<BlockPos, Integer> entry : cookMap.entrySet()) {
@@ -153,7 +151,6 @@ public class CookBookBlock extends CBBlock {
                             BlockRegister.FD_COOKBOOK_BAKED_BLOCK.get().defaultBlockState().setValue(FACING, selfState.getValue(FACING))
                     );
                     entry.setValue(0);
-                    //cookMap.remove(entry.getKey());
                 } else {
 //                    System.out.println("Block pos: " + entry.getKey() + "are cooking... " + "(" + cookMap.size() + ")" +
 //                            "time left: " + entry.getValue());
@@ -172,7 +169,6 @@ public class CookBookBlock extends CBBlock {
         }
 
         if (state.getBlock() == Blocks.AIR || state.getBlock() == Blocks.WATER) {
-            //System.out.println("stove");
             pLevel.destroyBlock(pPos, false);
             pLevel.addFreshEntity(new ItemEntity(
                     pLevel, pPos.getX(), pPos.getY(), pPos.getZ(),
@@ -180,11 +176,15 @@ public class CookBookBlock extends CBBlock {
             );
             pLevel.playSound(null, pPos, SoundEvents.WOOL_BREAK, SoundSource.BLOCKS, 1.0F, 1.0F);
         } else {
-            if (Objects.equals(state.getBlock().getRegistryName(), utils.make("farmersdelight", "stove"))) {
-                //System.out.println(pPos + "on stove");
+            if (state.getBlock().getLootTable().equals(utils.make("farmersdelight", "blocks/stove"))) {
                 cookCheck(pLevel, pPos);
             }
         }
+    }
+
+    @Override
+    public void destroy(LevelAccessor pLevel, BlockPos pPos, BlockState pState) {
+        cookMap.entrySet().removeIf(entry -> entry.getKey().equals(pPos));
     }
 
     @Override

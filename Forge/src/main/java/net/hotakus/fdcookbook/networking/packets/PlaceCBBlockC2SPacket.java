@@ -2,14 +2,15 @@ package net.hotakus.fdcookbook.networking.packets;
 
 import com.google.common.collect.Maps;
 import net.hotakus.fdcookbook.api.CBItem;
+import net.hotakus.fdcookbook.utils.utils;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.core.Registry;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -72,10 +73,22 @@ public class PlaceCBBlockC2SPacket extends Packets {
         ctx.enqueueWork(() -> {
             ServerPlayer player = ctx.getSender();
             var entry = playersPlace.get(player.getUUID());
-            if (entry != null) {
-                // player.sendMessage(new TextComponent("Placing " + entry.blockRL), player.getUUID());
-                CBItem.placeBlock(entry.pos, ForgeRegistries.BLOCKS.getValue(entry.blockRL), entry.dir, player);
+
+            boolean hasEntry = playersPlace.containsKey(player.getUUID());
+            if (!hasEntry) {
+                player.sendSystemMessage(Component.literal("No entry to place"));
+                return;
             }
+
+            String otherCheckingString = "blocks/";
+            String RLPath = entry.blockRL.getPath();
+            ResourceLocation newRL = entry.blockRL;
+            if (RLPath.contains(otherCheckingString)) {
+                String willPlaceRL = RLPath.substring(RLPath.indexOf(otherCheckingString) + otherCheckingString.length());
+                newRL = utils.make(willPlaceRL);
+            }
+
+            CBItem.placeBlock(entry.pos, Registry.BLOCK.get(newRL), entry.dir, player);
         });
         return true;
     }

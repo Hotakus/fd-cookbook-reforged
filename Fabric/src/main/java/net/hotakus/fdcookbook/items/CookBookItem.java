@@ -12,8 +12,6 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -83,8 +81,7 @@ public class CookBookItem extends CBItem {
                         packet.setBookEntry(pContext.getPlayer().getUUID(), entry.getKey(), entry.getValue());
                         ModMessages.sendToServer(ModMessages.COOKBOOK_OPEN_ENTRY_ID, packet.getBuf());
                     } else {
-                        pContext.getPlayer().sendMessage(new TextComponent("Entry not found: " + registryName),
-                                pContext.getPlayer().getUUID());
+                        pContext.getPlayer().sendSystemMessage(Component.literal("Entry not found: " + registryName));
                         res = InteractionResult.PASS;
                     }
                     res = InteractionResult.SUCCESS;
@@ -109,7 +106,7 @@ public class CookBookItem extends CBItem {
         try {
             return PatchouliAPI.get().getSubtitle(utils.make("fd_cookbook"));
         } catch (IllegalArgumentException e) {
-            return new TextComponent("");
+            return Component.empty();
         }
     }
 
@@ -129,12 +126,12 @@ public class CookBookItem extends CBItem {
             pIsAdvanced) {
         pTooltipComponents.add(getEdition().copy().withStyle(ChatFormatting.GRAY));
         if (!Screen.hasShiftDown()) {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.shift"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.shift"));
         } else {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal"));
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal2"));
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal3"));
-            pTooltipComponents.add(new TranslatableComponent("tooltip.fdcookbook.fd_cookbook.tooltip.normal4"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fd_cookbook.tooltip.normal"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fd_cookbook.tooltip.normal2"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fd_cookbook.tooltip.normal3"));
+            pTooltipComponents.add(Component.translatable("tooltip.fdcookbook.fd_cookbook.tooltip.normal4"));
         }
     }
 }

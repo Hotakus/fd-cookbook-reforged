@@ -32,22 +32,22 @@ public class ModMessages {
         net.messageBuilder(OpenGuiC2SPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
                 .decoder(OpenGuiC2SPacket::new)
                 .encoder(OpenGuiC2SPacket::encode)
-                .consumer(OpenGuiC2SPacket::handle).add();
+                .consumerMainThread(OpenGuiC2SPacket::handle).add();
 
         net.messageBuilder(OpenEntryC2SPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
                 .decoder(OpenEntryC2SPacket::new)
                 .encoder(OpenEntryC2SPacket::encode)
-                .consumer(OpenEntryC2SPacket::handle).add();
+                .consumerMainThread(OpenEntryC2SPacket::handle).add();
 
         net.messageBuilder(PlaceCBBlockC2SPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
                 .decoder(PlaceCBBlockC2SPacket::new)
                 .encoder(PlaceCBBlockC2SPacket::encode)
-                .consumer(PlaceCBBlockC2SPacket::handle).add();
+                .consumerMainThread(PlaceCBBlockC2SPacket::handle).add();
 
         net.messageBuilder(PlayerActionsC2SPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
                 .decoder(PlayerActionsC2SPacket::new)
                 .encoder(PlayerActionsC2SPacket::encode)
-                .consumer(PlayerActionsC2SPacket::handle).add();
+                .consumerMainThread(PlayerActionsC2SPacket::handle).add();
 
         INSTANCE = net;
     }

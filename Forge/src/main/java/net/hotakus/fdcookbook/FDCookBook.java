@@ -5,9 +5,6 @@ import net.hotakus.fdcookbook.blocks.BlockEntityRegister;
 import net.hotakus.fdcookbook.blocks.BlockRegister;
 import net.hotakus.fdcookbook.items.ItemsRegister;
 import net.hotakus.fdcookbook.networking.ModMessages;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -43,7 +40,6 @@ public class FDCookBook {
     private void setup(final FMLCommonSetupEvent event) {
         // Some preinit code
         LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
 
         event.enqueueWork(() -> {
             ModMessages.register();
@@ -51,8 +47,8 @@ public class FDCookBook {
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(BlockRegister.FD_COOKBOOK_BLOCK.get(), RenderType.cutoutMipped());
-        ItemBlockRenderTypes.setRenderLayer(BlockRegister.FD_COOKBOOK_BAKED_BLOCK.get(), RenderType.cutoutMipped());
+//        ItemBlockRenderTypes.setRenderLayer(BlockRegister.FD_COOKBOOK_BLOCK.get(), RenderType.cutoutMipped());
+//        ItemBlockRenderTypes.setRenderLayer(BlockRegister.FD_COOKBOOK_BAKED_BLOCK.get(), RenderType.cutoutMipped());
     }
 
 
